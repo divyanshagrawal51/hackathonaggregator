@@ -94,7 +94,11 @@
   #search::placeholder { color: rgba(255,255,255,0.7); }
   #search:focus { outline: 2px solid var(--peach); outline-offset: 2px; }
 
-  .chips-row { margin-bottom: 8px; }
+  .chips-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 8px;
+  }
 
   .chip {
     background: var(--bg);
@@ -106,6 +110,7 @@
     padding: 9px 15px;
     border-radius: 8px;
     cursor: pointer;
+    text-align: center;
   }
   .chip.active {
     color: #FFFFFF;
