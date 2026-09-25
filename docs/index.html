@@ -1,23 +1,33 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hackathon Radar</title>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
 <style>
   :root {
-    --teal: #13737A;
-    --peach: #FBCA89;
+    --primary: #272757;
+    --lavender: #8686AC;
+    --secondary: #505081;
+    --deep: #0F0E47;
+
     --bg: #FFFFFF;
-    --ink: #101214;
+    --ink: #0F0E47;
+    --white: #FFFFFF;
   }
 
-  * { box-sizing: border-box; }
+  * {
+    box-sizing: border-box;
+  }
 
-  html, body {
+  html,
+  body {
     margin: 0;
     background: var(--bg);
     color: var(--ink);
@@ -25,7 +35,9 @@
     width: 100%;
   }
 
-  a { color: inherit; }
+  a {
+    color: inherit;
+  }
 
   .wrap {
     width: 100%;
@@ -34,7 +46,9 @@
     padding: 56px clamp(20px, 4vw, 56px) 80px;
   }
 
-  header { margin-bottom: 32px; }
+  header {
+    margin-bottom: 32px;
+  }
 
   .eyebrow {
     display: inline-flex;
@@ -43,15 +57,18 @@
     font-family: 'IBM Plex Mono', monospace;
     font-size: 12px;
     font-weight: 500;
-    color: var(--ink);
-    background: var(--peach);
+    color: var(--deep);
+    background: var(--lavender);
     padding: 6px 14px;
     border-radius: 6px;
     margin-bottom: 20px;
   }
+
   .eyebrow .dot {
-    width: 6px; height: 6px; border-radius: 50%;
-    background: var(--ink);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--deep);
   }
 
   h1 {
@@ -60,7 +77,7 @@
     font-size: clamp(34px, 5vw, 48px);
     margin: 0 0 12px;
     letter-spacing: -0.01em;
-    color: var(--teal);
+    color: var(--primary);
   }
 
   .sub {
@@ -71,41 +88,57 @@
     max-width: 620px;
     line-height: 1.5;
   }
-  .sub b { color: var(--teal); font-weight: 600; opacity: 1; }
 
-  /* every control is its own standalone solid block -- no shared wrapper panel */
+  .sub b {
+    color: var(--primary);
+    font-weight: 600;
+    opacity: 1;
+  }
+
+  /* Standalone controls */
+
   .row {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
   }
 
-  .search-block { margin: 32px 0 14px; }
+  .search-block {
+    margin: 32px 0 14px;
+  }
 
   #search {
     width: 100%;
-    background: var(--teal);
+    background: var(--primary);
     border: none;
-    color: #FFFFFF;
+    color: var(--white);
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 14px;
     padding: 14px 18px;
     border-radius: 10px;
     outline: none;
   }
-  #search::placeholder { color: rgba(255,255,255,0.7); }
-  #search:focus { outline: 2px solid var(--peach); outline-offset: 2px; }
+
+  #search::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  #search:focus {
+    outline: 2px solid var(--lavender);
+    outline-offset: 2px;
+  }
 
   .chips-row {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 8px;
+    gap: 8px;
   }
 
   .chip {
     background: var(--bg);
-    border: 1.5px solid var(--teal);
-    color: var(--teal);
+    border: 1.5px solid var(--primary);
+    color: var(--primary);
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 13px;
     font-weight: 500;
@@ -113,19 +146,29 @@
     border-radius: 8px;
     cursor: pointer;
     text-align: center;
+    transition: background 0.2s, color 0.2s;
   }
+
+  .chip:hover {
+    background: var(--lavender);
+    color: var(--deep);
+    border-color: var(--lavender);
+  }
+
   .chip.active {
-    color: #FFFFFF;
-    background: var(--teal);
-    border-color: var(--teal);
+    color: var(--white);
+    background: var(--primary);
+    border-color: var(--primary);
   }
 
   .count-line {
-    color: var(--teal);
+    color: var(--secondary);
     font-size: 13px;
     margin: 20px 2px 14px;
     font-family: 'IBM Plex Mono', monospace;
   }
+
+  /* Hackathon cards */
 
   .list {
     display: grid;
@@ -134,7 +177,7 @@
   }
 
   .card {
-    background: var(--teal);
+    background: var(--primary);
     border-radius: 12px;
     padding: 20px 22px;
     display: grid;
@@ -143,19 +186,40 @@
     align-content: start;
   }
 
+  /* Alternate the four colors from the reference image */
+
+  .card:nth-child(4n + 1) {
+    background: var(--primary);
+  }
+
+  .card:nth-child(4n + 2) {
+    background: var(--lavender);
+  }
+
+  .card:nth-child(4n + 3) {
+    background: var(--secondary);
+  }
+
+  .card:nth-child(4n + 4) {
+    background: var(--deep);
+  }
+
   .row-title {
     font-size: 17px;
     font-weight: 600;
     text-decoration: none;
     line-height: 1.35;
-    color: #FFFFFF;
+    color: var(--white);
   }
-  .row-title:hover { color: var(--peach); }
+
+  .row-title:hover {
+    color: #DCDCF0;
+  }
 
   .row-meta {
     grid-column: 1;
-    color: #FFFFFF;
-    opacity: 0.8;
+    color: var(--white);
+    opacity: 0.9;
     font-size: 13px;
     display: flex;
     flex-wrap: wrap;
@@ -174,13 +238,14 @@
     white-space: nowrap;
     padding: 5px 12px;
     border-radius: 6px;
-    background: var(--peach);
-    color: var(--ink);
+    background: var(--lavender);
+    color: var(--deep);
   }
+
   .row-deadline.unknown {
     background: transparent;
-    border: 1px solid var(--peach);
-    color: var(--peach);
+    border: 1px solid var(--lavender);
+    color: var(--white);
   }
 
   .tags {
@@ -190,23 +255,23 @@
     gap: 6px;
     margin-top: 8px;
   }
+
   .tag {
     font-size: 11px;
     font-weight: 500;
-    color: var(--ink);
-    background: var(--peach);
+    color: var(--deep);
+    background: var(--lavender);
     padding: 3px 10px;
     border-radius: 6px;
   }
 
   .empty {
     grid-column: 1 / -1;
-    background: var(--teal);
+    background: var(--primary);
     border-radius: 12px;
     padding: 60px 24px;
     text-align: center;
-    color: #FFFFFF;
-    opacity: 0.85;
+    color: var(--white);
   }
 
   footer {
@@ -218,23 +283,50 @@
   }
 
   @media (max-width: 520px) {
-    .list { grid-template-columns: 1fr; }
-    .card { grid-template-columns: 1fr; }
-    .row-deadline { grid-row: auto; grid-column: 1; text-align: left; justify-self: start; }
+    .list {
+      grid-template-columns: 1fr;
+    }
+
+    .card {
+      grid-template-columns: 1fr;
+    }
+
+    .row-deadline {
+      grid-row: auto;
+      grid-column: 1;
+      text-align: left;
+      justify-self: start;
+    }
   }
 </style>
 </head>
+
 <body>
   <div class="wrap">
+
     <header>
-      <div class="eyebrow"><span class="dot"></span>Live from Devpost</div>
+      <div class="eyebrow">
+        <span class="dot"></span>
+        Live from Devpost
+      </div>
+
       <h1>Hackathon Radar</h1>
-      <p class="sub">Listings filtered to what's worth your time. Refreshed daily — last run <b id="generated-at">—</b>.</p>
+
+      <p class="sub">
+        Listings filtered to what's worth your time.
+        Refreshed daily — last run
+        <b id="generated-at">—</b>.
+      </p>
     </header>
 
     <div class="search-block">
-      <input id="search" type="text" placeholder="Search title or theme…">
+      <input
+        id="search"
+        type="text"
+        placeholder="Search title or theme…"
+      >
     </div>
+
     <div class="row chips-row" id="theme-chips"></div>
 
     <p class="count-line" id="count-line"></p>
@@ -243,7 +335,10 @@
       <div class="empty">Loading…</div>
     </div>
 
-    <footer>Source: Devpost. Not affiliated with Devpost, Inc.</footer>
+    <footer>
+      Source: Devpost. Not affiliated with Devpost, Inc.
+    </footer>
+
   </div>
 
 <script>
@@ -252,27 +347,68 @@
 
   function daysLeft(iso) {
     if (!iso) return null;
+
     const d = new Date(iso);
     const now = new Date();
-    return Math.ceil((d - now) / (1000 * 60 * 60 * 24));
+
+    return Math.ceil(
+      (d - now) / (1000 * 60 * 60 * 24)
+    );
   }
 
   function deadlineLabel(iso) {
     const days = daysLeft(iso);
-    if (days === null) return { text: 'no deadline listed', cls: 'unknown' };
-    if (days < 0) return { text: 'closed', cls: 'unknown' };
-    if (days === 0) return { text: 'closes today', cls: '' };
-    return { text: `${days}d left`, cls: '' };
+
+    if (days === null) {
+      return {
+        text: 'no deadline listed',
+        cls: 'unknown'
+      };
+    }
+
+    if (days < 0) {
+      return {
+        text: 'closed',
+        cls: 'unknown'
+      };
+    }
+
+    if (days === 0) {
+      return {
+        text: 'closes today',
+        cls: ''
+      };
+    }
+
+    return {
+      text: `${days}d left`,
+      cls: ''
+    };
   }
 
   function render() {
-    const q = document.getElementById('search').value.trim().toLowerCase();
+    const q = document
+      .getElementById('search')
+      .value
+      .trim()
+      .toLowerCase();
+
     const list = document.getElementById('list');
 
     let items = ALL.filter(h => {
-      if (activeTheme && !h.themes.map(t => t.toLowerCase()).includes(activeTheme)) return false;
+      if (
+        activeTheme &&
+        !h.themes.map(t => t.toLowerCase()).includes(activeTheme)
+      ) {
+        return false;
+      }
+
       if (!q) return true;
-      const haystack = (h.title + ' ' + h.themes.join(' ')).toLowerCase();
+
+      const haystack = (
+        h.title + ' ' + h.themes.join(' ')
+      ).toLowerCase();
+
       return haystack.includes(q);
     });
 
@@ -280,45 +416,109 @@
       `${items.length} of ${ALL.length} hackathon${ALL.length === 1 ? '' : 's'}`;
 
     if (items.length === 0) {
-      list.innerHTML = '<div class="empty">Nothing matches. Try a different search or clear the theme filter.</div>';
+      list.innerHTML = `
+        <div class="empty">
+          Nothing matches. Try a different search or clear the theme filter.
+        </div>
+      `;
       return;
     }
 
     list.innerHTML = items.map(h => {
       const dl = deadlineLabel(h.deadline);
-      const meta = [h.mode, h.location, h.prize_text].filter(Boolean).join(' \u00b7 ');
-      const tags = h.themes.slice(0, 5).map(t => `<span class="tag">${escapeHtml(t)}</span>`).join('');
+
+      const meta = [
+        h.mode,
+        h.location,
+        h.prize_text
+      ].filter(Boolean).join(' · ');
+
+      const tags = h.themes
+        .slice(0, 5)
+        .map(t => `<span class="tag">${escapeHtml(t)}</span>`)
+        .join('');
+
       return `
         <div class="card">
-          <a class="row-title" href="${escapeAttr(h.url)}" target="_blank" rel="noopener">${escapeHtml(h.title)}</a>
-          <div class="row-deadline ${dl.cls}">${dl.text}</div>
-          <div class="row-meta">${escapeHtml(meta)}</div>
-          <div class="tags">${tags}</div>
-        </div>`;
+
+          <a
+            class="row-title"
+            href="${escapeAttr(h.url)}"
+            target="_blank"
+            rel="noopener"
+          >
+            ${escapeHtml(h.title)}
+          </a>
+
+          <div class="row-deadline ${dl.cls}">
+            ${dl.text}
+          </div>
+
+          <div class="row-meta">
+            ${escapeHtml(meta)}
+          </div>
+
+          <div class="tags">
+            ${tags}
+          </div>
+
+        </div>
+      `;
     }).join('');
   }
 
   function escapeHtml(s) {
-    return (s || '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    return (s || '').replace(
+      /[&<>"']/g,
+      c => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+      }[c])
+    );
   }
-  function escapeAttr(s) { return escapeHtml(s); }
+
+  function escapeAttr(s) {
+    return escapeHtml(s);
+  }
 
   function buildChips() {
     const counts = {};
-    ALL.forEach(h => h.themes.forEach(t => {
-      const key = t.toLowerCase();
-      counts[key] = (counts[key] || 0) + 1;
-    }));
-    const top = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 8);
+
+    ALL.forEach(h => {
+      h.themes.forEach(t => {
+        const key = t.toLowerCase();
+
+        counts[key] = (counts[key] || 0) + 1;
+      });
+    });
+
+    const top = Object.entries(counts)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 8);
+
     const container = document.getElementById('theme-chips');
+
     container.innerHTML = top.map(([theme]) =>
       `<button class="chip" data-theme="${escapeAttr(theme)}">${escapeHtml(theme)}</button>`
     ).join('');
+
     container.querySelectorAll('.chip').forEach(btn => {
       btn.addEventListener('click', () => {
         const theme = btn.dataset.theme;
-        activeTheme = activeTheme === theme ? null : theme;
-        container.querySelectorAll('.chip').forEach(b => b.classList.toggle('active', b.dataset.theme === activeTheme));
+
+        activeTheme =
+          activeTheme === theme ? null : theme;
+
+        container.querySelectorAll('.chip').forEach(b => {
+          b.classList.toggle(
+            'active',
+            b.dataset.theme === activeTheme
+          );
+        });
+
         render();
       });
     });
@@ -328,19 +528,31 @@
     .then(r => r.json())
     .then(data => {
       ALL = data.hackathons || [];
+
       const gen = document.getElementById('generated-at');
+
       if (data.generated_at) {
-        gen.textContent = new Date(data.generated_at).toLocaleString();
+        gen.textContent = new Date(
+          data.generated_at
+        ).toLocaleString();
       }
+
       buildChips();
       render();
     })
     .catch(() => {
-      document.getElementById('list').innerHTML =
-        '<div class="empty">Could not load hackathons.json \u2014 has the GitHub Action run yet?</div>';
+      document.getElementById('list').innerHTML = `
+        <div class="empty">
+          Could not load hackathons.json —
+          has the GitHub Action run yet?
+        </div>
+      `;
     });
 
-  document.getElementById('search').addEventListener('input', render);
+  document
+    .getElementById('search')
+    .addEventListener('input', render);
 </script>
+
 </body>
 </html>
