@@ -1,0 +1,20 @@
+# Edit this file to tune which hackathons get through the filter.
+# Everything here is optional -- leave a list empty to not filter on it.
+
+themes:
+  # Keywords matched (case-insensitive, substring) against a hackathon's
+  # themes AND title. Only needs to match ONE of these.
+  - machine learning
+  - ai
+  - backend
+  - full stack
+  - web
+
+mode:
+  # "online", "offline", "hybrid" -- leave empty to allow all
+  allowed: []
+
+min_prize_amount: 0        # skip hackathons with a smaller announced prize (0 = no filter)
+
+min_days_until_deadline: 2   # don't bother notifying if deadline is < 2 days away
+max_days_until_deadline: 60  # ignore hackathons that are way too far out
