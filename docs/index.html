@@ -22,14 +22,16 @@
     background: var(--bg);
     color: var(--ink);
     font-family: 'IBM Plex Sans', system-ui, sans-serif;
+    width: 100%;
   }
 
   a { color: inherit; }
 
   .wrap {
-    max-width: 880px;
+    width: 100%;
+    max-width: 1320px;
     margin: 0 auto;
-    padding: 56px 20px 80px;
+    padding: 56px clamp(20px, 4vw, 56px) 80px;
   }
 
   header { margin-bottom: 32px; }
@@ -66,7 +68,7 @@
     opacity: 0.65;
     font-size: 14.5px;
     margin: 0;
-    max-width: 520px;
+    max-width: 620px;
     line-height: 1.5;
   }
   .sub b { color: var(--teal); font-weight: 600; opacity: 1; }
@@ -95,8 +97,8 @@
   #search:focus { outline: 2px solid var(--peach); outline-offset: 2px; }
 
   .chips-row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 8px;
   }
 
@@ -126,9 +128,9 @@
   }
 
   .list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 14px;
   }
 
   .card {
@@ -138,6 +140,7 @@
     display: grid;
     grid-template-columns: 1fr auto;
     gap: 4px 20px;
+    align-content: start;
   }
 
   .row-title {
@@ -197,6 +200,7 @@
   }
 
   .empty {
+    grid-column: 1 / -1;
     background: var(--teal);
     border-radius: 12px;
     padding: 60px 24px;
@@ -214,6 +218,7 @@
   }
 
   @media (max-width: 520px) {
+    .list { grid-template-columns: 1fr; }
     .card { grid-template-columns: 1fr; }
     .row-deadline { grid-row: auto; grid-column: 1; text-align: left; justify-self: start; }
   }
