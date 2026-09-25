@@ -1,5 +1,373 @@
 {
-  "generated_at": null,
-  "count": 0,
-  "hackathons": []
+  "generated_at": "2026-09-25T09:13:01.663458+00:00",
+  "count": 23,
+  "hackathons": [
+    {
+      "source": "devpost",
+      "title": "LUMA Hackathon (September 20th - 28th)",
+      "url": "https://luma-hackathon-fall.devpost.com/",
+      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-09-28T00:00:00",
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Open Ended"
+      ],
+      "participants": 193
+    },
+    {
+      "source": "devpost",
+      "title": "Beginner's Paradise - FirstCommit",
+      "url": "https://firstcommit.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/152/414/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-09-30T00:00:00",
+      "prize_text": "$1,024",
+      "themes": [
+        "Beginner Friendly",
+        "Mobile",
+        "Web"
+      ],
+      "participants": 1149
+    },
+    {
+      "source": "devpost",
+      "title": "Hack2Heal 2.0 - Global Healthcare Innovation Hackathon",
+      "url": "https://hack2heal.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/176/958/datas/medium_square.jpg",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-09-30T00:00:00",
+      "prize_text": "$100",
+      "themes": [
+        "Health",
+        "Machine Learning/AI",
+        "Beginner Friendly"
+      ],
+      "participants": 793
+    },
+    {
+      "source": "devpost",
+      "title": "COMPSPHERE 12",
+      "url": "https://compsphere12.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/170/129/datas/medium_square.jpeg",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-09-30T00:00:00",
+      "prize_text": "$1,247",
+      "themes": [
+        "Blockchain",
+        "Machine Learning/AI",
+        "Cybersecurity"
+      ],
+      "participants": 538
+    },
+    {
+      "source": "devpost",
+      "title": "Evorozen Apex: NextGen AI Buildathon",
+      "url": "https://evorozen-apex.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/909/345/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-09-30T00:00:00",
+      "prize_text": "$0",
+      "themes": [
+        "Databases",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "participants": 359
+    },
+    {
+      "source": "devpost",
+      "title": "Global Innovation Build Challenge V2",
+      "url": "https://gibc-v2.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/835/213/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-10-01T00:00:00",
+      "prize_text": "$0",
+      "themes": [
+        "Machine Learning/AI",
+        "Social Good",
+        "Beginner Friendly"
+      ],
+      "participants": 1511
+    },
+    {
+      "source": "devpost",
+      "title": "OneAquaHealth IEEE Global Hackathon",
+      "url": "https://oneaquahealth-ieee-hackathon.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/514/502/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-10-01T00:00:00",
+      "prize_text": "$3,500",
+      "themes": [
+        "Health",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "participants": 1047
+    },
+    {
+      "source": "devpost",
+      "title": "Databricks AI Social Impact (DAISI) Challenge - Singapore",
+      "url": "https://daisisg26.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/326/748/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Databricks Singapore",
+      "deadline": "2026-10-06T00:00:00",
+      "prize_text": "$0",
+      "themes": [
+        "Education",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "participants": 483
+    },
+    {
+      "source": "devpost",
+      "title": "ML Empowerment Build Challenge 3.0 - (67k in prizes!)",
+      "url": "https://ml-build-challenge-3.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/267/891/datas/medium_square.jpg",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-10-06T00:00:00",
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "participants": 322
+    },
+    {
+      "source": "devpost",
+      "title": "MLAI Hackathon 2026",
+      "url": "https://mlai-hackathon.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/165/208/datas/medium_square.jpg",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-10-16T00:00:00",
+      "prize_text": "$0",
+      "themes": [
+        "Databases",
+        "Machine Learning/AI"
+      ],
+      "participants": 875
+    },
+    {
+      "source": "devpost",
+      "title": "Build, Ship, Shape: Amazon Developer Hackathon",
+      "url": "https://amazonappdev2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/173/047/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-10-23T00:00:00",
+      "prize_text": "$138,000",
+      "themes": [
+        "Machine Learning/AI",
+        "Open Ended",
+        "Productivity"
+      ],
+      "participants": 13941
+    },
+    {
+      "source": "devpost",
+      "title": "Next Gen Hackathon 2026 -Bengaluru",
+      "url": "https://next-gen-hackathon.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/193/778/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Tripura Vasini Palace Grounds, Bengaluru",
+      "deadline": "2026-10-23T00:00:00",
+      "prize_text": "\u20b9 50,000",
+      "themes": [
+        "AR/VR",
+        "IoT",
+        "Machine Learning/AI"
+      ],
+      "participants": 153
+    },
+    {
+      "source": "devpost",
+      "title": "Build With AI: Basics",
+      "url": "https://learn-ai-basics.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/366/318/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-10-26T00:00:00",
+      "prize_text": "$2,500",
+      "themes": [
+        "Machine Learning/AI",
+        "Beginner Friendly",
+        "Education"
+      ],
+      "participants": 806
+    },
+    {
+      "source": "devpost",
+      "title": "OpenCV AI Competition 2026, powered by AWS",
+      "url": "https://opencv26.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/087/526/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-10-27T00:00:00",
+      "prize_text": "$20,250",
+      "themes": [
+        "IoT",
+        "Machine Learning/AI",
+        "Serverless"
+      ],
+      "participants": 2642
+    },
+    {
+      "source": "devpost",
+      "title": "HTCJ \u00d7 PROOF Aviation Futures Challenge",
+      "url": "https://htcj-aviation-futures.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/314/895/datas/medium_square.jpg",
+      "mode": "offline",
+      "location": "Boston Venture Week",
+      "deadline": "2026-10-27T00:00:00",
+      "prize_text": "$0",
+      "themes": [
+        "Enterprise",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "participants": 73
+    },
+    {
+      "source": "devpost",
+      "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
+      "url": "https://aws-cds-partner.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/155/384/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-10-28T00:00:00",
+      "prize_text": "$40,000",
+      "themes": [
+        "Communication",
+        "Mobile",
+        "Machine Learning/AI"
+      ],
+      "participants": 413
+    },
+    {
+      "source": "devpost",
+      "title": "Nebius x NVIDIA Global AI Hackathon",
+      "url": "https://nebiusglobalaihackathon.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/173/025/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-10-30T00:00:00",
+      "prize_text": "$50,000",
+      "themes": [
+        "Machine Learning/AI",
+        "Beginner Friendly",
+        "Robotic Process Automation"
+      ],
+      "participants": 11625
+    },
+    {
+      "source": "devpost",
+      "title": "Galuxium Nexus V2",
+      "url": "https://galuxium-nexus-v2-29411.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/684/795/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-10-31T00:00:00",
+      "prize_text": "$14,644",
+      "themes": [
+        "Enterprise",
+        "Machine Learning/AI",
+        "Productivity"
+      ],
+      "participants": 784
+    },
+    {
+      "source": "devpost",
+      "title": "Meta VR Start Developer Competition 2026",
+      "url": "https://start-developer-competition-26.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/374/843/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-11-18T00:00:00",
+      "prize_text": "$1,000,000",
+      "themes": [
+        "AR/VR",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "participants": 222
+    },
+    {
+      "source": "devpost",
+      "title": "InfinityX Global Hackathon 2K26",
+      "url": "https://infinityx-2k26.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/295/253/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Machine Learning/AI",
+        "Open Ended",
+        "Web"
+      ],
+      "participants": 288
+    },
+    {
+      "source": "devpost",
+      "title": "Hack The Weather",
+      "url": "https://hack-the-weather.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/174/725/datas/medium_square.jpg",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "$309",
+      "themes": [
+        "Machine Learning/AI",
+        "Open Ended",
+        "Social Good"
+      ],
+      "participants": 192
+    },
+    {
+      "source": "devpost",
+      "title": "Next Byte Hacks: V4",
+      "url": "https://next-byte-hacks-v4.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/267/648/datas/medium_square.jpg",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "$100",
+      "themes": [
+        "Beginner Friendly",
+        "Education",
+        "Machine Learning/AI"
+      ],
+      "participants": 156
+    },
+    {
+      "source": "devpost",
+      "title": "Tech For Her",
+      "url": "https://tech-for-her.devpost.com/",
+      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "offline",
+      "location": "Asian University for Women MM Ali Campus",
+      "deadline": null,
+      "prize_text": "$185",
+      "themes": [
+        "Beginner Friendly",
+        "Low/No Code",
+        "Machine Learning/AI"
+      ],
+      "participants": 47
+    }
+  ]
 }
