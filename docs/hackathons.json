@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T08:17:24.159325+00:00",
-  "count": 23,
+  "generated_at": "2026-09-26T18:50:02.427300+00:00",
+  "count": 36,
   "hackathons": [
     {
       "source": "devpost",
@@ -16,7 +16,7 @@
         "Mobile",
         "Web"
       ],
-      "participants": 1189
+      "participants": 1209
     },
     {
       "source": "devpost",
@@ -32,7 +32,7 @@
         "Machine Learning/AI",
         "Beginner Friendly"
       ],
-      "participants": 812
+      "participants": 822
     },
     {
       "source": "devpost",
@@ -48,7 +48,7 @@
         "Machine Learning/AI",
         "Cybersecurity"
       ],
-      "participants": 546
+      "participants": 549
     },
     {
       "source": "devpost",
@@ -64,7 +64,7 @@
         "Machine Learning/AI",
         "Web"
       ],
-      "participants": 367
+      "participants": 369
     },
     {
       "source": "devpost",
@@ -80,7 +80,23 @@
         "Social Good",
         "Beginner Friendly"
       ],
-      "participants": 1522
+      "participants": 1540
+    },
+    {
+      "source": "devpost",
+      "title": "LovHack Season 3",
+      "url": "https://lovhack-season-3.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/360/525/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-10-04T00:00:00",
+      "prize_text": "$250",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Open Ended"
+      ],
+      "participants": 98
     },
     {
       "source": "devpost",
@@ -89,14 +105,14 @@
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/514/502/datas/medium_square.png",
       "mode": "online",
       "location": "Online",
-      "deadline": "2026-10-01T00:00:00",
+      "deadline": "2026-10-05T00:00:00",
       "prize_text": "$3,500",
       "themes": [
         "Health",
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 1071
+      "participants": 1089
     },
     {
       "source": "devpost",
@@ -112,7 +128,7 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 503
+      "participants": 511
     },
     {
       "source": "devpost",
@@ -128,7 +144,7 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 340
+      "participants": 349
     },
     {
       "source": "devpost",
@@ -143,7 +159,21 @@
         "Databases",
         "Machine Learning/AI"
       ],
-      "participants": 877
+      "participants": 880
+    },
+    {
+      "source": "devpost",
+      "title": "AI Lodge Hackathon 2026",
+      "url": "https://ai-lodge-hackathon-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/362/031/datas/medium_square.jpg",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-10-19T00:00:00",
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly"
+      ],
+      "participants": 5
     },
     {
       "source": "devpost",
@@ -159,7 +189,7 @@
         "Open Ended",
         "Productivity"
       ],
-      "participants": 14730
+      "participants": 15056
     },
     {
       "source": "devpost",
@@ -175,7 +205,7 @@
         "IoT",
         "Machine Learning/AI"
       ],
-      "participants": 159
+      "participants": 161
     },
     {
       "source": "devpost",
@@ -191,7 +221,7 @@
         "Beginner Friendly",
         "Education"
       ],
-      "participants": 933
+      "participants": 997
     },
     {
       "source": "devpost",
@@ -207,7 +237,7 @@
         "Machine Learning/AI",
         "Serverless"
       ],
-      "participants": 2741
+      "participants": 2794
     },
     {
       "source": "devpost",
@@ -223,7 +253,7 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 74
+      "participants": 75
     },
     {
       "source": "devpost",
@@ -239,7 +269,7 @@
         "Mobile",
         "Machine Learning/AI"
       ],
-      "participants": 440
+      "participants": 443
     },
     {
       "source": "devpost",
@@ -255,7 +285,7 @@
         "Beginner Friendly",
         "Robotic Process Automation"
       ],
-      "participants": 12080
+      "participants": 12342
     },
     {
       "source": "devpost",
@@ -271,7 +301,7 @@
         "Machine Learning/AI",
         "Productivity"
       ],
-      "participants": 795
+      "participants": 801
     },
     {
       "source": "devpost",
@@ -287,7 +317,22 @@
         "Machine Learning/AI",
         "Web"
       ],
-      "participants": 357
+      "participants": 436
+    },
+    {
+      "source": "devpost",
+      "title": "ShellHacks 2026",
+      "url": "https://shellhacks-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/378/610/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Florida International University",
+      "deadline": null,
+      "prize_text": "$41,750",
+      "themes": [
+        "Beginner Friendly",
+        "Web"
+      ],
+      "participants": 194
     },
     {
       "source": "devpost",
@@ -303,22 +348,7 @@
         "Education",
         "Machine Learning/AI"
       ],
-      "participants": 160
-    },
-    {
-      "source": "devpost",
-      "title": "ShellHacks 2026",
-      "url": "https://shellhacks-2026.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/378/610/datas/medium_square.png",
-      "mode": "offline",
-      "location": "Florida International University",
-      "deadline": null,
-      "prize_text": "$41,750",
-      "themes": [
-        "Beginner Friendly",
-        "Web"
-      ],
-      "participants": 133
+      "participants": 162
     },
     {
       "source": "devpost",
@@ -334,22 +364,23 @@
         "Education",
         "Machine Learning/AI"
       ],
-      "participants": 132
+      "participants": 137
     },
     {
       "source": "devpost",
-      "title": "Recruit Holdings Hackathon \u201cInnovation Cup\u201d",
-      "url": "https://innovation-cup2026.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/871/062/datas/medium_square.jpg",
+      "title": "Badger Build Fest 2026",
+      "url": "https://badger-build-fest-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/382/329/datas/medium_square.png",
       "mode": "offline",
-      "location": "CA, USA",
+      "location": "Morgridge Hall - Hello World",
       "deadline": null,
-      "prize_text": "$70,000",
+      "prize_text": "$11,750",
       "themes": [
-        "Web",
-        "Enterprise"
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Health"
       ],
-      "participants": 88
+      "participants": 115
     },
     {
       "source": "devpost",
@@ -364,7 +395,182 @@
         "Social Good",
         "Web"
       ],
-      "participants": 79
+      "participants": 107
+    },
+    {
+      "source": "devpost",
+      "title": "Recruit Holdings Hackathon \u201cInnovation Cup\u201d",
+      "url": "https://innovation-cup2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/871/062/datas/medium_square.jpg",
+      "mode": "offline",
+      "location": "CA, USA",
+      "deadline": null,
+      "prize_text": "$70,000",
+      "themes": [
+        "Web",
+        "Enterprise"
+      ],
+      "participants": 89
+    },
+    {
+      "source": "devpost",
+      "title": "&HACKS XII",
+      "url": "https://hacks-xii.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/894/232/datas/medium_square.png",
+      "mode": "offline",
+      "location": "William and Mary - ISC4",
+      "deadline": null,
+      "prize_text": "$800",
+      "themes": [
+        "Beginner Friendly",
+        "Open Ended",
+        "Machine Learning/AI"
+      ],
+      "participants": 55
+    },
+    {
+      "source": "devpost",
+      "title": "J\u0101griti Hacks",
+      "url": "https://jagriti-hacks1.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/363/100/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "$850",
+      "themes": [
+        "Cybersecurity",
+        "DevOps",
+        "Machine Learning/AI"
+      ],
+      "participants": 48
+    },
+    {
+      "source": "devpost",
+      "title": "SC Quantathon v3",
+      "url": "https://sc-quantathon-v3.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/819/100/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Watt Family Innovation Center",
+      "deadline": null,
+      "prize_text": "$250",
+      "themes": [
+        "Machine Learning/AI",
+        "Quantum",
+        "Beginner Friendly"
+      ],
+      "participants": 40
+    },
+    {
+      "source": "devpost",
+      "title": "Carolina Data Challenge 2026",
+      "url": "https://carolina-data-challenge-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/369/055/datas/medium_square.png",
+      "mode": "offline",
+      "location": "UNC Chapel Hill - Sitterson Hall",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "participants": 32
+    },
+    {
+      "source": "devpost",
+      "title": "DecentraHack 2.0",
+      "url": "https://decentrahack-2-0.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/371/858/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "\u20b9 15,000",
+      "themes": [
+        "Blockchain",
+        "Machine Learning/AI",
+        "Open Ended"
+      ],
+      "participants": 31
+    },
+    {
+      "source": "devpost",
+      "title": "CodeSprint by Elite Coders",
+      "url": "https://codesprint-by-elitecoders.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/380/263/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "\u20b9 30,000",
+      "themes": [
+        "Beginner Friendly",
+        "Open Ended",
+        "Web"
+      ],
+      "participants": 26
+    },
+    {
+      "source": "devpost",
+      "title": "Ascendance Foundry's Hackathon",
+      "url": "https://ascendance-foundry-s-hackathon.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/289/265/datas/medium_square.png",
+      "mode": "offline",
+      "location": "University of Waterloo",
+      "deadline": null,
+      "prize_text": "$CAD 2,000",
+      "themes": [
+        "Machine Learning/AI",
+        "Productivity",
+        "Social Good"
+      ],
+      "participants": 20
+    },
+    {
+      "source": "devpost",
+      "title": "Test Flight: Glasswing Ventures AI Hackathon",
+      "url": "https://test-flight-glasswing.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/145/690/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Glasswing Ventures",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Enterprise",
+        "Machine Learning/AI",
+        "DevOps"
+      ],
+      "participants": 16
+    },
+    {
+      "source": "devpost",
+      "title": "Hack Atlantic",
+      "url": "https://hack-atlantic1.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/345/086/datas/medium_square.jpg",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "$CAD 1",
+      "themes": [
+        "Design",
+        "Education",
+        "Machine Learning/AI"
+      ],
+      "participants": 12
+    },
+    {
+      "source": "devpost",
+      "title": "JacHacks a2Tech",
+      "url": "https://jachacks-a2tech.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/376/600/datas/medium_square.png",
+      "mode": "offline",
+      "location": "UMich - Leinweber CS Building",
+      "deadline": null,
+      "prize_text": "$3,800",
+      "themes": [
+        "DevOps",
+        "Machine Learning/AI",
+        "Open Ended"
+      ],
+      "participants": 10
     }
   ]
 }
