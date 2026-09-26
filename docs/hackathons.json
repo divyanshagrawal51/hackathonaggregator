@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T18:50:02.427300+00:00",
-  "count": 36,
+  "generated_at": "2026-09-26T18:56:40.294141+00:00",
+  "count": 103,
   "hackathons": [
     {
       "source": "devpost",
@@ -84,6 +84,22 @@
     },
     {
       "source": "devpost",
+      "title": "Planet Resilience: Innovation for Sustainable Impact Hackathon",
+      "url": "https://uob-suss-planet-resilience.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/293/800/datas/medium_square.jpg",
+      "mode": "offline",
+      "location": "Singapore, Singapore",
+      "deadline": "2026-10-01T00:00:00",
+      "prize_text": "$1,700",
+      "themes": [
+        "Education",
+        "Enterprise",
+        "Social Good"
+      ],
+      "participants": 55
+    },
+    {
+      "source": "devpost",
       "title": "LovHack Season 3",
       "url": "https://lovhack-season-3.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/360/525/datas/medium_square.png",
@@ -148,6 +164,20 @@
     },
     {
       "source": "devpost",
+      "title": "Multimodal AI Hackathon 2026",
+      "url": "https://multimodal-ai-hackathon-2026-7.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/366/176/datas/medium_square.jpg",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-10-14T00:00:00",
+      "prize_text": "\u20b9 100,000",
+      "themes": [
+        "Machine Learning/AI"
+      ],
+      "participants": 166
+    },
+    {
+      "source": "devpost",
       "title": "MLAI Hackathon 2026",
       "url": "https://mlai-hackathon.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/165/208/datas/medium_square.jpg",
@@ -189,7 +219,7 @@
         "Open Ended",
         "Productivity"
       ],
-      "participants": 15056
+      "participants": 15059
     },
     {
       "source": "devpost",
@@ -237,7 +267,7 @@
         "Machine Learning/AI",
         "Serverless"
       ],
-      "participants": 2794
+      "participants": 2795
     },
     {
       "source": "devpost",
@@ -285,7 +315,7 @@
         "Beginner Friendly",
         "Robotic Process Automation"
       ],
-      "participants": 12342
+      "participants": 12344
     },
     {
       "source": "devpost",
@@ -305,6 +335,22 @@
     },
     {
       "source": "devpost",
+      "title": "YouCam API Skin AI & eCommerce VTO Hackathon",
+      "url": "https://youcam-api-skin-ai-ecommerce.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/375/196/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": "2026-11-02T00:00:00",
+      "prize_text": "$6,000",
+      "themes": [
+        "AR/VR",
+        "E-commerce/Retail",
+        "Machine Learning/AI"
+      ],
+      "participants": 76
+    },
+    {
+      "source": "devpost",
       "title": "Meta VR Start Developer Competition 2026",
       "url": "https://start-developer-competition-26.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/374/843/datas/medium_square.png",
@@ -317,7 +363,7 @@
         "Machine Learning/AI",
         "Web"
       ],
-      "participants": 436
+      "participants": 438
     },
     {
       "source": "devpost",
@@ -395,7 +441,7 @@
         "Social Good",
         "Web"
       ],
-      "participants": 107
+      "participants": 108
     },
     {
       "source": "devpost",
@@ -571,6 +617,1008 @@
         "Open Ended"
       ],
       "participants": 10
+    },
+    {
+      "source": "devpost",
+      "title": "ForgeHacks Online 2026",
+      "url": "https://forgehacks-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/034/742/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "$417,133",
+      "themes": [
+        "Beginner Friendly",
+        "Lifehacks",
+        "Machine Learning/AI"
+      ],
+      "participants": 543
+    },
+    {
+      "source": "devpost",
+      "title": "Hack Apertus",
+      "url": "https://hackapertus.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/992/867/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Grand Finals 2027 ",
+      "deadline": null,
+      "prize_text": "\u20ac10,680",
+      "themes": [
+        "Education",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "participants": 448
+    },
+    {
+      "source": "devpost",
+      "title": "IEEE ClimateChain Global Hackathon",
+      "url": "https://ieee-climatechain-hack.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/642/899/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "$3,000",
+      "themes": [
+        "Blockchain",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "participants": 412
+    },
+    {
+      "source": "devpost",
+      "title": "hackPHS 2026",
+      "url": "https://hackphs2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/164/980/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Princeton High School",
+      "deadline": null,
+      "prize_text": "$1,000",
+      "themes": [
+        "Beginner Friendly",
+        "Open Ended",
+        "Web"
+      ],
+      "participants": 150
+    },
+    {
+      "source": "devpost",
+      "title": "Banana Hacks",
+      "url": "https://banana-hacks-1111.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/792/691/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "$500",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "participants": 131
+    },
+    {
+      "source": "devpost",
+      "title": "United Hackathons V1",
+      "url": "https://devonomicsv1.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/067/065/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Machine Learning/AI",
+        "Open Ended",
+        "Social Good"
+      ],
+      "participants": 115
+    },
+    {
+      "source": "devpost",
+      "title": "LarpHacks",
+      "url": "https://larphacks.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/982/889/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Toronto",
+      "deadline": null,
+      "prize_text": "$21,394",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "participants": 104
+    },
+    {
+      "source": "devpost",
+      "title": "Zoftware Hireathon",
+      "url": "https://zoftware-hireathon.devpost.com/",
+      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "offline",
+      "location": "Delhi",
+      "deadline": null,
+      "prize_text": "$500",
+      "themes": [
+        "Enterprise",
+        "Machine Learning/AI"
+      ],
+      "participants": 75
+    },
+    {
+      "source": "devpost",
+      "title": "Brewing Codes 4.0",
+      "url": "https://brewing-codes-4-0.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/427/203/datas/medium_square.jpeg",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "\u20b9 100,000",
+      "themes": [
+        "Low/No Code",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "participants": 74
+    },
+    {
+      "source": "devpost",
+      "title": "Since AI 2026",
+      "url": "https://sinceai2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/815/575/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Kupittaa Campus, Turku",
+      "deadline": null,
+      "prize_text": "\u20ac50,000",
+      "themes": [
+        "Machine Learning/AI",
+        "Open Ended",
+        "Enterprise"
+      ],
+      "participants": 72
+    },
+    {
+      "source": "devpost",
+      "title": "HackFW: MADE Challenge",
+      "url": "https://hackfw.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/018/511/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Fort Worth",
+      "deadline": null,
+      "prize_text": "$1,900",
+      "themes": [
+        "IoT",
+        "Machine Learning/AI",
+        "Robotic Process Automation"
+      ],
+      "participants": 47
+    },
+    {
+      "source": "devpost",
+      "title": "Gator Hack V - AI Days 2026",
+      "url": "https://gatorhack2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/288/165/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "$3,500",
+      "themes": [
+        "Education"
+      ],
+      "participants": 42
+    },
+    {
+      "source": "devpost",
+      "title": "Gator Quant Hacks",
+      "url": "https://gqhacks.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/166/339/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Gainesville, Florida",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Fintech",
+        "Machine Learning/AI"
+      ],
+      "participants": 39
+    },
+    {
+      "source": "devpost",
+      "title": "RecT Solutions Hackathon: Beyond the CV 2026",
+      "url": "https://rect-hackathon.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/857/455/datas/medium_square.png",
+      "mode": "offline",
+      "location": "IDEA Spaces Saldanha",
+      "deadline": null,
+      "prize_text": "\u20ac2,000",
+      "themes": [
+        "Databases",
+        "DevOps",
+        "Machine Learning/AI"
+      ],
+      "participants": 35
+    },
+    {
+      "source": "devpost",
+      "title": "BioHacks",
+      "url": "https://biohacksmcmaster.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/727/866/datas/medium_square.png",
+      "mode": "offline",
+      "location": "McMaster University - PGCLL",
+      "deadline": null,
+      "prize_text": "$CAD 0",
+      "themes": [
+        "Health",
+        "Machine Learning/AI",
+        "Open Ended"
+      ],
+      "participants": 34
+    },
+    {
+      "source": "devpost",
+      "title": "Dublin Hacx",
+      "url": "https://dublin-hacx.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/793/206/datas/medium_square.png",
+      "mode": "offline",
+      "location": "SAP Office \u2014 San Ramon, CA",
+      "deadline": null,
+      "prize_text": "$2,250",
+      "themes": [
+        "Open Ended",
+        "Beginner Friendly",
+        "Machine Learning/AI"
+      ],
+      "participants": 32
+    },
+    {
+      "source": "devpost",
+      "title": "Hyperbloom October- UI/UX and Web Design",
+      "url": "https://hyperbloom-october.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/371/968/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Design",
+        "Productivity",
+        "Web"
+      ],
+      "participants": 30
+    },
+    {
+      "source": "devpost",
+      "title": "AI Hackathon 2026 by LA Hacks",
+      "url": "https://la-ai-hackathon-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/732/163/datas/medium_square.png",
+      "mode": "offline",
+      "location": "James West Alumni Center",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Machine Learning/AI"
+      ],
+      "participants": 28
+    },
+    {
+      "source": "devpost",
+      "title": "BearHacks 2027",
+      "url": "https://bearhacks2027.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/874/689/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Sheridan College Hazel McCallion Campus",
+      "deadline": null,
+      "prize_text": "$CAD 10,000",
+      "themes": [
+        "Machine Learning/AI",
+        "Mobile",
+        "Web"
+      ],
+      "participants": 26
+    },
+    {
+      "source": "devpost",
+      "title": "2026 AI for Good Hackathon",
+      "url": "https://2026ai4goodhackathon.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/185/970/datas/medium_square.png",
+      "mode": "offline",
+      "location": "The Link",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Machine Learning/AI",
+        "Social Good",
+        "Music/Art"
+      ],
+      "participants": 25
+    },
+    {
+      "source": "devpost",
+      "title": "Vibe Code Animated Maps",
+      "url": "https://vibecode-animated-maps.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/646/118/datas/medium_square.png",
+      "mode": "offline",
+      "location": "South Plainfield Library",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Design",
+        "Education",
+        "Web"
+      ],
+      "participants": 24
+    },
+    {
+      "source": "devpost",
+      "title": "STEMergent Hacks 2026",
+      "url": "https://stemergent-hacks.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/273/593/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Low/No Code",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "participants": 22
+    },
+    {
+      "source": "devpost",
+      "title": "Bridge The Gap Hacks",
+      "url": "https://sq-hacks.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/826/556/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "participants": 22
+    },
+    {
+      "source": "devpost",
+      "title": "Kurukshetra CTF",
+      "url": "https://kurukshetractf.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/337/258/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "\u20b9 20,000",
+      "themes": [
+        "Beginner Friendly",
+        "Cybersecurity",
+        "Machine Learning/AI"
+      ],
+      "participants": 20
+    },
+    {
+      "source": "devpost",
+      "title": "PalmettoHacks",
+      "url": "https://palmetto-hacks-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/336/988/datas/medium_square.png",
+      "mode": "offline",
+      "location": "USC College of Engineering and Computing",
+      "deadline": null,
+      "prize_text": "$2,550",
+      "themes": [
+        "Beginner Friendly",
+        "Enterprise",
+        "Machine Learning/AI"
+      ],
+      "participants": 20
+    },
+    {
+      "source": "devpost",
+      "title": "Hack the Change 2026",
+      "url": "https://hack-the-change-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/029/578/datas/medium_square.png",
+      "mode": "offline",
+      "location": "University of Calgary",
+      "deadline": null,
+      "prize_text": "$CAD 5,000",
+      "themes": [
+        "Education",
+        "Social Good",
+        "Web"
+      ],
+      "participants": 20
+    },
+    {
+      "source": "devpost",
+      "title": "Hack Like W@CC 2026",
+      "url": "https://hack-like-wacc-26.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/191/956/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Georgia Tech \u2013 Klaus Atrium, Klaus 1116",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Health",
+        "Machine Learning/AI",
+        "Open Ended"
+      ],
+      "participants": 18
+    },
+    {
+      "source": "devpost",
+      "title": "Prompt2Product: MLH Hack Day @ AITR",
+      "url": "https://prompt2product.devpost.com/",
+      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "offline",
+      "location": "AITR Indore",
+      "deadline": null,
+      "prize_text": "\u20b9 0",
+      "themes": [
+        "DevOps",
+        "Education"
+      ],
+      "participants": 16
+    },
+    {
+      "source": "devpost",
+      "title": "Arm + ExecuTorch: Edge AI Challenge",
+      "url": "https://arm-executorch.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/362/865/datas/medium_square.png",
+      "mode": "offline",
+      "location": "San Francisco State University",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "AR/VR",
+        "IoT",
+        "Machine Learning/AI"
+      ],
+      "participants": 15
+    },
+    {
+      "source": "devpost",
+      "title": "HarborHack 2026 - Agent In The Loop",
+      "url": "https://harborhack-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/829/092/datas/medium_square.png",
+      "mode": "offline",
+      "location": "College of Charleston, Harbor Walk",
+      "deadline": null,
+      "prize_text": "$1,500",
+      "themes": [
+        "Machine Learning/AI",
+        "Open Ended",
+        "Beginner Friendly"
+      ],
+      "participants": 15
+    },
+    {
+      "source": "devpost",
+      "title": "Hacklanta",
+      "url": "https://hacklanta.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/077/016/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Student Center East Ballroom GSU",
+      "deadline": null,
+      "prize_text": "$20,000",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Open Ended"
+      ],
+      "participants": 14
+    },
+    {
+      "source": "devpost",
+      "title": "Sherubtse Hackathon 2026",
+      "url": "https://sherubtse-hackathon-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/258/448/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Sherubtse College, Kanglung, Bhutan",
+      "deadline": null,
+      "prize_text": "\u20b9 6,000",
+      "themes": [
+        "Machine Learning/AI",
+        "Social Good",
+        "DevOps"
+      ],
+      "participants": 11
+    },
+    {
+      "source": "devpost",
+      "title": "Sheridan Datathon 2026",
+      "url": "https://sheridandatathon2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/371/173/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Sheridan College Hazel McCallion Campus",
+      "deadline": null,
+      "prize_text": "$CAD 10,000",
+      "themes": [
+        "Beginner Friendly",
+        "Databases",
+        "Machine Learning/AI"
+      ],
+      "participants": 11
+    },
+    {
+      "source": "devpost",
+      "title": "HackCamp 2026",
+      "url": "https://hackcamp-2026.devpost.com/",
+      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "offline",
+      "location": "Vancouver, Canada",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "participants": 10
+    },
+    {
+      "source": "devpost",
+      "title": "checkpoint 1 \u2014 games for good",
+      "url": "https://checkpoint-1.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/239/296/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "$1,400",
+      "themes": [
+        "Gaming",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "participants": 8
+    },
+    {
+      "source": "devpost",
+      "title": "Caribbean AI Summit Hackathon",
+      "url": "https://caribbean-ai-summit-hackathon.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/384/797/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Puerto Rico Convention Center",
+      "deadline": null,
+      "prize_text": "$10,000",
+      "themes": [
+        "Health",
+        "Social Good"
+      ],
+      "participants": 7
+    },
+    {
+      "source": "devpost",
+      "title": "Build-A-Thon",
+      "url": "https://build-a-thon-30568.devpost.com/",
+      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "offline",
+      "location": "NCC Digital Park, University of Ibadan",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "E-commerce/Retail",
+        "Health",
+        "Low/No Code"
+      ],
+      "participants": 7
+    },
+    {
+      "source": "devpost",
+      "title": "Build with Gemma - Innovate in Windsor",
+      "url": "https://innovate-in-windsor-hackathon.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/298/521/datas/medium_square.png",
+      "mode": "offline",
+      "location": "University of Windsor",
+      "deadline": null,
+      "prize_text": "$CAD 0",
+      "themes": [
+        "Machine Learning/AI"
+      ],
+      "participants": 7
+    },
+    {
+      "source": "devpost",
+      "title": "SpartaHack 12",
+      "url": "https://spartahack-12.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/856/924/datas/medium_square.jpg",
+      "mode": "offline",
+      "location": "MSU - STEM Building",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "participants": 7
+    },
+    {
+      "source": "devpost",
+      "title": "EthnoHACK",
+      "url": "https://ethnohack2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/370/953/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "\u20ac0",
+      "themes": [
+        "Databases",
+        "Health",
+        "Machine Learning/AI"
+      ],
+      "participants": 6
+    },
+    {
+      "source": "devpost",
+      "title": "Sierra Hacks 2026",
+      "url": "https://sierra-hacks-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/173/957/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Sierra High School",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "participants": 5
+    },
+    {
+      "source": "devpost",
+      "title": "GeauxHack 2026",
+      "url": "https://geauxhack-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/105/208/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Patrick F. Taylor Hall",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Mobile",
+        "Web"
+      ],
+      "participants": 5
+    },
+    {
+      "source": "devpost",
+      "title": "FutureForge Hacks",
+      "url": "https://futureforge-hacks.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/058/924/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Pleasanton, CA",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Education",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "participants": 5
+    },
+    {
+      "source": "devpost",
+      "title": "HackUCD x Stripe",
+      "url": "https://hackucd.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/340/589/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Ireland",
+      "deadline": null,
+      "prize_text": "\u20ac4,000",
+      "themes": [
+        "Machine Learning/AI"
+      ],
+      "participants": 4
+    },
+    {
+      "source": "devpost",
+      "title": "CrownHacks",
+      "url": "https://crownhacks.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/185/401/datas/medium_square.png",
+      "mode": "offline",
+      "location": "UNC Charlotte - Union",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Robotic Process Automation"
+      ],
+      "participants": 4
+    },
+    {
+      "source": "devpost",
+      "title": "Seattle GiveCamp 2026",
+      "url": "https://seattle-givecamp-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/273/994/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Microsoft Building 122",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Design",
+        "Social Good",
+        "Web"
+      ],
+      "participants": 4
+    },
+    {
+      "source": "devpost",
+      "title": "SVC Hackathon 2027",
+      "url": "https://svchackathon2027.devpost.com/",
+      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "offline",
+      "location": " Gary Knutzen Cardinal Center",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Low/No Code",
+        "Serverless",
+        "Web"
+      ],
+      "participants": 4
+    },
+    {
+      "source": "devpost",
+      "title": "CCT IT CLUB X INOVEXHQ HACK DAYS",
+      "url": "https://cct-it-club-inovexhq-hack-days.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/269/213/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Chitwan College of Technology",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Web"
+      ],
+      "participants": 3
+    },
+    {
+      "source": "devpost",
+      "title": "#SFTechWeek - Decision-Grade AI @ Stanford \u26a1\ufe0f A Buildathon on LLM Trust",
+      "url": "https://ai-trust.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/363/749/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Stanford, California, USA",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Machine Learning/AI"
+      ],
+      "participants": 3
+    },
+    {
+      "source": "devpost",
+      "title": "Latinos x AI Hackathon - NYC",
+      "url": "https://latinos-x-ai-hackathon-nyc.devpost.com/",
+      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "offline",
+      "location": "New York City / TBD",
+      "deadline": null,
+      "prize_text": "$1,500",
+      "themes": [
+        "Beginner Friendly",
+        "Fintech",
+        "Health"
+      ],
+      "participants": 3
+    },
+    {
+      "source": "devpost",
+      "title": "Daytona HackSprint w/ Arize AI - NYC, October 2026",
+      "url": "https://daytona-hacksprint-nyc.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/384/999/datas/medium_square.png",
+      "mode": "offline",
+      "location": "AWS, JFK27",
+      "deadline": null,
+      "prize_text": "$7,000",
+      "themes": [
+        "Machine Learning/AI"
+      ],
+      "participants": 3
+    },
+    {
+      "source": "devpost",
+      "title": "Agentic Enterprise AI Hackathon \u2014 Box + AWS",
+      "url": "https://agentic-ai-hackathon-box-aws.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/363/922/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Amazon Day 1 Building",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "DevOps",
+        "Enterprise",
+        "Machine Learning/AI"
+      ],
+      "participants": 3
+    },
+    {
+      "source": "devpost",
+      "title": "MakeUC 2026",
+      "url": "https://makeuc-2026-30884.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/047/660/datas/medium_square.png",
+      "mode": "offline",
+      "location": "1819 Innovation Hub",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "DevOps",
+        "IoT",
+        "Web"
+      ],
+      "participants": 3
+    },
+    {
+      "source": "devpost",
+      "title": "Gear Up Hacks 2026",
+      "url": "https://gear-up-hacks-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/206/811/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Lincoln on Geer",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Mobile",
+        "Social Good",
+        "Web"
+      ],
+      "participants": 2
+    },
+    {
+      "source": "devpost",
+      "title": "UGAHacks CADathon",
+      "url": "https://ugahacks-cadathon.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/284/122/datas/medium_square.png",
+      "mode": "offline",
+      "location": "UGA - Driftmier Engineering Center",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Design",
+        "Web"
+      ],
+      "participants": 2
+    },
+    {
+      "source": "devpost",
+      "title": "Action Space",
+      "url": "https://action-space-hacks.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/173/168/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Fab Lab",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Machine Learning/AI",
+        "Robotic Process Automation"
+      ],
+      "participants": 2
+    },
+    {
+      "source": "devpost",
+      "title": "Meow",
+      "url": "https://makeuc-2026-30881.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/046/979/datas/medium_square.png",
+      "mode": "offline",
+      "location": "1819 Innovation Hub",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "DevOps",
+        "IoT",
+        "Web"
+      ],
+      "participants": 2
+    },
+    {
+      "source": "devpost",
+      "title": "DevFest M\u00fcnster 2026: Agentic AI Hackathon",
+      "url": "https://devfest-ai-hackathon.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/339/368/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Volkshochschule",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Low/No Code",
+        "Machine Learning/AI"
+      ],
+      "participants": 2
+    },
+    {
+      "source": "devpost",
+      "title": "HackNite",
+      "url": "https://hacknite-31518.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/383/035/datas/medium_square.png",
+      "mode": "offline",
+      "location": "University of Cincinnati - Baldwin ",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Education",
+        "Low/No Code",
+        "Web"
+      ],
+      "participants": 1
+    },
+    {
+      "source": "devpost",
+      "title": "Ensign Build",
+      "url": "https://ensign-build.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/337/472/datas/medium_square.jpeg",
+      "mode": "offline",
+      "location": "Ensign College Building",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Cybersecurity",
+        "Design",
+        "Machine Learning/AI"
+      ],
+      "participants": 1
+    },
+    {
+      "source": "devpost",
+      "title": "Build Multiplayer Data Science Agents \u00b7 PyMC Labs",
+      "url": "https://daimon-hackathon.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/366/962/datas/medium_square.jpeg",
+      "mode": "offline",
+      "location": "New York, NY, USA",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Machine Learning/AI"
+      ],
+      "participants": 1
+    },
+    {
+      "source": "devpost",
+      "title": "Vortexa 3.0",
+      "url": "https://vortexa-3-0.devpost.com/",
+      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "offline",
+      "location": "Dr DY Patil Institute Of Technology",
+      "deadline": null,
+      "prize_text": "\u20b9 0",
+      "themes": [
+        "Beginner Friendly",
+        "Social Good",
+        "Web"
+      ],
+      "participants": 1
+    },
+    {
+      "source": "devpost",
+      "title": "Neeley AI Forward: AI Innovation Competition",
+      "url": "https://neeley-ai-forward.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/378/902/datas/medium_square.jpg",
+      "mode": "online",
+      "location": "Online",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Education",
+        "Machine Learning/AI"
+      ],
+      "participants": 1
+    },
+    {
+      "source": "devpost",
+      "title": "Redhawk Builds 2026",
+      "url": "https://redhawk-builds-2026.devpost.com/",
+      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "offline",
+      "location": "McVey Data Science Building",
+      "deadline": null,
+      "prize_text": "$3,500",
+      "themes": [
+        "Fintech",
+        "Machine Learning/AI"
+      ],
+      "participants": 1
     }
   ]
 }
