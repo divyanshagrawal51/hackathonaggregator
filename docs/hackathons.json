@@ -1,23 +1,7 @@
 {
-  "generated_at": "2026-09-25T09:55:22.046846+00:00",
-  "count": 22,
+  "generated_at": "2026-09-26T08:17:24.159325+00:00",
+  "count": 23,
   "hackathons": [
-    {
-      "source": "devpost",
-      "title": "LUMA Hackathon (September 20th - 28th)",
-      "url": "https://luma-hackathon-fall.devpost.com/",
-      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-      "mode": "online",
-      "location": "Online",
-      "deadline": "2026-09-28T00:00:00",
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly",
-        "Machine Learning/AI",
-        "Open Ended"
-      ],
-      "participants": 193
-    },
     {
       "source": "devpost",
       "title": "Beginner's Paradise - FirstCommit",
@@ -32,7 +16,7 @@
         "Mobile",
         "Web"
       ],
-      "participants": 1149
+      "participants": 1189
     },
     {
       "source": "devpost",
@@ -48,7 +32,7 @@
         "Machine Learning/AI",
         "Beginner Friendly"
       ],
-      "participants": 793
+      "participants": 812
     },
     {
       "source": "devpost",
@@ -64,7 +48,7 @@
         "Machine Learning/AI",
         "Cybersecurity"
       ],
-      "participants": 538
+      "participants": 546
     },
     {
       "source": "devpost",
@@ -80,7 +64,7 @@
         "Machine Learning/AI",
         "Web"
       ],
-      "participants": 361
+      "participants": 367
     },
     {
       "source": "devpost",
@@ -96,7 +80,7 @@
         "Social Good",
         "Beginner Friendly"
       ],
-      "participants": 1512
+      "participants": 1522
     },
     {
       "source": "devpost",
@@ -112,7 +96,7 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 1047
+      "participants": 1071
     },
     {
       "source": "devpost",
@@ -128,7 +112,7 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 483
+      "participants": 503
     },
     {
       "source": "devpost",
@@ -144,7 +128,7 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 323
+      "participants": 340
     },
     {
       "source": "devpost",
@@ -159,7 +143,7 @@
         "Databases",
         "Machine Learning/AI"
       ],
-      "participants": 875
+      "participants": 877
     },
     {
       "source": "devpost",
@@ -175,7 +159,7 @@
         "Open Ended",
         "Productivity"
       ],
-      "participants": 13957
+      "participants": 14730
     },
     {
       "source": "devpost",
@@ -191,7 +175,7 @@
         "IoT",
         "Machine Learning/AI"
       ],
-      "participants": 153
+      "participants": 159
     },
     {
       "source": "devpost",
@@ -207,7 +191,7 @@
         "Beginner Friendly",
         "Education"
       ],
-      "participants": 811
+      "participants": 933
     },
     {
       "source": "devpost",
@@ -223,7 +207,7 @@
         "Machine Learning/AI",
         "Serverless"
       ],
-      "participants": 2644
+      "participants": 2741
     },
     {
       "source": "devpost",
@@ -239,7 +223,7 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 73
+      "participants": 74
     },
     {
       "source": "devpost",
@@ -255,7 +239,7 @@
         "Mobile",
         "Machine Learning/AI"
       ],
-      "participants": 417
+      "participants": 440
     },
     {
       "source": "devpost",
@@ -271,7 +255,7 @@
         "Beginner Friendly",
         "Robotic Process Automation"
       ],
-      "participants": 11640
+      "participants": 12080
     },
     {
       "source": "devpost",
@@ -287,7 +271,7 @@
         "Machine Learning/AI",
         "Productivity"
       ],
-      "participants": 784
+      "participants": 795
     },
     {
       "source": "devpost",
@@ -303,39 +287,7 @@
         "Machine Learning/AI",
         "Web"
       ],
-      "participants": 226
-    },
-    {
-      "source": "devpost",
-      "title": "InfinityX Global Hackathon 2K26",
-      "url": "https://infinityx-2k26.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/295/253/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Machine Learning/AI",
-        "Open Ended",
-        "Web"
-      ],
-      "participants": 290
-    },
-    {
-      "source": "devpost",
-      "title": "Hack The Weather",
-      "url": "https://hack-the-weather.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/174/725/datas/medium_square.jpg",
-      "mode": "online",
-      "location": "Online",
-      "deadline": null,
-      "prize_text": "$309",
-      "themes": [
-        "Machine Learning/AI",
-        "Open Ended",
-        "Social Good"
-      ],
-      "participants": 193
+      "participants": 357
     },
     {
       "source": "devpost",
@@ -351,7 +303,68 @@
         "Education",
         "Machine Learning/AI"
       ],
-      "participants": 156
+      "participants": 160
+    },
+    {
+      "source": "devpost",
+      "title": "ShellHacks 2026",
+      "url": "https://shellhacks-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/378/610/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Florida International University",
+      "deadline": null,
+      "prize_text": "$41,750",
+      "themes": [
+        "Beginner Friendly",
+        "Web"
+      ],
+      "participants": 133
+    },
+    {
+      "source": "devpost",
+      "title": "HackWashU Fall AI Build Challenge",
+      "url": "https://hackwashu-fall-ai-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/295/266/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Washington University in St. Louis",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Education",
+        "Machine Learning/AI"
+      ],
+      "participants": 132
+    },
+    {
+      "source": "devpost",
+      "title": "Recruit Holdings Hackathon \u201cInnovation Cup\u201d",
+      "url": "https://innovation-cup2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/871/062/datas/medium_square.jpg",
+      "mode": "offline",
+      "location": "CA, USA",
+      "deadline": null,
+      "prize_text": "$70,000",
+      "themes": [
+        "Web",
+        "Enterprise"
+      ],
+      "participants": 88
+    },
+    {
+      "source": "devpost",
+      "title": "Hack the Hill III",
+      "url": "https://hack-the-hill-iii.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/314/763/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Learning Crossroads (CRX) - uOttawa",
+      "deadline": null,
+      "prize_text": "$CAD 0",
+      "themes": [
+        "Social Good",
+        "Web"
+      ],
+      "participants": 79
     }
   ]
 }
