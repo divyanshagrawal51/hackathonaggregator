@@ -13,7 +13,6 @@
   :root {
     --ink: #1B1710;
     --khaki: #DCCFA1;
-    --khaki-alt: #CBB98A;
     --accent: #C1440E;
     --red: #C0483D;
     --green: #6E8F52;
@@ -75,6 +74,27 @@
     background: var(--accent);
   }
 
+  #sync-status {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11.5px;
+    font-weight: 600;
+    margin-left: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  #sync-status.ok {
+    background: #E4EEDD;
+    color: var(--green);
+  }
+
+  #sync-status.warn {
+    background: #F6E3DD;
+    color: var(--red);
+  }
+
   h1 {
     font-family: 'Anton', 'IBM Plex Sans', sans-serif;
     font-weight: 400;
@@ -106,8 +126,33 @@
     gap: 10px;
   }
 
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin: 30px 0 6px;
+  }
+
+  .tab-btn {
+    background: var(--white);
+    border: 2.5px solid var(--ink);
+    color: var(--ink);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+
+  .tab-btn.active {
+    background: var(--ink);
+    color: var(--white);
+  }
+
   .search-block {
-    margin: 32px 0 14px;
+    margin: 20px 0 14px;
   }
 
   #search {
@@ -230,11 +275,6 @@
   .card.status-not_interested .dot,
   .card.status-participated .dot {
     border-color: rgba(255, 255, 255, 0.55);
-  }
-
-  .card.status-not_interested .card-title:hover,
-  .card.status-participated .card-title:hover {
-    text-decoration-color: var(--white);
   }
 
   .card-top {
@@ -382,6 +422,7 @@
       <div class="eyebrow">
         <span class="dot"></span>
         Live from Devpost
+        <span id="sync-status"></span>
       </div>
 
       <h1>Hackathon Radar</h1>
@@ -392,6 +433,11 @@
         <b id="generated-at">—</b>.
       </p>
     </header>
+
+    <div class="tabs" id="tabs">
+      <button class="tab-btn active" data-tab="all">All Hackathons</button>
+      <button class="tab-btn" data-tab="mine">My Hackathons</button>
+    </div>
 
     <div class="search-block">
       <input
@@ -415,134 +461,195 @@
 
   </div>
 
-<script>
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js";
+  import {
+    getFirestore,
+    collection,
+    doc,
+    setDoc,
+    deleteDoc,
+    onSnapshot
+  } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore.js";
+
+  // ============================================================
+  // FILL THIS IN with the config Firebase gives you:
+  // Firebase console -> Project settings -> General -> Your apps -> </> (web app)
+  // ============================================================
+  const firebaseConfig = {
+  apiKey: "AIzaSyCUy3TjVe7YO7uhiodbPbV5ZL85KjMI820",
+  authDomain: "hackathon-radar-33c9d.firebaseapp.com",
+  projectId: "hackathon-radar-33c9d",
+  storageBucket: "hackathon-radar-33c9d.firebasestorage.app",
+  messagingSenderId: "403945643871",
+  appId: "1:403945643871:web:135bcee8b57e5d9cfb60ea",
+  measurementId: "G-620Z5JHMZ3"
+};
+  // ============================================================
+
+  const TRACKED_COLLECTION = 'trackedHackathons';
+
+  let db = null;
+  try {
+    if (firebaseConfig.apiKey && firebaseConfig.apiKey !== "YOUR_API_KEY") {
+      const app = initializeApp(firebaseConfig);
+      db = getFirestore(app);
+    }
+  } catch (err) {
+    console.warn('Firebase failed to initialize:', err);
+  }
+
+  function setSyncBadge(state) {
+    const el = document.getElementById('sync-status');
+    if (state === 'ok') {
+      el.textContent = 'synced';
+      el.className = 'ok';
+    } else {
+      el.textContent = 'sync not set up';
+      el.className = 'warn';
+    }
+  }
+
   let ALL = [];
+  let TRACKED = {}; // url -> { status, snapshot, updatedAt }
   let activeTheme = null;
+  let activeTab = 'all'; // 'all' | 'mine'
 
-  // --- per-hackathon status (not interested / participated / consider),
-  // persisted in this browser only ---
-  const STATUS_KEY = 'hackathonRadarStatuses';
-
-  function loadStatuses() {
-    try {
-      return JSON.parse(localStorage.getItem(STATUS_KEY) || '{}');
-    } catch {
-      return {};
-    }
+  function docIdFor(url) {
+    return encodeURIComponent(url);
   }
 
-  function saveStatuses(obj) {
-    try {
-      localStorage.setItem(STATUS_KEY, JSON.stringify(obj));
-    } catch {
-      // storage unavailable — status just won't persist across reloads
+  function subscribeTracked() {
+    if (!db) {
+      setSyncBadge('warn');
+      return;
     }
+    setSyncBadge('ok');
+    onSnapshot(
+      collection(db, TRACKED_COLLECTION),
+      (snap) => {
+        TRACKED = {};
+        snap.forEach((docSnap) => {
+          const data = docSnap.data();
+          if (data && data.snapshot && data.snapshot.url) {
+            TRACKED[data.snapshot.url] = data;
+          }
+        });
+        pruneExpired();
+        render();
+      },
+      (err) => {
+        console.warn('Firestore subscription error:', err);
+        setSyncBadge('warn');
+      }
+    );
   }
 
-  let STATUSES = loadStatuses();
+  async function setStatus(hackathon, status) {
+    if (!db) {
+      alert("Cloud sync isn't set up yet — add your Firebase config in the page's <script> section.");
+      return;
+    }
+    await setDoc(doc(db, TRACKED_COLLECTION, docIdFor(hackathon.url)), {
+      status,
+      snapshot: hackathon,
+      updatedAt: new Date().toISOString()
+    });
+  }
+
+  async function clearStatus(url) {
+    if (!db) return;
+    await deleteDoc(doc(db, TRACKED_COLLECTION, docIdFor(url)));
+  }
+
+  function pruneExpired() {
+    const now = new Date();
+    Object.values(TRACKED).forEach((t) => {
+      const dl = t.snapshot && t.snapshot.deadline;
+      if (dl && new Date(dl) < now) {
+        clearStatus(t.snapshot.url);
+      }
+    });
+  }
 
   function daysLeft(iso) {
     if (!iso) return null;
-
     const d = new Date(iso);
     const now = new Date();
-
-    return Math.ceil(
-      (d - now) / (1000 * 60 * 60 * 24)
-    );
+    return Math.ceil((d - now) / (1000 * 60 * 60 * 24));
   }
 
   function deadlineLabel(iso) {
     const days = daysLeft(iso);
-
-    if (days === null) {
-      return {
-        text: 'no deadline listed',
-        cls: 'unknown'
-      };
-    }
-
-    if (days < 0) {
-      return {
-        text: 'closed',
-        cls: 'unknown'
-      };
-    }
-
-    if (days === 0) {
-      return {
-        text: 'closes today',
-        cls: ''
-      };
-    }
-
-    return {
-      text: `${days}d left`,
-      cls: ''
-    };
+    if (days === null) return { text: 'no deadline listed', cls: 'unknown' };
+    if (days < 0) return { text: 'closed', cls: 'unknown' };
+    if (days === 0) return { text: 'closes today', cls: '' };
+    return { text: `${days}d left`, cls: '' };
   }
 
   function buildCategory(h) {
-    if (h.themes && h.themes.length) {
-      return h.themes.slice(0, 2).join(' / ');
-    }
+    if (h.themes && h.themes.length) return h.themes.slice(0, 2).join(' / ');
     return h.mode || 'Hackathon';
   }
 
   function buildDesc(h) {
     const parts = [];
-
-    if (h.mode) {
-      parts.push(h.mode === 'online' ? 'Online' : h.mode === 'offline' ? 'In-person' : h.mode);
-    }
+    if (h.mode) parts.push(h.mode === 'online' ? 'Online' : h.mode === 'offline' ? 'In-person' : h.mode);
     if (h.location) parts.push(h.location);
     if (h.prize_text) parts.push(`${h.prize_text} in prizes`);
     if (h.participants) parts.push(`${h.participants.toLocaleString()} participants`);
-
     return parts.length ? parts.join(' · ') : 'Details on Devpost.';
   }
 
+  function escapeHtml(s) {
+    return (s || '').replace(/[&<>"']/g, (c) => ({
+      '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+    }[c]));
+  }
+
+  function escapeAttr(s) {
+    return escapeHtml(s);
+  }
+
+  function getStatus(url) {
+    return (TRACKED[url] && TRACKED[url].status) || null;
+  }
+
+  function currentSourceList() {
+    if (activeTab === 'mine') {
+      return Object.values(TRACKED)
+        .filter((t) => t.status === 'participated' || t.status === 'consider')
+        .map((t) => t.snapshot);
+    }
+    return ALL;
+  }
+
   function render() {
-    const q = document
-      .getElementById('search')
-      .value
-      .trim()
-      .toLowerCase();
-
+    const q = document.getElementById('search').value.trim().toLowerCase();
     const list = document.getElementById('list');
+    const source = currentSourceList();
 
-    let items = ALL.filter(h => {
-      if (
-        activeTheme &&
-        !h.themes.map(t => t.toLowerCase()).includes(activeTheme)
-      ) {
-        return false;
-      }
-
+    let items = source.filter((h) => {
+      if (activeTheme && !h.themes.map((t) => t.toLowerCase()).includes(activeTheme)) return false;
       if (!q) return true;
-
-      const haystack = (
-        h.title + ' ' + h.themes.join(' ')
-      ).toLowerCase();
-
+      const haystack = (h.title + ' ' + h.themes.join(' ')).toLowerCase();
       return haystack.includes(q);
     });
 
     document.getElementById('count-line').textContent =
-      `${items.length} of ${ALL.length} hackathon${ALL.length === 1 ? '' : 's'}`;
+      `${items.length} of ${source.length} hackathon${source.length === 1 ? '' : 's'}`;
 
     if (items.length === 0) {
-      list.innerHTML = `
-        <div class="empty">
-          Nothing matches. Try a different search or clear the theme filter.
-        </div>
-      `;
+      const msg = activeTab === 'mine' && source.length === 0
+        ? "Nothing here yet — mark a hackathon as \u201cwill consider\u201d or \u201cparticipated\u201d to see it in this tab."
+        : 'Nothing matches. Try a different search or clear the theme filter.';
+      list.innerHTML = `<div class="empty">${msg}</div>`;
       return;
     }
 
-    list.innerHTML = items.map(h => {
+    list.innerHTML = items.map((h) => {
       const dl = deadlineLabel(h.deadline);
-      const status = STATUSES[h.url] || null;
+      const status = getStatus(h.url);
 
       return `
         <div class="card${status ? ' status-' + status : ''}" data-key="${escapeAttr(h.url)}">
@@ -552,12 +659,7 @@
             <div class="category">${escapeHtml(buildCategory(h))}</div>
           </div>
 
-          <a
-            class="card-title"
-            href="${escapeAttr(h.url)}"
-            target="_blank"
-            rel="noopener"
-          >
+          <a class="card-title" href="${escapeAttr(h.url)}" target="_blank" rel="noopener">
             ${escapeHtml(h.title)}
           </a>
 
@@ -565,33 +667,11 @@
 
           <div class="card-footer">
             <div class="status-dots">
-              <button
-                class="dot dot-red${status === 'not_interested' ? ' active' : ''}"
-                data-status="not_interested"
-                title="Not interested"
-                aria-label="Mark as not interested"
-              ></button>
-              <button
-                class="dot dot-green${status === 'participated' ? ' active' : ''}"
-                data-status="participated"
-                title="Already participated"
-                aria-label="Mark as already participated"
-              ></button>
-              <button
-                class="dot dot-yellow${status === 'consider' ? ' active' : ''}"
-                data-status="consider"
-                title="Will consider"
-                aria-label="Mark as will consider"
-              ></button>
+              <button class="dot dot-red${status === 'not_interested' ? ' active' : ''}" data-status="not_interested" title="Not interested" aria-label="Mark as not interested"></button>
+              <button class="dot dot-green${status === 'participated' ? ' active' : ''}" data-status="participated" title="Already participated" aria-label="Mark as already participated"></button>
+              <button class="dot dot-yellow${status === 'consider' ? ' active' : ''}" data-status="consider" title="Will consider" aria-label="Mark as will consider"></button>
             </div>
-
-            <a
-              class="open-btn"
-              href="${escapeAttr(h.url)}"
-              target="_blank"
-              rel="noopener"
-              aria-label="Open on Devpost"
-            >→</a>
+            <a class="open-btn" href="${escapeAttr(h.url)}" target="_blank" rel="noopener" aria-label="Open on Devpost">→</a>
           </div>
 
         </div>
@@ -599,120 +679,73 @@
     }).join('');
   }
 
-  function escapeHtml(s) {
-    return (s || '').replace(
-      /[&<>"']/g,
-      c => ({
-        '&': '&amp;',
-        '<': '&lt;',
-        '>': '&gt;',
-        '"': '&quot;',
-        "'": '&#39;'
-      }[c])
-    );
-  }
-
-  function escapeAttr(s) {
-    return escapeHtml(s);
-  }
-
   function buildChips() {
     const counts = {};
-
-    ALL.forEach(h => {
-      h.themes.forEach(t => {
+    ALL.forEach((h) => {
+      h.themes.forEach((t) => {
         const key = t.toLowerCase();
-
         counts[key] = (counts[key] || 0) + 1;
       });
     });
-
-    const top = Object.entries(counts)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 8);
-
+    const top = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 8);
     const container = document.getElementById('theme-chips');
-
     container.innerHTML = top.map(([theme]) =>
       `<button class="chip" data-theme="${escapeAttr(theme)}">${escapeHtml(theme)}</button>`
     ).join('');
-
-    container.querySelectorAll('.chip').forEach(btn => {
+    container.querySelectorAll('.chip').forEach((btn) => {
       btn.addEventListener('click', () => {
         const theme = btn.dataset.theme;
-
-        activeTheme =
-          activeTheme === theme ? null : theme;
-
-        container.querySelectorAll('.chip').forEach(b => {
-          b.classList.toggle(
-            'active',
-            b.dataset.theme === activeTheme
-          );
+        activeTheme = activeTheme === theme ? null : theme;
+        container.querySelectorAll('.chip').forEach((b) => {
+          b.classList.toggle('active', b.dataset.theme === activeTheme);
         });
-
         render();
       });
     });
   }
 
-  // Event delegation on the list: clicking a status dot toggles that
-  // hackathon's status and updates just that card, without a full re-render.
+  document.getElementById('tabs').addEventListener('click', (e) => {
+    const btn = e.target.closest('.tab-btn');
+    if (!btn) return;
+    activeTab = btn.dataset.tab;
+    document.querySelectorAll('.tab-btn').forEach((b) => b.classList.toggle('active', b === btn));
+    render();
+  });
+
   document.getElementById('list').addEventListener('click', (e) => {
     const dot = e.target.closest('.dot');
     if (!dot) return;
-
     const card = dot.closest('.card');
-    if (!card) return;
-
-    const key = card.dataset.key;
+    const url = card.dataset.key;
     const clickedStatus = dot.dataset.status;
-    const current = STATUSES[key] || null;
-    const next = current === clickedStatus ? null : clickedStatus;
+    const current = getStatus(url);
 
-    if (next) {
-      STATUSES[key] = next;
+    if (current === clickedStatus) {
+      clearStatus(url);
     } else {
-      delete STATUSES[key];
+      const hackathon = ALL.find((h) => h.url === url) || (TRACKED[url] && TRACKED[url].snapshot);
+      if (hackathon) setStatus(hackathon, clickedStatus);
     }
-    saveStatuses(STATUSES);
-
-    card.classList.remove('status-not_interested', 'status-participated', 'status-consider');
-    if (next) card.classList.add('status-' + next);
-
-    card.querySelectorAll('.dot').forEach(d => {
-      d.classList.toggle('active', d.dataset.status === next);
-    });
   });
 
   fetch('hackathons.json?_=' + Date.now())
-    .then(r => r.json())
-    .then(data => {
+    .then((r) => r.json())
+    .then((data) => {
       ALL = data.hackathons || [];
-
       const gen = document.getElementById('generated-at');
-
-      if (data.generated_at) {
-        gen.textContent = new Date(
-          data.generated_at
-        ).toLocaleString();
-      }
-
+      if (data.generated_at) gen.textContent = new Date(data.generated_at).toLocaleString();
       buildChips();
       render();
     })
     .catch(() => {
       document.getElementById('list').innerHTML = `
-        <div class="empty">
-          Could not load hackathons.json —
-          has the GitHub Action run yet?
-        </div>
+        <div class="empty">Could not load hackathons.json — has the GitHub Action run yet?</div>
       `;
     });
 
-  document
-    .getElementById('search')
-    .addEventListener('input', render);
+  document.getElementById('search').addEventListener('input', render);
+
+  subscribeTracked();
 </script>
 
 </body>
