@@ -190,10 +190,6 @@
     transition: background 0.15s, color 0.15s;
   }
 
-  .card:nth-child(2n) {
-    background: var(--khaki-alt);
-  }
-
   .card.status-not_interested {
     background: var(--red);
     color: var(--white);
@@ -219,6 +215,26 @@
   .card.status-consider .id-badge {
     background: var(--white);
     color: var(--ink);
+  }
+
+  .card.status-not_interested .category,
+  .card.status-participated .category {
+    color: var(--white);
+  }
+
+  .card.status-consider .category {
+    color: var(--ink);
+    opacity: 0.75;
+  }
+
+  .card.status-not_interested .dot,
+  .card.status-participated .dot {
+    border-color: rgba(255, 255, 255, 0.55);
+  }
+
+  .card.status-not_interested .card-title:hover,
+  .card.status-participated .card-title:hover {
+    text-decoration-color: var(--white);
   }
 
   .card-top {
