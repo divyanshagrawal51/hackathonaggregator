@@ -104,7 +104,7 @@ def _normalize(entry: dict) -> Hackathon:
 
 
 def fetch_hackathons(
-    max_pages: int = 5,
+    max_pages: int = 100,
     status: str = "open",         # "open" | "upcoming" | "ended"
     delay_seconds: float = 1.0,
     client: Optional[httpx.Client] = None,
@@ -112,6 +112,12 @@ def fetch_hackathons(
     """
     Yields normalized Hackathon records from Devpost, paging until an
     empty page is returned or max_pages is hit.
+
+    max_pages defaults to a high safety ceiling (100) rather than the
+    real expected page count, since the loop already stops as soon as
+    Devpost returns an empty page — the old default of 5 was the actual
+    reason the site topped out at ~23 hackathons: it stopped mid-listing,
+    not because there were no more results.
     """
     owns_client = client is None
     client = client or httpx.Client(headers=HEADERS, timeout=15.0)
