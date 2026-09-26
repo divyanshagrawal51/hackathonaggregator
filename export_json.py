@@ -19,11 +19,23 @@ OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "docs", "hackathons.json")
 def run() -> None:
     prefs = load_preferences()
 
-    # max_pages was hardcoded to 5 here, which capped the fetch at ~23
-    # hackathons even though devpost.py's paging loop already stops on its
-    # own once Devpost returns an empty page. Removed so it pulls everything.
-    fetched = list(fetch_hackathons(status="open"))
-    matched = filter_hackathons(fetched, prefs)
+    # Fetch both "open" (accepting submissions now) and "upcoming" (not
+    # open yet) separately -- Devpost's endpoint only returns one status
+    # per request -- then merge. Dedup by (source, source_id) in case a
+    # hackathon somehow appears in both pages.
+    fetched = list(fetch_hackathons(status="open")) + list(
+        fetch_hackathons(status="upcoming")
+    )
+    seen = set()
+    deduped = []
+    for h in fetched:
+        key = (h.source, h.source_id)
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(h)
+
+    matched = filter_hackathons(deduped, prefs)
 
     # Soonest deadlines first; ones with no listed deadline go last.
     matched.sort(key=lambda h: (h.deadline is None, h.deadline))
