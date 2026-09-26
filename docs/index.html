@@ -7,20 +7,20 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
 <style>
   :root {
-    --primary: #272757;
-    --lavender: #8686AC;
-    --secondary: #505081;
-    --deep: #0F0E47;
-    --slate: #3B3B78;
-
-    /* Background now matches the deep-navy/purple card palette instead of a light gray */
-    --bg: #0F0E47;
-    --ink: #F3F3FA;
+    --ink: #1B1710;
+    --khaki: #DCCFA1;
+    --khaki-alt: #CBB98A;
+    --accent: #C1440E;
+    --red: #C0483D;
+    --green: #6E8F52;
+    --yellow: #D9B94B;
+    --bg: #FFFFFF;
     --white: #FFFFFF;
+    --muted: rgba(27, 23, 16, 0.62);
   }
 
   * {
@@ -57,33 +57,36 @@
     gap: 8px;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 12px;
-    font-weight: 500;
-    color: var(--deep);
-    background: var(--lavender);
+    font-weight: 600;
+    color: var(--ink);
+    background: var(--white);
+    border: 2px solid var(--ink);
     padding: 6px 14px;
     border-radius: 6px;
     margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
   }
 
   .eyebrow .dot {
-    width: 6px;
-    height: 6px;
+    width: 7px;
+    height: 7px;
     border-radius: 50%;
-    background: var(--deep);
+    background: var(--accent);
   }
 
   h1 {
-    font-family: 'Fraunces', serif;
-    font-weight: 700;
-    font-size: clamp(34px, 5vw, 48px);
+    font-family: 'Anton', 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: clamp(38px, 5.5vw, 54px);
     margin: 0 0 12px;
-    letter-spacing: -0.01em;
-    color: var(--white);
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: var(--ink);
   }
 
   .sub {
-    color: var(--ink);
-    opacity: 0.7;
+    color: var(--muted);
     font-size: 14.5px;
     margin: 0;
     max-width: 620px;
@@ -91,9 +94,8 @@
   }
 
   .sub b {
-    color: var(--lavender);
+    color: var(--accent);
     font-weight: 600;
-    opacity: 1;
   }
 
   /* Standalone controls */
@@ -110,10 +112,10 @@
 
   #search {
     width: 100%;
-    background: var(--primary);
-    border: 1px solid var(--slate);
-    color: var(--white);
-    font-family: 'IBM Plex Sans', sans-serif;
+    background: var(--white);
+    border: 2.5px solid var(--ink);
+    color: var(--ink);
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 14px;
     padding: 14px 18px;
     border-radius: 10px;
@@ -121,11 +123,11 @@
   }
 
   #search::placeholder {
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(27, 23, 16, 0.45);
   }
 
   #search:focus {
-    outline: 2px solid var(--lavender);
+    outline: 2px solid var(--accent);
     outline-offset: 2px;
   }
 
@@ -137,34 +139,33 @@
   }
 
   .chip {
-    background: var(--primary);
-    border: 1.5px solid var(--lavender);
-    color: var(--lavender);
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 13px;
-    font-weight: 500;
+    background: var(--white);
+    border: 2px solid var(--ink);
+    color: var(--ink);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12.5px;
+    font-weight: 600;
     padding: 9px 15px;
     border-radius: 8px;
     cursor: pointer;
     text-align: center;
-    text-transform: capitalize;
-    transition: background 0.2s, color 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    transition: background 0.15s, color 0.15s;
   }
 
   .chip:hover {
-    background: var(--lavender);
-    color: var(--deep);
-    border-color: var(--lavender);
+    background: var(--khaki);
   }
 
   .chip.active {
-    color: var(--deep);
-    background: var(--lavender);
-    border-color: var(--lavender);
+    color: var(--white);
+    background: var(--ink);
+    border-color: var(--ink);
   }
 
   .count-line {
-    color: var(--lavender);
+    color: var(--muted);
     font-size: 13px;
     margin: 20px 2px 14px;
     font-family: 'IBM Plex Mono', monospace;
@@ -175,114 +176,177 @@
   .list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-    gap: 14px;
+    gap: 26px;
   }
 
   .card {
-    background: var(--primary);
-    border-radius: 12px;
-    padding: 20px 22px;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 4px 20px;
-    align-content: start;
-    border: 1px solid rgba(255, 255, 255, 0.08);
-  }
-
-  /* Alternate colors — 'slate' replaces the old 4th tone so cards never blend into the new dark background */
-
-  .card:nth-child(4n + 1) {
-    background: var(--primary);
-  }
-
-  .card:nth-child(4n + 2) {
-    background: var(--lavender);
-  }
-
-  .card:nth-child(4n + 3) {
-    background: var(--secondary);
-  }
-
-  .card:nth-child(4n + 4) {
-    background: var(--slate);
-  }
-
-  .row-title {
-    font-size: 17px;
-    font-weight: 600;
-    text-decoration: none;
-    line-height: 1.35;
-    color: var(--white);
-  }
-
-  .row-title:hover {
-    color: #DCDCF0;
-  }
-
-  .row-meta {
-    grid-column: 1;
-    color: var(--white);
-    opacity: 0.9;
-    font-size: 13px;
+    background: var(--khaki);
+    border: 3px solid var(--ink);
+    border-radius: 16px;
+    box-shadow: 8px 8px 0 var(--ink);
+    padding: 22px 24px 18px;
     display: flex;
-    flex-wrap: wrap;
-    gap: 6px 10px;
-    margin-top: 2px;
-    text-transform: capitalize;
+    flex-direction: column;
+    transition: background 0.15s, color 0.15s;
   }
 
-  .row-deadline {
-    grid-row: 1 / 3;
-    grid-column: 2;
-    text-align: center;
-    align-self: start;
+  .card:nth-child(2n) {
+    background: var(--khaki-alt);
+  }
+
+  .card.status-not_interested {
+    background: var(--red);
+    color: var(--white);
+  }
+
+  .card.status-participated {
+    background: var(--green);
+    color: var(--white);
+  }
+
+  .card.status-consider {
+    background: var(--yellow);
+    color: var(--ink);
+  }
+
+  .card.status-not_interested .card-desc,
+  .card.status-participated .card-desc {
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .card.status-not_interested .id-badge,
+  .card.status-participated .id-badge,
+  .card.status-consider .id-badge {
+    background: var(--white);
+    color: var(--ink);
+  }
+
+  .card-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+
+  .id-badge {
+    background: var(--white);
+    border: 2px solid var(--ink);
+    color: var(--ink);
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 12.5px;
+    font-size: 12px;
     font-weight: 600;
-    white-space: nowrap;
     padding: 5px 12px;
-    border-radius: 6px;
-    background: var(--lavender);
-    color: var(--deep);
+    border-radius: 5px;
+    text-transform: uppercase;
+    white-space: nowrap;
   }
 
-  .row-deadline.unknown {
-    background: transparent;
-    border: 1px solid var(--lavender);
-    color: var(--white);
+  .category {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    text-align: right;
+    line-height: 1.4;
   }
 
-  .tags {
-    grid-column: 1;
+  .card-title {
+    font-family: 'Anton', 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.18;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .card-title:hover {
+    text-decoration: underline;
+  }
+
+  .card-desc {
+    margin: 14px 0 0;
+    font-size: 14px;
+    line-height: 1.55;
+    color: rgba(27, 23, 16, 0.7);
+    flex-grow: 1;
+  }
+
+  .card-footer {
+    margin-top: 20px;
+    padding-top: 14px;
+    border-top: 3px solid var(--ink);
     display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-top: 8px;
+    align-items: center;
+    justify-content: space-between;
   }
 
-  .tag {
-    font-size: 11px;
-    font-weight: 500;
-    color: var(--deep);
-    background: var(--lavender);
-    padding: 3px 10px;
-    border-radius: 6px;
-    text-transform: capitalize;
+  .status-dots {
+    display: flex;
+    gap: 10px;
+  }
+
+  .dot {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid rgba(27, 23, 16, 0.35);
+    background: var(--white);
+    padding: 0;
+    cursor: pointer;
+  }
+
+  .dot-red.active {
+    background: var(--red);
+    border-color: var(--red);
+  }
+
+  .dot-green.active {
+    background: var(--green);
+    border-color: var(--green);
+  }
+
+  .dot-yellow.active {
+    background: var(--yellow);
+    border-color: var(--yellow);
+  }
+
+  .open-btn {
+    width: 38px;
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+    border: 2px solid var(--ink);
+    border-radius: 8px;
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 17px;
+    flex-shrink: 0;
+  }
+
+  .open-btn:hover {
+    background: var(--khaki);
   }
 
   .empty {
     grid-column: 1 / -1;
-    background: var(--primary);
-    border-radius: 12px;
+    background: var(--white);
+    border: 3px solid var(--ink);
+    border-radius: 16px;
     padding: 60px 24px;
     text-align: center;
-    color: var(--white);
+    color: var(--ink);
   }
 
   footer {
     margin-top: 40px;
-    color: var(--ink);
-    opacity: 0.5;
+    color: var(--muted);
     font-size: 12px;
     font-family: 'IBM Plex Mono', monospace;
   }
@@ -290,17 +354,6 @@
   @media (max-width: 520px) {
     .list {
       grid-template-columns: 1fr;
-    }
-
-    .card {
-      grid-template-columns: 1fr;
-    }
-
-    .row-deadline {
-      grid-row: auto;
-      grid-column: 1;
-      text-align: left;
-      justify-self: start;
     }
   }
 </style>
@@ -350,6 +403,28 @@
   let ALL = [];
   let activeTheme = null;
 
+  // --- per-hackathon status (not interested / participated / consider),
+  // persisted in this browser only ---
+  const STATUS_KEY = 'hackathonRadarStatuses';
+
+  function loadStatuses() {
+    try {
+      return JSON.parse(localStorage.getItem(STATUS_KEY) || '{}');
+    } catch {
+      return {};
+    }
+  }
+
+  function saveStatuses(obj) {
+    try {
+      localStorage.setItem(STATUS_KEY, JSON.stringify(obj));
+    } catch {
+      // storage unavailable — status just won't persist across reloads
+    }
+  }
+
+  let STATUSES = loadStatuses();
+
   function daysLeft(iso) {
     if (!iso) return null;
 
@@ -389,6 +464,26 @@
       text: `${days}d left`,
       cls: ''
     };
+  }
+
+  function buildCategory(h) {
+    if (h.themes && h.themes.length) {
+      return h.themes.slice(0, 2).join(' / ');
+    }
+    return h.mode || 'Hackathon';
+  }
+
+  function buildDesc(h) {
+    const parts = [];
+
+    if (h.mode) {
+      parts.push(h.mode === 'online' ? 'Online' : h.mode === 'offline' ? 'In-person' : h.mode);
+    }
+    if (h.location) parts.push(h.location);
+    if (h.prize_text) parts.push(`${h.prize_text} in prizes`);
+    if (h.participants) parts.push(`${h.participants.toLocaleString()} participants`);
+
+    return parts.length ? parts.join(' · ') : 'Details on Devpost.';
   }
 
   function render() {
@@ -431,23 +526,18 @@
 
     list.innerHTML = items.map(h => {
       const dl = deadlineLabel(h.deadline);
-
-      const meta = [
-        h.mode,
-        h.location,
-        h.prize_text
-      ].filter(Boolean).join(' · ');
-
-      const tags = h.themes
-        .slice(0, 5)
-        .map(t => `<span class="tag">${escapeHtml(t)}</span>`)
-        .join('');
+      const status = STATUSES[h.url] || null;
 
       return `
-        <div class="card">
+        <div class="card${status ? ' status-' + status : ''}" data-key="${escapeAttr(h.url)}">
+
+          <div class="card-top">
+            <div class="id-badge">${escapeHtml(dl.text)}</div>
+            <div class="category">${escapeHtml(buildCategory(h))}</div>
+          </div>
 
           <a
-            class="row-title"
+            class="card-title"
             href="${escapeAttr(h.url)}"
             target="_blank"
             rel="noopener"
@@ -455,16 +545,37 @@
             ${escapeHtml(h.title)}
           </a>
 
-          <div class="row-deadline ${dl.cls}">
-            ${dl.text}
-          </div>
+          <p class="card-desc">${escapeHtml(buildDesc(h))}</p>
 
-          <div class="row-meta">
-            ${escapeHtml(meta)}
-          </div>
+          <div class="card-footer">
+            <div class="status-dots">
+              <button
+                class="dot dot-red${status === 'not_interested' ? ' active' : ''}"
+                data-status="not_interested"
+                title="Not interested"
+                aria-label="Mark as not interested"
+              ></button>
+              <button
+                class="dot dot-green${status === 'participated' ? ' active' : ''}"
+                data-status="participated"
+                title="Already participated"
+                aria-label="Mark as already participated"
+              ></button>
+              <button
+                class="dot dot-yellow${status === 'consider' ? ' active' : ''}"
+                data-status="consider"
+                title="Will consider"
+                aria-label="Mark as will consider"
+              ></button>
+            </div>
 
-          <div class="tags">
-            ${tags}
+            <a
+              class="open-btn"
+              href="${escapeAttr(h.url)}"
+              target="_blank"
+              rel="noopener"
+              aria-label="Open on Devpost"
+            >→</a>
           </div>
 
         </div>
@@ -528,6 +639,35 @@
       });
     });
   }
+
+  // Event delegation on the list: clicking a status dot toggles that
+  // hackathon's status and updates just that card, without a full re-render.
+  document.getElementById('list').addEventListener('click', (e) => {
+    const dot = e.target.closest('.dot');
+    if (!dot) return;
+
+    const card = dot.closest('.card');
+    if (!card) return;
+
+    const key = card.dataset.key;
+    const clickedStatus = dot.dataset.status;
+    const current = STATUSES[key] || null;
+    const next = current === clickedStatus ? null : clickedStatus;
+
+    if (next) {
+      STATUSES[key] = next;
+    } else {
+      delete STATUSES[key];
+    }
+    saveStatuses(STATUSES);
+
+    card.classList.remove('status-not_interested', 'status-participated', 'status-consider');
+    if (next) card.classList.add('status-' + next);
+
+    card.querySelectorAll('.dot').forEach(d => {
+      d.classList.toggle('active', d.dataset.status === next);
+    });
+  });
 
   fetch('hackathons.json?_=' + Date.now())
     .then(r => r.json())
