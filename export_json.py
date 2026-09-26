@@ -9,11 +9,44 @@ list every time it runs, which is exactly what a static site needs.
 import json
 import os
 from datetime import datetime, timezone
+from typing import Optional
 
 from filters import filter_hackathons, load_preferences
+from models import Hackathon
 from sources.devpost import fetch_hackathons
 
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "docs", "hackathons.json")
+
+
+def _prize_currency(prize_text: Optional[str]) -> str:
+    """Best-effort currency detection from the raw prize text Devpost gives us
+    (e.g. '$740,000', '₹50,000'). Falls back to "other" when it can't tell."""
+    if not prize_text:
+        return "other"
+    upper = prize_text.upper()
+    if "₹" in prize_text or "RS." in upper or "RS " in upper or "INR" in upper:
+        return "inr"
+    if "$" in prize_text or "USD" in upper:
+        return "usd"
+    return "other"
+
+
+def _sort_key(h: Hackathon):
+    """
+    Three-tier sort:
+      1. Rupee-prized hackathons, ascending by prize amount
+      2. Dollar-prized hackathons, ascending by prize amount
+      3. Everything else (no usable prize info), by days-left ascending,
+         with no-deadline hackathons pushed to the very end.
+    """
+    currency = _prize_currency(h.prize_text) if h.prize_amount is not None else "other"
+
+    if currency == "inr":
+        return (0, h.prize_amount, False, datetime.max)
+    if currency == "usd":
+        return (1, h.prize_amount, False, datetime.max)
+
+    return (2, 0.0, h.deadline is None, h.deadline or datetime.max)
 
 
 def run() -> None:
@@ -37,8 +70,9 @@ def run() -> None:
 
     matched = filter_hackathons(deduped, prefs)
 
-    # Soonest deadlines first; ones with no listed deadline go last.
-    matched.sort(key=lambda h: (h.deadline is None, h.deadline))
+    # Tier 1: rupee prizes ascending. Tier 2: dollar prizes ascending.
+    # Tier 3: everything else, by days-left ascending, no-deadline last.
+    matched.sort(key=_sort_key)
 
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
