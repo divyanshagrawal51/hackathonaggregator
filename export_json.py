@@ -13,7 +13,8 @@ from typing import Optional
 
 from filters import filter_hackathons, load_preferences
 from models import Hackathon
-from sources.devpost import fetch_hackathons
+from sources.devpost import fetch_hackathons as fetch_devpost_hackathons
+from sources.unstop import fetch_hackathons as fetch_unstop_hackathons
 
 OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "docs", "hackathons.json")
 
@@ -31,6 +32,19 @@ def _prize_currency(prize_text: Optional[str]) -> str:
     return "other"
 
 
+def _normalize_deadline(dt: Optional[datetime]) -> Optional[datetime]:
+    """Devpost's deadlines are naive (no tzinfo). Unstop's come with a real
+    offset (e.g. +05:30). Comparing an aware and a naive datetime raises
+    TypeError, so this converts any aware deadline to naive UTC -- naive
+    ones are left as-is, matching how they're already treated elsewhere
+    (filters.py assumes a naive deadline is already UTC)."""
+    if dt is None:
+        return None
+    if dt.tzinfo is not None:
+        return dt.astimezone(timezone.utc).replace(tzinfo=None)
+    return dt
+
+
 def _sort_key(h: Hackathon):
     """
     Three-tier sort:
@@ -40,24 +54,29 @@ def _sort_key(h: Hackathon):
          with no-deadline hackathons pushed to the very end.
     """
     currency = _prize_currency(h.prize_text) if h.prize_amount is not None else "other"
+    deadline = _normalize_deadline(h.deadline)
 
     if currency == "inr":
         return (0, h.prize_amount, False, datetime.max)
     if currency == "usd":
         return (1, h.prize_amount, False, datetime.max)
 
-    return (2, 0.0, h.deadline is None, h.deadline or datetime.max)
+    return (2, 0.0, deadline is None, deadline or datetime.max)
 
 
 def run() -> None:
     prefs = load_preferences()
 
     # Fetch both "open" (accepting submissions now) and "upcoming" (not
-    # open yet) separately -- Devpost's endpoint only returns one status
-    # per request -- then merge. Dedup by (source, source_id) in case a
-    # hackathon somehow appears in both pages.
-    fetched = list(fetch_hackathons(status="open")) + list(
-        fetch_hackathons(status="upcoming")
+    # open yet) from Devpost separately -- Devpost's endpoint only returns
+    # one status per request -- then merge. Unstop doesn't split cleanly
+    # into open/upcoming the same way, so its adapter handles that
+    # filtering internally (see sources/unstop.py). Dedup by
+    # (source, source_id) in case a hackathon somehow appears twice.
+    fetched = (
+        list(fetch_devpost_hackathons(status="open"))
+        + list(fetch_devpost_hackathons(status="upcoming"))
+        + list(fetch_unstop_hackathons())
     )
     seen = set()
     deduped = []

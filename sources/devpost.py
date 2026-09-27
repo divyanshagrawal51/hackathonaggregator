@@ -108,37 +108,60 @@ def fetch_hackathons(
     status: str = "open",         # "open" | "upcoming" | "ended"
     delay_seconds: float = 1.0,
     client: Optional[httpx.Client] = None,
+    max_empty_retries: int = 3,
 ) -> Iterator[Hackathon]:
-    """
-    Yields normalized Hackathon records from Devpost, paging until an
-    empty page is returned or max_pages is hit.
-
-    max_pages defaults to a high safety ceiling (100) rather than the
-    real expected page count, since the loop already stops as soon as
-    Devpost returns an empty page — the old default of 5 was the actual
-    reason the site topped out at ~23 hackathons: it stopped mid-listing,
-    not because there were no more results.
-    """
+   
     owns_client = client is None
     client = client or httpx.Client(headers=HEADERS, timeout=15.0)
 
+    collected = 0
+    expected_total = None
+    empty_retries = 0
+
     try:
-        for page in range(1, max_pages + 1):
+        page = 1
+        while page <= max_pages:
             params = {"page": page, "status[]": status}
             resp = client.get(BASE_URL, params=params)
             resp.raise_for_status()
             data = resp.json()
 
+            meta = data.get("meta") or {}
+            if expected_total is None and "total_count" in meta:
+                expected_total = meta["total_count"]
+
             entries = data.get("hackathons", [])
+
             if not entries:
+                if (
+                    expected_total is not None
+                    and collected < expected_total
+                    and empty_retries < max_empty_retries
+                ):
+                    empty_retries += 1
+                    print(
+                        f"[devpost] page {page} ({status}) came back empty but only "
+                        f"{collected}/{expected_total} collected -- retrying "
+                        f"(attempt {empty_retries}/{max_empty_retries})"
+                    )
+                    time.sleep(delay_seconds * 2)
+                    continue  # retry the same page, don't advance
+                if expected_total is not None and collected < expected_total:
+                    print(
+                        f"[devpost] gave up after {max_empty_retries} retries on page "
+                        f"{page} ({status}) -- only got {collected}/{expected_total}"
+                    )
                 break
 
+            empty_retries = 0
             for entry in entries:
                 try:
                     yield _normalize(entry)
+                    collected += 1
                 except Exception as exc:  # keep going even if one entry is malformed
                     print(f"[devpost] skipped a malformed entry: {exc}")
 
+            page += 1
             time.sleep(delay_seconds)  # be polite, avoid hammering the endpoint
     finally:
         if owns_client:
