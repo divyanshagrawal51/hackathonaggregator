@@ -122,9 +122,61 @@ def fetch_hackathons(
         page = 1
         while page <= max_pages:
             params = {"page": page, "status[]": status}
-            resp = client.get(BASE_URL, params=params)
-            resp.raise_for_status()
-            data = resp.json()
+            data = None
+
+            for attempt in range(max_empty_retries + 1):
+                try:
+                    resp = client.get(BASE_URL, params=params)
+
+                    # Retry temporary rate-limit/server errors.
+                    if resp.status_code in (429, 500, 502, 503, 504):
+                        if attempt < max_empty_retries:
+                            wait = delay_seconds * (attempt + 2)
+                            print(
+                                f"[devpost] page {page} returned HTTP "
+                                f"{resp.status_code}; retrying in {wait}s"
+                            )
+                            time.sleep(wait)
+                            continue
+
+                    resp.raise_for_status()
+
+                    try:
+                        data = resp.json()
+                    except ValueError:
+                        if attempt < max_empty_retries:
+                            wait = delay_seconds * (attempt + 2)
+                            print(
+                                f"[devpost] page {page} returned invalid/empty JSON "
+                                f"(HTTP {resp.status_code}); retrying in {wait}s"
+                            )
+                            time.sleep(wait)
+                            continue
+
+                        raise RuntimeError(
+                            f"Devpost returned invalid/empty JSON after retries. "
+                            f"HTTP {resp.status_code}; "
+                            f"response: {resp.text[:300]!r}"
+                        )
+
+                    break
+
+                except httpx.RequestError as exc:
+                    if attempt >= max_empty_retries:
+                        raise
+
+                    wait = delay_seconds * (attempt + 2)
+                    print(
+                        f"[devpost] request failed on page {page}: {exc}; "
+                        f"retrying in {wait}s"
+                    )
+                    time.sleep(wait)
+
+            if not isinstance(data, dict):
+                raise RuntimeError(
+                    f"Unexpected Devpost response on page {page}: "
+                    f"{type(data).__name__}"
+                )
 
             meta = data.get("meta") or {}
             if expected_total is None and "total_count" in meta:
