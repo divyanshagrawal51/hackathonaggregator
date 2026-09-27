@@ -938,7 +938,9 @@
     background:
       radial-gradient(circle at 96% 4%, rgba(229, 149, 180, 0.23), transparent 25rem),
       radial-gradient(circle at 4% 32%, rgba(221, 208, 241, 0.29), transparent 24rem),
+      radial-gradient(rgba(93, 59, 104, 0.045) 0.55px, transparent 0.55px),
       var(--bg);
+    background-size: auto, auto, 18px 18px, auto;
   }
 
   a,
@@ -1123,6 +1125,220 @@
       display: none;
     }
   }
+
+  .filter-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2px;
+  }
+
+  .clear-filters,
+  .clear-inline {
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--plum);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    transition: background-color 180ms ease, border-color 180ms ease, color 180ms ease, transform 180ms ease;
+  }
+
+  .clear-filters {
+    padding: 6px 11px;
+  }
+
+  .clear-filters:hover,
+  .clear-inline:hover {
+    border-color: var(--hot-pink);
+    background: var(--floral);
+    color: var(--accent);
+    transform: translateY(-2px);
+  }
+
+  .card-source {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin: -5px 0 8px;
+    color: var(--muted);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .source-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--floral-strong);
+    box-shadow: 0 0 0 3px rgba(229, 149, 180, 0.15);
+  }
+
+  .card-source:has(+ .card-title) .source-dot {
+    background: var(--purple);
+  }
+
+  .card .id-badge.deadline-urgent {
+    background: #f3abc2;
+    border-color: #dc7899;
+    color: #702947;
+    box-shadow: 0 4px 12px rgba(209, 63, 128, 0.2);
+    animation: deadline-pulse 2.2s ease-in-out infinite;
+  }
+
+  .card .id-badge.deadline-soon {
+    background: var(--floral);
+    border-color: var(--floral-strong);
+    color: #8d3e60;
+  }
+
+  .card .id-badge.deadline-steady {
+    background: var(--lavender);
+    border-color: var(--lavender-deep);
+    color: var(--plum);
+  }
+
+  .card .id-badge.deadline-open {
+    background: var(--sage);
+    border-color: #b5d2be;
+    color: #47715a;
+  }
+
+  .card .id-badge.deadline-closed,
+  .card .id-badge.deadline-unknown {
+    background: rgba(255, 255, 255, 0.68);
+    border-color: var(--border);
+    color: var(--muted);
+  }
+
+  .skeleton-card {
+    min-height: 282px;
+    padding: 23px 24px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: rgba(255, 253, 251, 0.72);
+    box-shadow: 0 12px 28px rgba(93, 59, 104, 0.05);
+    animation: skeleton-rise 0.45s ease both;
+  }
+
+  .skeleton-card:nth-child(2) { animation-delay: 80ms; }
+  .skeleton-card:nth-child(3) { animation-delay: 160ms; }
+
+  .skeleton-line {
+    display: block;
+    border-radius: 999px;
+    background: linear-gradient(90deg, var(--lavender) 20%, #f8f2fa 45%, var(--lavender) 70%);
+    background-size: 220% 100%;
+    animation: skeleton-shimmer 1.5s ease-in-out infinite;
+  }
+
+  .skeleton-pill {
+    width: 104px;
+    height: 24px;
+    margin-bottom: 42px;
+  }
+
+  .skeleton-title {
+    width: 72%;
+    height: 30px;
+    margin-bottom: 24px;
+  }
+
+  .skeleton-copy {
+    width: 92%;
+    height: 12px;
+    margin-bottom: 12px;
+  }
+
+  .skeleton-copy.short {
+    width: 58%;
+  }
+
+  .empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .empty-kicker {
+    color: var(--accent);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+  }
+
+  .empty strong {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 22px;
+    letter-spacing: -0.04em;
+  }
+
+  .empty p {
+    max-width: 440px;
+    margin: 0 0 10px;
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  .clear-inline {
+    padding: 9px 13px;
+  }
+
+  .open-btn {
+    gap: 8px;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: width 240ms ease, transform 220ms ease, box-shadow 220ms ease, background-color 180ms ease;
+  }
+
+  .open-icon {
+    flex-shrink: 0;
+    line-height: 1;
+  }
+
+  .open-label {
+    max-width: 0;
+    overflow: hidden;
+    opacity: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    transition: max-width 220ms ease, opacity 160ms ease;
+  }
+
+  .card:hover .open-btn {
+    width: 128px;
+    justify-content: space-between;
+    padding-inline: 12px;
+  }
+
+  .card:hover .open-label {
+    max-width: 82px;
+    opacity: 1;
+  }
+
+  @keyframes deadline-pulse {
+    0%, 100% { box-shadow: 0 4px 12px rgba(209, 63, 128, 0.18); }
+    50% { box-shadow: 0 4px 16px rgba(209, 63, 128, 0.34); }
+  }
+
+  @keyframes skeleton-shimmer {
+    0% { background-position: 100% 0; }
+    100% { background-position: -100% 0; }
+  }
+
+  @keyframes skeleton-rise {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
 </style>
 </head>
 
@@ -1178,10 +1394,31 @@
 
     <div class="row chips-row" id="theme-chips"></div>
 
+    <div class="filter-actions">
+      <button class="clear-filters" id="clear-filters" type="button" hidden>Clear filters</button>
+    </div>
+
     <p class="count-line" id="count-line"></p>
 
     <div class="list" id="list">
-      <div class="empty">Loading…</div>
+      <div class="skeleton-card" aria-hidden="true">
+        <span class="skeleton-line skeleton-pill"></span>
+        <span class="skeleton-line skeleton-title"></span>
+        <span class="skeleton-line skeleton-copy"></span>
+        <span class="skeleton-line skeleton-copy short"></span>
+      </div>
+      <div class="skeleton-card" aria-hidden="true">
+        <span class="skeleton-line skeleton-pill"></span>
+        <span class="skeleton-line skeleton-title"></span>
+        <span class="skeleton-line skeleton-copy"></span>
+        <span class="skeleton-line skeleton-copy short"></span>
+      </div>
+      <div class="skeleton-card" aria-hidden="true">
+        <span class="skeleton-line skeleton-pill"></span>
+        <span class="skeleton-line skeleton-title"></span>
+        <span class="skeleton-line skeleton-copy"></span>
+        <span class="skeleton-line skeleton-copy short"></span>
+      </div>
     </div>
 
     <footer>
@@ -1311,15 +1548,24 @@
 
   function deadlineLabel(iso) {
     const days = daysLeft(iso);
-    if (days === null) return { text: 'no deadline listed', cls: 'unknown' };
-    if (days < 0) return { text: 'closed', cls: 'unknown' };
-    if (days === 0) return { text: 'closes today', cls: '' };
-    return { text: `${days}d left`, cls: '' };
+    if (days === null) return { text: 'no deadline listed', cls: 'unknown', tone: 'unknown' };
+    if (days < 0) return { text: 'closed', cls: 'unknown', tone: 'closed' };
+    if (days <= 2) return { text: days === 0 ? 'closes today' : `${days}d left`, cls: '', tone: 'urgent' };
+    if (days <= 7) return { text: `${days}d left`, cls: '', tone: 'soon' };
+    if (days <= 21) return { text: `${days}d left`, cls: '', tone: 'steady' };
+    return { text: `${days}d left`, cls: '', tone: 'open' };
   }
 
   function buildCategory(h) {
     if (h.themes && h.themes.length) return h.themes.slice(0, 2).join(' / ');
     return h.mode || 'Hackathon';
+  }
+
+  function buildSourceLabel(h) {
+    const source = (h.source || '').toLowerCase();
+    if (source === 'devpost') return 'Devpost listing';
+    if (source === 'unstop') return 'Unstop listing';
+    return 'Hackathon listing';
   }
 
   function buildDesc(h) {
@@ -1359,10 +1605,24 @@
   return ALL;
 }
 
+  function resetFilters() {
+    activeTheme = null;
+    activeTab = 'all';
+    document.getElementById('search').value = '';
+    document.querySelectorAll('#tabs .tab-btn').forEach((btn) => {
+      btn.classList.toggle('active', btn.dataset.tab === 'all');
+    });
+    document.querySelectorAll('#theme-chips .chip').forEach((chip) => {
+      chip.classList.remove('active');
+    });
+    render();
+  }
+
   function render() {
     const q = document.getElementById('search').value.trim().toLowerCase();
     const list = document.getElementById('list');
     const source = currentSourceList();
+    const clearFilters = document.getElementById('clear-filters');
 
     let items = source.filter((h) => {
       if (activeTheme && !h.themes.map((t) => t.toLowerCase()).includes(activeTheme)) return false;
@@ -1373,12 +1633,36 @@
 
     document.getElementById('count-line').textContent =
       `${items.length} of ${source.length} hackathon${source.length === 1 ? '' : 's'}`;
+    clearFilters.hidden = !(q || activeTheme || activeTab !== 'all');
 
     if (items.length === 0) {
-      const msg = activeTab === 'mine' && source.length === 0
-        ? "Nothing here yet — mark a hackathon as \u201cwill consider\u201d or \u201cparticipated\u201d to see it in this tab."
-        : 'Nothing matches. Try a different search or clear the theme filter.';
-      list.innerHTML = `<div class="empty">${msg}</div>`;
+      if (activeTab === 'mine' && source.length === 0) {
+        list.innerHTML = `
+          <div class="empty empty-mine">
+            <span class="empty-kicker">MY HACKATHONS</span>
+            <strong>Nothing saved yet</strong>
+            <p>Mark a listing as “will consider” or “participated” to collect it here.</p>
+          </div>
+        `;
+      } else if (source.length === 0) {
+        list.innerHTML = `
+          <div class="empty empty-source">
+            <span class="empty-kicker">${escapeHtml(activeTab.toUpperCase())}</span>
+            <strong>No listings here yet</strong>
+            <p>Try another source or return to all hackathons.</p>
+            <button class="clear-inline" type="button">Show all hackathons</button>
+          </div>
+        `;
+      } else {
+        list.innerHTML = `
+          <div class="empty empty-results">
+            <span class="empty-kicker">NO MATCHES</span>
+            <strong>Try a wider search</strong>
+            <p>Nothing matches the current search and theme combination.</p>
+            <button class="clear-inline" type="button">Clear filters</button>
+          </div>
+        `;
+      }
       return;
     }
 
@@ -1390,9 +1674,11 @@
         <div class="card${status ? ' status-' + status : ''}" data-key="${escapeAttr(h.url)}">
 
           <div class="card-top">
-            <div class="id-badge">${escapeHtml(dl.text)}</div>
+            <div class="id-badge deadline-${dl.tone}">${escapeHtml(dl.text)}</div>
             <div class="category">${escapeHtml(buildCategory(h))}</div>
           </div>
+
+          <div class="card-source"><span class="source-dot"></span>${escapeHtml(buildSourceLabel(h))}</div>
 
           <a class="card-title" href="${escapeAttr(h.url)}" target="_blank" rel="noopener">
             ${escapeHtml(h.title)}
@@ -1406,7 +1692,10 @@
               <button class="dot dot-green${status === 'participated' ? ' active' : ''}" data-status="participated" title="Already participated" aria-label="Mark as already participated"></button>
               <button class="dot dot-yellow${status === 'consider' ? ' active' : ''}" data-status="consider" title="Will consider" aria-label="Mark as will consider"></button>
             </div>
-            <a class="open-btn" href="${escapeAttr(h.url)}" target="_blank" rel="noopener" aria-label="Open on Devpost">→</a>
+            <a class="open-btn" href="${escapeAttr(h.url)}" target="_blank" rel="noopener" aria-label="Open listing">
+              <span class="open-label">Open listing</span>
+              <span class="open-icon">→</span>
+            </a>
           </div>
 
         </div>
@@ -1447,7 +1736,15 @@
     render();
   });
 
+  document.getElementById('clear-filters').addEventListener('click', resetFilters);
+
   document.getElementById('list').addEventListener('click', (e) => {
+    const clearInline = e.target.closest('.clear-inline');
+    if (clearInline) {
+      resetFilters();
+      return;
+    }
+
     const dot = e.target.closest('.dot');
     if (!dot) return;
     const card = dot.closest('.card');
@@ -1474,7 +1771,11 @@
     })
     .catch(() => {
       document.getElementById('list').innerHTML = `
-        <div class="empty">Could not load hackathons.json — has the GitHub Action run yet?</div>
+        <div class="empty empty-error">
+          <span class="empty-kicker">DATA UNAVAILABLE</span>
+          <strong>Couldn’t load listings</strong>
+          <p>Check that hackathons.json exists and that the data refresh has run.</p>
+        </div>
       `;
     });
 
