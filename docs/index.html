@@ -346,32 +346,30 @@
     gap: 10px;
   }
 
-  
-.dot {
-  width: 22px;
-  height: 22px;
-  border-radius: 50%;
-  border: 2px solid transparent;
-  padding: 0;
-  cursor: pointer;
-}
+  .dot {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid rgba(27, 23, 16, 0.35);
+    background: var(--white);
+    padding: 0;
+    cursor: pointer;
+  }
 
-.dot-red {
-  background: var(--red);
-}
+  .dot-red.active {
+    background: var(--red);
+    border-color: var(--red);
+  }
 
-.dot-green {
-  background: var(--green);
-}
+  .dot-green.active {
+    background: var(--green);
+    border-color: var(--green);
+  }
 
-.dot-yellow {
-  background: var(--yellow);
-}
-
-.dot.active {
-  outline: 2px solid var(--ink);
-  outline-offset: 2px;
-}
+  .dot-yellow.active {
+    background: var(--yellow);
+    border-color: var(--yellow);
+  }
 
   .open-btn {
     width: 38px;
@@ -438,6 +436,7 @@
 
     <div class="tabs" id="tabs">
       <button class="tab-btn active" data-tab="all">All Hackathons</button>
+      <button class="tab-btn" data-tab="unstop">Unstop</button>
       <button class="tab-btn" data-tab="mine">My Hackathons</button>
     </div>
 
@@ -479,14 +478,13 @@
   // Firebase console -> Project settings -> General -> Your apps -> </> (web app)
   // ============================================================
   const firebaseConfig = {
-  apiKey: "AIzaSyCUy3TjVe7YO7uhiodbPbV5ZL85KjMI820",
-  authDomain: "hackathon-radar-33c9d.firebaseapp.com",
-  projectId: "hackathon-radar-33c9d",
-  storageBucket: "hackathon-radar-33c9d.firebasestorage.app",
-  messagingSenderId: "403945643871",
-  appId: "1:403945643871:web:135bcee8b57e5d9cfb60ea",
-  measurementId: "G-620Z5JHMZ3"
-};
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_PROJECT_ID.appspot.com",
+    messagingSenderId: "YOUR_SENDER_ID",
+    appId: "YOUR_APP_ID"
+  };
   // ============================================================
 
   const TRACKED_COLLECTION = 'trackedHackathons';
@@ -515,7 +513,7 @@
   let ALL = [];
   let TRACKED = {}; // url -> { status, snapshot, updatedAt }
   let activeTheme = null;
-  let activeTab = 'all'; // 'all' | 'mine'
+  let activeTab = 'all'; // 'all' | 'unstop' | 'mine'
 
   function docIdFor(url) {
     return encodeURIComponent(url);
@@ -622,6 +620,9 @@
       return Object.values(TRACKED)
         .filter((t) => t.status === 'participated' || t.status === 'consider')
         .map((t) => t.snapshot);
+    }
+    if (activeTab === 'unstop') {
+      return ALL.filter((h) => h.source === 'unstop');
     }
     return ALL;
   }
