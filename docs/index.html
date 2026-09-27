@@ -7,7 +7,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
   :root {
@@ -893,6 +893,175 @@
       padding: 20px 20px 17px;
     }
   }
+
+  /* Final polish: warmer typography, richer contrast, a small interactive pet, and a themed cursor. */
+  :root {
+    --bg: #faf7fc;
+    --hot-pink: #d13f80;
+  }
+
+  body {
+    font-family: 'Source Sans 3', system-ui, sans-serif;
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Ccircle cx='10' cy='10' r='7' fill='%23d13f80' stroke='%232b1d32' stroke-width='2'/%3E%3Cpath d='M10 10l12 12' stroke='%232b1d32' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E") 10 10, auto;
+  }
+
+  body {
+    background:
+      radial-gradient(circle at 96% 4%, rgba(229, 149, 180, 0.23), transparent 25rem),
+      radial-gradient(circle at 4% 32%, rgba(221, 208, 241, 0.29), transparent 24rem),
+      var(--bg);
+  }
+
+  a,
+  button {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Ccircle cx='10' cy='10' r='7' fill='%23d13f80' stroke='%232b1d32' stroke-width='2'/%3E%3Cpath d='M10 10l12 12' stroke='%232b1d32' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E") 10 10, pointer;
+  }
+
+  input {
+    cursor: text;
+  }
+
+  h1,
+  .card-title {
+    font-family: 'Fraunces', Georgia, serif;
+    font-variation-settings: "opsz" 72;
+    letter-spacing: -0.045em;
+  }
+
+  h1 {
+    font-weight: 600;
+  }
+
+  .card-title {
+    font-weight: 600;
+    line-height: 1.08;
+  }
+
+  .open-btn {
+    background: var(--hot-pink);
+    border-color: var(--hot-pink);
+    color: var(--white);
+    box-shadow: 0 7px 15px rgba(209, 63, 128, 0.28);
+  }
+
+  .open-btn:hover {
+    background: var(--purple);
+    border-color: var(--purple);
+    color: var(--white);
+    box-shadow: 0 7px 15px rgba(118, 87, 168, 0.3);
+  }
+
+  .pet-wrap {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .site-pet {
+    display: grid;
+    place-items: center;
+    width: 62px;
+    height: 62px;
+    padding: 0;
+    background: var(--lavender);
+    border: 1px solid var(--lavender-deep);
+    border-radius: 22px 22px 22px 8px;
+    box-shadow: 0 9px 20px rgba(93, 59, 104, 0.12);
+    transition: transform 180ms ease, box-shadow 180ms ease, background-color 180ms ease;
+  }
+
+  .site-pet:hover {
+    background: var(--floral);
+    box-shadow: 0 13px 24px rgba(93, 59, 104, 0.17);
+    transform: translateY(-4px) rotate(-3deg);
+  }
+
+  .pet-art {
+    width: 47px;
+    height: 47px;
+    overflow: visible;
+  }
+
+  .pet-shell {
+    fill: var(--purple);
+    stroke: var(--plum);
+    stroke-width: 1.8;
+  }
+
+  .pet-shell-line {
+    fill: none;
+    stroke: var(--lavender);
+    stroke-linecap: round;
+    stroke-width: 1.6;
+  }
+
+  .pet-head,
+  .pet-leg {
+    fill: var(--sage);
+    stroke: var(--plum);
+    stroke-width: 1.8;
+  }
+
+  .pet-eye {
+    fill: var(--plum);
+  }
+
+  .pet-smile {
+    fill: none;
+    stroke: var(--plum);
+    stroke-linecap: round;
+    stroke-width: 1.4;
+  }
+
+  .pet-bubble {
+    max-width: 156px;
+    padding: 8px 11px;
+    border: 1px solid var(--border);
+    border-radius: 12px 12px 4px 12px;
+    background: rgba(255, 253, 251, 0.95);
+    box-shadow: 0 7px 18px rgba(93, 59, 104, 0.1);
+    color: var(--plum);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    line-height: 1.35;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(8px);
+    transition: opacity 180ms ease, transform 180ms ease;
+  }
+
+  .pet-wrap.is-talking .pet-bubble {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .site-pet.is-happy .pet-art {
+    animation: pet-hop 620ms cubic-bezier(0.2, 0.8, 0.3, 1) both;
+  }
+
+  @keyframes pet-hop {
+    0%, 100% { transform: translateY(0) rotate(0); }
+    35% { transform: translateY(-8px) rotate(-5deg); }
+    70% { transform: translateY(-2px) rotate(4deg); }
+  }
+
+  @media (max-width: 680px) {
+    .pet-wrap {
+      right: 2px;
+      transform: scale(0.88);
+      transform-origin: top right;
+    }
+  }
+
+  @media (max-width: 520px) {
+    .pet-bubble {
+      display: none;
+    }
+  }
 </style>
 </head>
 
@@ -904,6 +1073,22 @@
         <span class="dot"></span>
         Live from Devpost
         <span id="sync-status"></span>
+      </div>
+
+      <div class="pet-wrap" id="pet-wrap">
+        <button class="site-pet" id="site-pet" type="button" aria-label="Say hello to the turtle" title="Say hello to the turtle">
+          <svg class="pet-art" viewBox="0 0 64 64" aria-hidden="true">
+            <path class="pet-leg" d="M19 39c-7 1-9 8-4 10 4 1 7-2 8-7M43 39c7 1 9 8 4 10-4 1-7-2-8-7" />
+            <path class="pet-leg" d="M24 43c-4 5-2 9 2 9 3 0 5-3 4-7M39 43c4 5 2 9-2 9-3 0-5-3-4-7" />
+            <ellipse class="pet-shell" cx="31" cy="32" rx="19" ry="15" />
+            <path class="pet-shell-line" d="M20 27c7 5 15 5 22 0M19 35c8-4 16-4 24 0M31 18c-3 5-3 23 0 29" />
+            <circle class="pet-head" cx="49" cy="29" r="8" />
+            <circle class="pet-eye" cx="51" cy="27" r="1.5" />
+            <path class="pet-smile" d="M50 32c2 2 4 1 5 0" />
+            <path class="pet-head" d="M13 28c-6-4-9-1-7 3 2 3 5 3 8 1" />
+          </svg>
+        </button>
+        <span class="pet-bubble" id="pet-bubble" role="status" aria-live="polite"></span>
       </div>
 
       <h1>Hackathon Radar</h1>
@@ -1233,6 +1418,28 @@
     });
 
   document.getElementById('search').addEventListener('input', render);
+
+  const petWrap = document.getElementById('pet-wrap');
+  const pet = document.getElementById('site-pet');
+  const petBubble = document.getElementById('pet-bubble');
+  const petMessages = [
+    'slow and steady wins.',
+    'good luck, builder.',
+    'shell yeah!',
+    'one idea at a time.'
+  ];
+  let petMessageIndex = 0;
+  let petTimer;
+
+  pet.addEventListener('click', () => {
+    petMessageIndex = (petMessageIndex + 1) % petMessages.length;
+    petBubble.textContent = petMessages[petMessageIndex];
+    petWrap.classList.add('is-talking');
+    pet.classList.remove('is-happy');
+    requestAnimationFrame(() => pet.classList.add('is-happy'));
+    clearTimeout(petTimer);
+    petTimer = setTimeout(() => petWrap.classList.remove('is-talking'), 2400);
+  });
 
   subscribeTracked();
 </script>
