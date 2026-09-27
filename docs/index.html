@@ -668,7 +668,7 @@
     top: 0;
     left: 24px;
     right: 24px;
-    height: 3px;
+    height: 4px;
     border-radius: 0 0 999px 999px;
     background: linear-gradient(90deg, var(--hot-pink), var(--lavender-deep));
     transform: scaleX(0);
@@ -684,12 +684,12 @@
 
   .card:hover {
     border-color: #cbb8d6;
-    box-shadow: 0 22px 42px rgba(93, 59, 104, 0.17);
-    transform: translateY(-10px) scale(1.01);
+    box-shadow: 0 30px 58px rgba(93, 59, 104, 0.22);
+    transform: translateY(-14px) scale(1.025);
   }
 
   .card:hover::before {
-    width: 7px;
+    width: 9px;
     opacity: 1;
   }
 
@@ -968,7 +968,12 @@
 
   .card:hover .card-title {
     color: var(--plum);
-    transform: translateX(4px);
+    transform: translateX(6px);
+  }
+
+  .card:hover .open-btn {
+    transform: translateX(3px) scale(1.08);
+    box-shadow: 0 10px 20px rgba(209, 63, 128, 0.38);
   }
 
   .open-btn {
@@ -1057,6 +1062,9 @@
   }
 
   .pet-bubble {
+    position: absolute;
+    right: calc(100% + 12px);
+    top: 50%;
     max-width: 156px;
     padding: 8px 11px;
     border: 1px solid var(--border);
@@ -1067,15 +1075,16 @@
     font-family: 'IBM Plex Mono', monospace;
     font-size: 10px;
     line-height: 1.35;
+    white-space: nowrap;
     opacity: 0;
     pointer-events: none;
-    transform: translateX(8px);
+    transform: translate(8px, -50%);
     transition: opacity 180ms ease, transform 180ms ease;
   }
 
   .pet-wrap.is-talking .pet-bubble {
     opacity: 1;
-    transform: translateX(0);
+    transform: translate(0, -50%);
   }
 
   .site-pet.is-happy .pet-art {
