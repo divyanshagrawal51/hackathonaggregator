@@ -436,6 +436,7 @@
 
     <div class="tabs" id="tabs">
       <button class="tab-btn active" data-tab="all">All Hackathons</button>
+      <button class="tab-btn" data-tab="devpost">Devpost</button>
       <button class="tab-btn" data-tab="unstop">Unstop</button>
       <button class="tab-btn" data-tab="mine">My Hackathons</button>
     </div>
@@ -513,7 +514,7 @@
   let ALL = [];
   let TRACKED = {}; // url -> { status, snapshot, updatedAt }
   let activeTheme = null;
-  let activeTab = 'all'; // 'all' | 'unstop' | 'mine'
+  let activeTab = 'all'; // 'all' | 'devpost' | 'unstop' | 'mine'
 
   function docIdFor(url) {
     return encodeURIComponent(url);
@@ -616,16 +617,18 @@
   }
 
   function currentSourceList() {
-    if (activeTab === 'mine') {
-      return Object.values(TRACKED)
-        .filter((t) => t.status === 'participated' || t.status === 'consider')
-        .map((t) => t.snapshot);
-    }
-    if (activeTab === 'unstop') {
-      return ALL.filter((h) => h.source === 'unstop');
-    }
-    return ALL;
+  if (activeTab === 'mine') {
+    return Object.values(TRACKED)
+      .filter((t) => t.status === 'participated' || t.status === 'consider')
+      .map((t) => t.snapshot);
   }
+
+  if (activeTab === 'devpost' || activeTab === 'unstop') {
+    return ALL.filter((h) => h.source === activeTab);
+  }
+
+  return ALL;
+}
 
   function render() {
     const q = document.getElementById('search').value.trim().toLowerCase();
