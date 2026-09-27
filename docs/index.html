@@ -7,7 +7,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <style>
   :root {
@@ -643,6 +643,11 @@
     box-shadow: 0 12px 28px rgba(93, 59, 104, 0.08);
     padding: 23px 24px 19px;
     animation: card-in 0.55s cubic-bezier(0.2, 0.75, 0.25, 1) both;
+    transition:
+      transform 280ms cubic-bezier(0.2, 0.8, 0.25, 1),
+      box-shadow 280ms ease,
+      border-color 280ms ease;
+    will-change: transform;
   }
 
   .card::before {
@@ -654,6 +659,21 @@
     height: 100%;
     background: var(--floral-strong);
     opacity: 0.8;
+    transition: width 280ms ease, opacity 280ms ease;
+  }
+
+  .card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 24px;
+    right: 24px;
+    height: 3px;
+    border-radius: 0 0 999px 999px;
+    background: linear-gradient(90deg, var(--hot-pink), var(--lavender-deep));
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 300ms cubic-bezier(0.2, 0.8, 0.25, 1);
   }
 
   .card:nth-child(2) { animation-delay: 45ms; }
@@ -664,8 +684,17 @@
 
   .card:hover {
     border-color: #cbb8d6;
-    box-shadow: 0 18px 34px rgba(93, 59, 104, 0.14);
-    transform: translateY(-6px);
+    box-shadow: 0 22px 42px rgba(93, 59, 104, 0.17);
+    transform: translateY(-10px) scale(1.01);
+  }
+
+  .card:hover::before {
+    width: 7px;
+    opacity: 1;
+  }
+
+  .card:hover::after {
+    transform: scaleX(1);
   }
 
   .card.status-not_interested,
@@ -901,8 +930,8 @@
   }
 
   body {
-    font-family: 'Source Sans 3', system-ui, sans-serif;
-    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Ccircle cx='10' cy='10' r='6' fill='%23f7d6e2' stroke='%235d3b68' stroke-width='1.5'/%3E%3Ccircle cx='10' cy='10' r='2' fill='%23d13f80'/%3E%3C/svg%3E") 10 10, auto;
+    font-family: 'Inter', system-ui, sans-serif;
+    cursor: auto;
   }
 
   body {
@@ -914,7 +943,7 @@
 
   a,
   button {
-    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Ccircle cx='10' cy='10' r='6' fill='%23f7d6e2' stroke='%235d3b68' stroke-width='1.5'/%3E%3Ccircle cx='10' cy='10' r='2' fill='%23d13f80'/%3E%3C/svg%3E") 10 10, pointer;
+    cursor: pointer;
   }
 
   input {
@@ -923,9 +952,8 @@
 
   h1,
   .card-title {
-    font-family: 'Fraunces', Georgia, serif;
-    font-variation-settings: "opsz" 72;
-    letter-spacing: -0.045em;
+    font-family: 'Inter', system-ui, sans-serif;
+    letter-spacing: -0.05em;
   }
 
   h1 {
@@ -935,6 +963,12 @@
   .card-title {
     font-weight: 600;
     line-height: 1.08;
+    transition: color 220ms ease, transform 220ms ease;
+  }
+
+  .card:hover .card-title {
+    color: var(--plum);
+    transform: translateX(4px);
   }
 
   .open-btn {
