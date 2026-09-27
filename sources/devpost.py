@@ -110,7 +110,19 @@ def fetch_hackathons(
     client: Optional[httpx.Client] = None,
     max_empty_retries: int = 3,
 ) -> Iterator[Hackathon]:
-   
+    """
+    Yields normalized Hackathon records from Devpost, paging until an
+    empty page is returned or max_pages is hit.
+
+    Devpost's response includes a "meta": {"total_count": N} field. We use
+    that as the ground truth for how many results should exist. An empty
+    page is only treated as "no more results" once we've actually
+    collected total_count items -- if it comes back empty earlier than
+    that (Devpost intermittently does this, likely rate-limiting rapid
+    repeated requests rather than genuinely running out of data), we
+    retry that same page a few times with backoff before giving up and
+    logging a warning, instead of silently under-reporting.
+    """
     owns_client = client is None
     client = client or httpx.Client(headers=HEADERS, timeout=15.0)
 
@@ -122,61 +134,17 @@ def fetch_hackathons(
         page = 1
         while page <= max_pages:
             params = {"page": page, "status[]": status}
-            data = None
+            resp = client.get(BASE_URL, params=params)
+            resp.raise_for_status()
 
-            for attempt in range(max_empty_retries + 1):
-                try:
-                    resp = client.get(BASE_URL, params=params)
-
-                    # Retry temporary rate-limit/server errors.
-                    if resp.status_code in (429, 500, 502, 503, 504):
-                        if attempt < max_empty_retries:
-                            wait = delay_seconds * (attempt + 2)
-                            print(
-                                f"[devpost] page {page} returned HTTP "
-                                f"{resp.status_code}; retrying in {wait}s"
-                            )
-                            time.sleep(wait)
-                            continue
-
-                    resp.raise_for_status()
-
-                    try:
-                        data = resp.json()
-                    except ValueError:
-                        if attempt < max_empty_retries:
-                            wait = delay_seconds * (attempt + 2)
-                            print(
-                                f"[devpost] page {page} returned invalid/empty JSON "
-                                f"(HTTP {resp.status_code}); retrying in {wait}s"
-                            )
-                            time.sleep(wait)
-                            continue
-
-                        raise RuntimeError(
-                            f"Devpost returned invalid/empty JSON after retries. "
-                            f"HTTP {resp.status_code}; "
-                            f"response: {resp.text[:300]!r}"
-                        )
-
-                    break
-
-                except httpx.RequestError as exc:
-                    if attempt >= max_empty_retries:
-                        raise
-
-                    wait = delay_seconds * (attempt + 2)
-                    print(
-                        f"[devpost] request failed on page {page}: {exc}; "
-                        f"retrying in {wait}s"
-                    )
-                    time.sleep(wait)
-
-            if not isinstance(data, dict):
-                raise RuntimeError(
-                    f"Unexpected Devpost response on page {page}: "
-                    f"{type(data).__name__}"
-                )
+            try:
+                data = resp.json()
+            except ValueError:
+                # Devpost occasionally returns a 200/202 with an empty or
+                # non-JSON body under load. Treat this exactly like an
+                # empty page below -- retry with backoff rather than
+                # letting the whole export crash on one bad response.
+                data = {}
 
             meta = data.get("meta") or {}
             if expected_total is None and "total_count" in meta:
