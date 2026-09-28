@@ -1674,13 +1674,23 @@
   }
 
   function getCollege(h) {
-    return h.college || h.organizer || h.organization_name || h.organization || h.host || '';
+    const directCollege = h.college || h.organizer || h.organization_name || h.organization || h.host || '';
+    if (directCollege) return directCollege;
+
+    // Some listings put the organizing college in the location field.
+    const location = (h.location || '').trim();
+    if (/\b(college|university|institute|school|campus|iit|nit|iiit|vit|bits|mit|srm)\b/i.test(location)) {
+      return location;
+    }
+
+    return '';
   }
 
   function buildDesc(h) {
     const parts = [];
+    const college = getCollege(h);
     if (h.mode) parts.push(h.mode === 'online' ? 'Online' : h.mode === 'offline' ? 'In-person' : h.mode);
-    if (h.location) parts.push(h.location);
+    if (h.location && h.location !== college) parts.push(h.location);
     if (h.participants) parts.push(`${h.participants.toLocaleString()} participants`);
     return parts.length ? parts.join(' · ') : 'Details on Devpost.';
   }
