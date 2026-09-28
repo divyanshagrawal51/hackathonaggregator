@@ -14,13 +14,14 @@ silently ignored and the endpoint just returns everything (hackathons,
 workshops, quizzes, competitions, jobs, scholarships, all mixed
 together) rather than erroring.
 
-Because of that, this adapter does NOT trust "opportunity=..." query
-params to do the filtering server-side. Filtering happens client-side in
-_is_allowed() below: everything is let through EXCEPT anything that
-looks like a workshop or webinar (by type, subtype, or URL slug) --
-hackathons, competitions, case studies, quizzes, etc. all pass. If
-Unstop changes its response shape, check a live sample (run this file
-directly) and adjust _is_allowed() rather than the URL params.
+Because of that, this adapter does NOT trust the "opportunity=hackathons"
+query param alone to do the filtering. It's included in the request as a
+best-effort hint, but the real filtering happens client-side in
+_is_hackathon() below, which only keeps entries whose own "type" field
+says "hackathons" and explicitly rejects anything that looks like a
+workshop or webinar (by type, subtype, or URL slug). If Unstop changes
+its response shape, check a live sample (run this file directly) and
+adjust _is_hackathon() rather than the URL params.
 """
 
 from __future__ import annotations
@@ -87,11 +88,23 @@ def _parse_location(entry: dict) -> Optional[str]:
     return ", ".join(parts) if parts else None
 
 
-def _is_allowed(entry: dict) -> bool:
-    """Blocklist: let everything through except workshops/webinars.
-    Originally this was a strict "hackathons only" allowlist, but that
-    also excluded things like case competitions that the person actually
-    wants to see -- the only hard requirement is no workshops."""
+def _first_text(entry: dict, *names: str) -> Optional[str]:
+    """Read a named organizer/college value without falling back to location."""
+    for name in names:
+        value = entry.get(name)
+        if isinstance(value, dict):
+            value = value.get("name") or value.get("title") or value.get("label")
+        if value is not None and str(value).strip():
+            return str(value).strip()
+    return None
+
+
+def _is_hackathon(entry: dict) -> bool:
+    """Strict allowlist: only entries Unstop itself tags as a hackathon.
+    Explicitly rejects anything workshop/webinar-flavored even if it
+    somehow carries a hackathon-ish type, per the "strictly exclude
+    workshops" requirement -- belt and suspenders against Unstop's known
+    filter unreliability."""
     type_ = (entry.get("type") or "").lower()
     subtype = (entry.get("subtype") or "").lower()
     public_url = (entry.get("public_url") or "").lower()
@@ -101,7 +114,7 @@ def _is_allowed(entry: dict) -> bool:
     if "webinar" in type_ or "webinar" in public_url:
         return False
 
-    return True
+    return type_ == "hackathons" or public_url.startswith("hackathons/")
 
 
 def _normalize(entry: dict) -> Hackathon:
@@ -125,6 +138,33 @@ def _normalize(entry: dict) -> Hackathon:
         thumbnail_url=entry.get("logoUrl2") or entry.get("thumb"),
         mode=(entry.get("region") or "").lower() or None,
         location=_parse_location(entry),
+        college=_first_text(
+            entry,
+            "college",
+            "college_name",
+            "collegeName",
+            "school",
+            "school_name",
+            "institute",
+            "institute_name",
+        ),
+        organizer=_first_text(
+            entry,
+            "organizer",
+            "organizer_name",
+            "organizerName",
+            "organiser",
+            "organiser_name",
+            "organization",
+            "organization_name",
+            "organisation",
+            "organisation_name",
+            "org_name",
+            "orgName",
+            "host",
+            "host_name",
+            "hostName",
+        ),
         deadline=deadline,
         prize_amount=prize_amount,
         prize_text=prize_text,
@@ -141,8 +181,8 @@ def fetch_hackathons(
 ) -> Iterator[Hackathon]:
     """
     Yields normalized Hackathon records from Unstop, paging until an
-    empty page is returned or max_pages is hit. Lets everything through
-    except workshops/webinars (see _is_allowed) and skips anything whose
+    empty page is returned or max_pages is hit. Filters strictly to
+    hackathons only (see _is_hackathon) and skips anything whose
     registration window has already finished.
     """
     owns_client = client is None
@@ -151,9 +191,9 @@ def fetch_hackathons(
     try:
         for page in range(1, max_pages + 1):
             params = {
-                # Unreliable server-side (see module docstring) -- "all"
-                # here just documents intent, real filtering is client-side.
-                "opportunity": "all",
+                # Best-effort hint -- see module docstring on why this
+                # alone can't be trusted to actually filter server-side.
+                "opportunity": "hackathons",
                 "page": page,
                 "per_page": per_page,
                 "oppstatus": "open",
@@ -168,7 +208,7 @@ def fetch_hackathons(
 
             for entry in entries:
                 try:
-                    if not _is_allowed(entry):
+                    if not _is_hackathon(entry):
                         continue
 
                     reg = entry.get("regnRequirements") or {}
@@ -187,8 +227,8 @@ def fetch_hackathons(
 
 if __name__ == "__main__":
     # Quick manual check: python -m sources.unstop
-    # If this prints nothing, or still shows workshops/webinars slipping
-    # through, inspect a raw response (drop the "opportunity"/"oppstatus"
-    # params and print payload["data"]["data"][0]) and adjust _is_allowed().
+    # If this prints nothing, or prints non-hackathon-looking titles,
+    # inspect a raw response (drop the "opportunity"/"oppstatus" params
+    # and print payload["data"]["data"][0]) and adjust _is_hackathon().
     for h in fetch_hackathons(max_pages=1):
         print(h.title, "|", h.deadline, "|", h.prize_text, "|", h.themes)
