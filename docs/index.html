@@ -1354,6 +1354,85 @@
   .card .id-badge.deadline-urgent {
     animation: none;
   }
+
+  /* College box */
+  .college-box {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    align-self: flex-start;
+    max-width: 100%;
+    margin-top: 14px;
+    padding: 7px 12px 7px 8px;
+    background: linear-gradient(135deg, var(--lavender), var(--lavender-deep));
+    border: 1px solid var(--purple);
+    border-radius: 10px 10px 10px 3px;
+    color: var(--plum);
+    box-shadow: 3px 3px 0 rgba(118, 87, 168, 0.22);
+  }
+  .college-icon {
+    display: grid;
+    place-items: center;
+    flex-shrink: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 7px;
+    background: var(--plum);
+    font-size: 13px;
+  }
+  .college-name {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11.5px;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* Prize banner */
+  .prize-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 18px;
+    padding: 12px 16px;
+    border-radius: 14px;
+    background: linear-gradient(120deg, var(--hot-pink), var(--purple));
+    color: var(--white);
+    box-shadow: 0 10px 22px rgba(209, 63, 128, 0.3);
+    position: relative;
+    overflow: hidden;
+  }
+  .prize-box::after {
+    content: "";
+    position: absolute;
+    top: -40%;
+    right: -10%;
+    width: 90px;
+    height: 180%;
+    background: rgba(255, 255, 255, 0.14);
+    transform: rotate(20deg);
+  }
+  .prize-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10.5px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.9;
+  }
+  .prize-amount {
+    position: relative;
+    z-index: 1;
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 26px;
+    font-weight: 800;
+    letter-spacing: -0.04em;
+    line-height: 1;
+  }
 </style>
 </head>
 
@@ -1583,11 +1662,14 @@
     return 'Hackathon listing';
   }
 
+  function getCollege(h) {
+    return h.college || h.organizer || h.organization_name || h.organization || h.host || '';
+  }
+
   function buildDesc(h) {
     const parts = [];
     if (h.mode) parts.push(h.mode === 'online' ? 'Online' : h.mode === 'offline' ? 'In-person' : h.mode);
     if (h.location) parts.push(h.location);
-    if (h.prize_text) parts.push(`${h.prize_text} in prizes`);
     if (h.participants) parts.push(`${h.participants.toLocaleString()} participants`);
     return parts.length ? parts.join(' · ') : 'Details on Devpost.';
   }
@@ -1699,7 +1781,11 @@
             ${escapeHtml(h.title)}
           </a>
 
+          ${getCollege(h) ? `<div class="college-box"><span class="college-icon">🎓</span><span class="college-name">${escapeHtml(getCollege(h))}</span></div>` : ''}
+
           <p class="card-desc">${escapeHtml(buildDesc(h))}</p>
+
+          ${h.prize_text ? `<div class="prize-box"><span class="prize-label">🏆 Prize pool</span><span class="prize-amount">${escapeHtml(h.prize_text)}</span></div>` : ''}
 
           <div class="card-footer">
             <div class="status-dots">
