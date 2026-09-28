@@ -1423,6 +1423,11 @@
      background: #47715a;
     font-size: 13px;
   }
+  .college-box > span:last-child {
+    min-width: 0;
+    flex: 1 1 auto;
+    overflow: hidden;
+  }
    .college-label {
      display: block;
      margin-bottom: 2px;
@@ -1435,6 +1440,9 @@
      opacity: 0.72;
     }
   .college-name {
+     display: block;
+     min-width: 0;
+     max-width: 100%;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 11.5px;
     font-weight: 600;
