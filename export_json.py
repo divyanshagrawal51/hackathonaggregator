@@ -45,6 +45,15 @@ def _normalize_deadline(dt: Optional[datetime]) -> Optional[datetime]:
     return dt
 
 
+def _first_text(h: Hackathon, *names: str) -> Optional[str]:
+    """Return the first non-empty text attribute available on a listing."""
+    for name in names:
+        value = getattr(h, name, None)
+        if value is not None and str(value).strip():
+            return str(value).strip()
+    return None
+
+
 def _sort_key(h: Hackathon):
     """
     Three-tier sort:
@@ -104,6 +113,18 @@ def run() -> None:
                 "thumbnail_url": h.thumbnail_url,
                 "mode": h.mode,
                 "location": h.location,
+                "college": _first_text(h, "college", "college_name", "collegeName"),
+                "organizer": _first_text(
+                    h,
+                    "organizer",
+                    "organizer_name",
+                    "organizerName",
+                    "organization_name",
+                    "organization",
+                    "host",
+                    "host_name",
+                    "hostName",
+                ),
                 "deadline": h.deadline.isoformat() if h.deadline else None,
                 "prize_text": h.prize_text,
                 "themes": h.themes,
