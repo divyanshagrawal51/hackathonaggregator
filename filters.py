@@ -1,9 +1,44 @@
 from datetime import datetime, timezone
+import re
 from typing import Optional
 
 import yaml
 
 from models import Hackathon
+
+
+_UNSTOP_INSTITUTION_PATTERNS = {
+    "iim": (
+        re.compile(r"\biims?\b", re.IGNORECASE),
+        re.compile(r"\bindian institutes? of management\b", re.IGNORECASE),
+    ),
+    "iit": (
+        re.compile(r"\biits?\b", re.IGNORECASE),
+        re.compile(r"\bindian institutes? of technology\b", re.IGNORECASE),
+    ),
+}
+
+
+def unstop_institution_type(h: Hackathon) -> Optional[str]:
+    """Return 'iim' or 'iit' only for an Unstop listing that names one."""
+    if (h.source or "").lower() != "unstop":
+        return None
+
+    haystack = " ".join(
+        str(value or "")
+        for value in (
+            h.title,
+            h.url,
+            h.location,
+            getattr(h, "college", None),
+            getattr(h, "organizer", None),
+        )
+    ).replace("-", " ")
+
+    for institution_type, patterns in _UNSTOP_INSTITUTION_PATTERNS.items():
+        if any(pattern.search(haystack) for pattern in patterns):
+            return institution_type
+    return None
 
 
 def load_preferences(path: str = "preferences.yaml") -> dict:
@@ -22,6 +57,27 @@ def matches(h: Hackathon, prefs: dict) -> bool:
     # --- mode ---
     allowed_modes = [m.lower() for m in prefs.get("mode", {}).get("allowed", [])]
     if allowed_modes and (h.mode or "").lower() not in allowed_modes:
+        return False
+
+    # --- Unstop institution filter ---
+    # Supported values: "iim"/"iims" and "iit"/"iits".
+    # This is intentionally separate from location filtering because Unstop
+    # locations are usually cities, while institution names are often in the
+    # title, URL slug, college, or organizer field.
+    unstop_prefs = prefs.get("unstop", {}) or {}
+    allowed_institutions = (
+        unstop_prefs.get("institutions")
+        or prefs.get("unstop_institutions")
+        or []
+    )
+    allowed_institutions = {
+        str(value).lower().rstrip("s")
+        for value in allowed_institutions
+        if str(value).strip()
+    }
+    if allowed_institutions and (
+        unstop_institution_type(h) not in allowed_institutions
+    ):
         return False
 
     # --- prize ---
