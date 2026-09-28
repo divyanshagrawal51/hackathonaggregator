@@ -12,6 +12,8 @@ class Hackathon(BaseModel):
 
     mode: Optional[str] = None       # "online" | "offline" | "hybrid" | None if unknown
     location: Optional[str] = None
+    college: Optional[str] = None
+    organizer: Optional[str] = None
 
     deadline: Optional[datetime] = None      # submission deadline
     prize_amount: Optional[float] = None      # normalized numeric prize (best guess)
