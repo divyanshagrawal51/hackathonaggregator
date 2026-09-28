@@ -540,6 +540,49 @@
     margin-bottom: 10px;
   }
 
+  .unstop-subtabs {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin: 0 0 12px;
+    padding-left: 4px;
+  }
+
+  .unstop-subtabs-label {
+    color: var(--muted);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  .unstop-filter {
+    padding: 6px 11px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: rgba(255, 253, 251, 0.72);
+    color: var(--plum);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .unstop-filter:hover {
+    border-color: var(--floral-strong);
+    background: var(--floral);
+  }
+
+  .unstop-filter.active {
+    border-color: var(--purple);
+    background: var(--lavender-deep);
+    color: var(--plum);
+  }
+
   .tab-btn,
   .chip,
   #search,
@@ -1489,6 +1532,13 @@
       <button class="tab-btn" data-tab="mine">My Hackathons</button>
     </div>
 
+    <div class="unstop-subtabs" id="unstop-subtabs" hidden>
+      <span class="unstop-subtabs-label">Unstop focus</span>
+      <button class="unstop-filter active" data-tab="unstop" type="button">All</button>
+      <button class="unstop-filter" data-tab="unstop-iim" type="button">IIMs</button>
+      <button class="unstop-filter" data-tab="unstop-iit" type="button">IITs</button>
+    </div>
+
     <div class="search-block">
       <input
         id="search"
@@ -1711,31 +1761,75 @@
     return (TRACKED[url] && TRACKED[url].status) || null;
   }
 
+  const unstopInstitutionPatterns = {
+    iim: [
+      /\biims?\b/i,
+      /\bindian institutes? of management\b/i
+    ],
+    iit: [
+      /\biits?\b/i,
+      /\bindian institutes? of technology\b/i
+    ]
+  };
+
+  function matchesUnstopInstitution(h, institutionType) {
+    if ((h.source || '').toLowerCase() !== 'unstop') return false;
+    const haystack = [
+      h.title,
+      h.url,
+      h.location,
+      h.college,
+      h.organizer
+    ].filter(Boolean).join(' ').replace(/[-_/]+/g, ' ');
+    return (unstopInstitutionPatterns[institutionType] || [])
+      .some((pattern) => pattern.test(haystack));
+  }
+
   function currentSourceList() {
-  if (activeTab === 'mine') {
-    return Object.values(TRACKED)
-      .filter((t) => t.status === 'participated' || t.status === 'consider')
-      .map((t) => t.snapshot);
+    if (activeTab === 'mine') {
+      return Object.values(TRACKED)
+        .filter((t) => t.status === 'participated' || t.status === 'consider')
+        .map((t) => t.snapshot);
+    }
+
+    if (activeTab === 'devpost' || activeTab === 'unstop') {
+      return ALL.filter((h) => h.source === activeTab);
+    }
+
+    if (activeTab === 'unstop-iim' || activeTab === 'unstop-iit') {
+      const institutionType = activeTab.replace('unstop-', '');
+      return ALL.filter((h) => matchesUnstopInstitution(h, institutionType));
+    }
+
+    return ALL;
   }
 
-  if (activeTab === 'devpost' || activeTab === 'unstop') {
-    return ALL.filter((h) => h.source === activeTab);
+  function syncUnstopSubtabs() {
+    const subtabs = document.getElementById('unstop-subtabs');
+    const isUnstopView = activeTab === 'unstop' || activeTab.startsWith('unstop-');
+    subtabs.hidden = !isUnstopView;
+    subtabs.querySelectorAll('.unstop-filter').forEach((btn) => {
+      btn.classList.toggle('active', btn.dataset.tab === activeTab);
+    });
   }
 
-  return ALL;
-}
+  function setActiveTab(tab) {
+    activeTab = tab;
+    const primaryTab = tab.startsWith('unstop-') ? 'unstop' : tab;
+    document.querySelectorAll('#tabs .tab-btn').forEach((btn) => {
+      btn.classList.toggle('active', btn.dataset.tab === primaryTab);
+    });
+    syncUnstopSubtabs();
+    render();
+  }
 
   function resetFilters() {
     activeTheme = null;
-    activeTab = 'all';
     document.getElementById('search').value = '';
-    document.querySelectorAll('#tabs .tab-btn').forEach((btn) => {
-      btn.classList.toggle('active', btn.dataset.tab === 'all');
-    });
     document.querySelectorAll('#theme-chips .chip').forEach((chip) => {
       chip.classList.remove('active');
     });
-    render();
+    setActiveTab('all');
   }
 
   function render() {
@@ -1855,9 +1949,13 @@
   document.getElementById('tabs').addEventListener('click', (e) => {
     const btn = e.target.closest('.tab-btn');
     if (!btn) return;
-    activeTab = btn.dataset.tab;
-    document.querySelectorAll('.tab-btn').forEach((b) => b.classList.toggle('active', b === btn));
-    render();
+    setActiveTab(btn.dataset.tab);
+  });
+
+  document.getElementById('unstop-subtabs').addEventListener('click', (e) => {
+    const btn = e.target.closest('.unstop-filter');
+    if (!btn) return;
+    setActiveTab(btn.dataset.tab);
   });
 
   document.getElementById('clear-filters').addEventListener('click', resetFilters);
