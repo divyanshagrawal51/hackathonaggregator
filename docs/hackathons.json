@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T09:17:47.318961+00:00",
-  "count": 406,
+  "generated_at": "2026-10-01T09:45:23.382139+00:00",
+  "count": 415,
   "hackathons": [
     {
       "source": "devpost",
@@ -51,7 +51,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 141
+      "participants": 170
     },
     {
       "source": "unstop",
@@ -68,7 +68,7 @@
         "Software Development",
         "IoT Engineerig"
       ],
-      "participants": 85
+      "participants": 87
     },
     {
       "source": "unstop",
@@ -85,7 +85,24 @@
         "Applied AI",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 776
+      "participants": 779
+    },
+    {
+      "source": "unstop",
+      "title": "NewYear X Thon 2K27",
+      "url": "https://unstop.com/hackathons/newyear-x-thon-2k27-brainwaves-1763561",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abc91f2ae68c_chatgpt_image_sep_29_2026_02_36_59_pm.png",
+      "mode": "online",
+      "location": null,
+      "college": null,
+      "organizer": "Brainwaves",
+      "deadline": "2026-12-01T00:01:00+05:30",
+      "prize_text": "\u20b92,500",
+      "themes": [
+        "Software Development",
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 48
     },
     {
       "source": "unstop",
@@ -103,24 +120,7 @@
         "Growth Marketing",
         "Campus Ambassador"
       ],
-      "participants": 10
-    },
-    {
-      "source": "unstop",
-      "title": "Vibe-A-Thon",
-      "url": "https://unstop.com/hackathons/vibe-a-thon-aissms-institute-of-information-technology-1758905",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aafc02df3f80_whatsapp_image_2026-09-18_at_12_35_13_am.jpeg",
-      "mode": "offline",
-      "location": "Pune, Maharashtra",
-      "college": null,
-      "organizer": "AISSMS Institute of Information Technology",
-      "deadline": "2026-10-22T23:59:35+05:30",
-      "prize_text": "\u20b93,000",
-      "themes": [
-        "Quizzes & Treasure Hunt",
-        "Event Management"
-      ],
-      "participants": 23
+      "participants": 11
     },
     {
       "source": "unstop",
@@ -137,7 +137,24 @@
         "Frontend Development",
         "Web Development"
       ],
-      "participants": 17
+      "participants": 19
+    },
+    {
+      "source": "unstop",
+      "title": "Vibe-A-Thon",
+      "url": "https://unstop.com/hackathons/vibe-a-thon-aissms-institute-of-information-technology-1758905",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aafc02df3f80_whatsapp_image_2026-09-18_at_12_35_13_am.jpeg",
+      "mode": "offline",
+      "location": "Pune, Maharashtra",
+      "college": null,
+      "organizer": "AISSMS Institute of Information Technology",
+      "deadline": "2026-10-22T23:59:35+05:30",
+      "prize_text": "\u20b93,000",
+      "themes": [
+        "Quizzes & Treasure Hunt",
+        "Event Management"
+      ],
+      "participants": 32
     },
     {
       "source": "unstop",
@@ -155,7 +172,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 446
+      "participants": 460
     },
     {
       "source": "unstop",
@@ -172,7 +189,7 @@
         "Data Science",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 258
+      "participants": 281
     },
     {
       "source": "unstop",
@@ -189,23 +206,40 @@
         "Sustainability Analysis",
         "Product Design"
       ],
-      "participants": 58
+      "participants": 59
     },
     {
       "source": "unstop",
-      "title": "Cortex Hackathon",
-      "url": "https://unstop.com/hackathons/cortex-hackathon-mit-world-peace-university-pune-maharashtra-1762965",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abbd98f56a36_whatsapp_image_2026-09-26_at_11_04_30_am.jpeg",
-      "mode": "hybrid",
-      "location": "Pune, Maharashtra",
+      "title": "Terraform: The System Awakens",
+      "url": "https://unstop.com/hackathons/terraform-the-system-awakens-pravrutti-20-m-s-ramaiah-university-of-applied-sciences-1758615",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aaea5c671ffd_screenshot_2026-09-19_203942.png",
+      "mode": "online",
+      "location": null,
       "college": null,
-      "organizer": "MIT World Peace University, Pune, Maharashtra",
-      "deadline": "2026-10-03T00:00:00+05:30",
+      "organizer": "M S Ramaiah University of Applied Sciences",
+      "deadline": "2026-10-08T00:00:00+05:30",
       "prize_text": "\u20b95,000",
       "themes": [
+        "Applied AI"
+      ],
+      "participants": 0
+    },
+    {
+      "source": "unstop",
+      "title": "ProtocolX",
+      "url": "https://unstop.com/hackathons/protocolx-protocolx-bms-institute-of-technology-and-management-bmsitm-bangalore-1763393",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abceffc48dca_B.M.S._Institute_of_Technology_and_Management_logo.png",
+      "mode": "offline",
+      "location": "Yelahanka, Karnataka",
+      "college": null,
+      "organizer": "BMS Institute of Technology and Management (BMSITM), Bangalore",
+      "deadline": "2026-10-08T23:59:00+05:30",
+      "prize_text": "\u20b95,000",
+      "themes": [
+        "Prompt Engineering",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 48
+      "participants": 26
     },
     {
       "source": "unstop",
@@ -225,6 +259,22 @@
     },
     {
       "source": "unstop",
+      "title": "Cortex Hackathon",
+      "url": "https://unstop.com/hackathons/cortex-hackathon-mit-world-peace-university-pune-maharashtra-1762965",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abbd98f56a36_whatsapp_image_2026-09-26_at_11_04_30_am.jpeg",
+      "mode": "hybrid",
+      "location": "Pune, Maharashtra",
+      "college": null,
+      "organizer": "MIT World Peace University, Pune, Maharashtra",
+      "deadline": "2026-10-03T00:00:00+05:30",
+      "prize_text": "\u20b95,000",
+      "themes": [
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 117
+    },
+    {
+      "source": "unstop",
       "title": "IEEE Synapse Hackathon",
       "url": "https://unstop.com/hackathons/ieee-synapse-hackathon-aissms-ioit-pune-1761309",
       "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aba6a3e0d34f_whatsapp_image_2026-09-24_at_22_39_49.jpeg",
@@ -237,7 +287,7 @@
       "themes": [
         "Artificial Intelligence"
       ],
-      "participants": 59
+      "participants": 98
     },
     {
       "source": "unstop",
@@ -254,7 +304,74 @@
         "Quizzes & Treasure Hunt",
         "Cyber Security"
       ],
-      "participants": 50
+      "participants": 52
+    },
+    {
+      "source": "unstop",
+      "title": "Junior Robo Sumo",
+      "url": "https://unstop.com/hackathons/junior-robo-sumo-techtrix26-navrachna-foundation-for-entrepreneurship-development-1752023",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab62b6abb739_organisation_image-X4DiJFvXL62079972974BGQR4YoWx3.png",
+      "mode": "offline",
+      "location": "Greater Noida, Uttar Pradesh",
+      "college": null,
+      "organizer": "Navrachna Foundation For Entrepreneurship Development",
+      "deadline": "2026-10-15T00:00:00+05:30",
+      "prize_text": "\u20b95,000",
+      "themes": [
+        "Robotics Engineer"
+      ],
+      "participants": 1
+    },
+    {
+      "source": "unstop",
+      "title": "Junior Make-A-Thon",
+      "url": "https://unstop.com/hackathons/junior-make-a-thon-techtrix26-navrachna-foundation-for-entrepreneurship-development-1749755",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab62ea00455f_organisation_image-X4DiJFvXL62079972974BGQR4YoWx3.png",
+      "mode": "offline",
+      "location": "Greater Noida, Uttar Pradesh",
+      "college": null,
+      "organizer": "Navrachna Foundation For Entrepreneurship Development",
+      "deadline": "2026-10-15T00:00:00+05:30",
+      "prize_text": "\u20b95,000",
+      "themes": [
+        "Product Design",
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 3
+    },
+    {
+      "source": "unstop",
+      "title": "Poster Exhibition",
+      "url": "https://unstop.com/hackathons/poster-exhibition-techtrix26-navrachna-foundation-for-entrepreneurship-development-1749772",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab62dbb902bb_organisation_image-X4DiJFvXL62079972974BGQR4YoWx3.png",
+      "mode": "offline",
+      "location": "Greater Noida, Uttar Pradesh",
+      "college": null,
+      "organizer": "Navrachna Foundation For Entrepreneurship Development",
+      "deadline": "2026-10-15T00:00:00+05:30",
+      "prize_text": "\u20b95,000",
+      "themes": [
+        "Fine Arts",
+        "Applied Research"
+      ],
+      "participants": 9
+    },
+    {
+      "source": "unstop",
+      "title": "Robo Soccer",
+      "url": "https://unstop.com/hackathons/robo-soccer-techtrix26-navrachna-foundation-for-entrepreneurship-development-1749773",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab62da175f02_organisation_image-X4DiJFvXL62079972974BGQR4YoWx3.png",
+      "mode": "offline",
+      "location": "Greater Noida, Uttar Pradesh",
+      "college": null,
+      "organizer": "Navrachna Foundation For Entrepreneurship Development",
+      "deadline": "2026-10-15T00:00:00+05:30",
+      "prize_text": "\u20b95,000",
+      "themes": [
+        "Robotics Engineer",
+        "Games & Sports"
+      ],
+      "participants": 4
     },
     {
       "source": "unstop",
@@ -271,91 +388,7 @@
         "Software Development",
         "Mobile App Development"
       ],
-      "participants": 195
-    },
-    {
-      "source": "unstop",
-      "title": "Junior Robo Sumo",
-      "url": "https://unstop.com/hackathons/junior-robo-sumo-techtrix26-navrachna-foundation-for-entrepreneurship-development-1752023",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab62b6abb739_organisation_image-X4DiJFvXL62079972974BGQR4YoWx3.png",
-      "mode": "offline",
-      "location": "Greater Noida, Uttar Pradesh",
-      "college": null,
-      "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T00:00:00+05:30",
-      "prize_text": "\u20b95,000",
-      "themes": [
-        "Robotics Engineer"
-      ],
-      "participants": 1
-    },
-    {
-      "source": "unstop",
-      "title": "Junior Make-A-Thon",
-      "url": "https://unstop.com/hackathons/junior-make-a-thon-techtrix26-navrachna-foundation-for-entrepreneurship-development-1749755",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab62ea00455f_organisation_image-X4DiJFvXL62079972974BGQR4YoWx3.png",
-      "mode": "offline",
-      "location": "Greater Noida, Uttar Pradesh",
-      "college": null,
-      "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T00:00:00+05:30",
-      "prize_text": "\u20b95,000",
-      "themes": [
-        "Product Design",
-        "Quizzes & Treasure Hunt"
-      ],
-      "participants": 2
-    },
-    {
-      "source": "unstop",
-      "title": "Poster Exhibition",
-      "url": "https://unstop.com/hackathons/poster-exhibition-techtrix26-navrachna-foundation-for-entrepreneurship-development-1749772",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab62dbb902bb_organisation_image-X4DiJFvXL62079972974BGQR4YoWx3.png",
-      "mode": "offline",
-      "location": "Greater Noida, Uttar Pradesh",
-      "college": null,
-      "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T00:00:00+05:30",
-      "prize_text": "\u20b95,000",
-      "themes": [
-        "Fine Arts",
-        "Applied Research"
-      ],
-      "participants": 8
-    },
-    {
-      "source": "unstop",
-      "title": "Robo Soccer",
-      "url": "https://unstop.com/hackathons/robo-soccer-techtrix26-navrachna-foundation-for-entrepreneurship-development-1749773",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab62da175f02_organisation_image-X4DiJFvXL62079972974BGQR4YoWx3.png",
-      "mode": "offline",
-      "location": "Greater Noida, Uttar Pradesh",
-      "college": null,
-      "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T00:00:00+05:30",
-      "prize_text": "\u20b95,000",
-      "themes": [
-        "Robotics Engineer",
-        "Games & Sports"
-      ],
-      "participants": 2
-    },
-    {
-      "source": "unstop",
-      "title": "VibeCode Arena",
-      "url": "https://unstop.com/hackathons/vibecode-arena-techtrix26-navrachna-foundation-for-entrepreneurship-development-1749763",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6aaed8946f521_organisation_image-X4DiJFvXL62079972974BGQR4YoWx3.png",
-      "mode": "offline",
-      "location": "Greater Noida, Uttar Pradesh",
-      "college": null,
-      "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T00:00:00+05:30",
-      "prize_text": "\u20b95,000",
-      "themes": [
-        "Software Development",
-        "Quizzes & Treasure Hunt"
-      ],
-      "participants": 28
+      "participants": 198
     },
     {
       "source": "unstop",
@@ -371,7 +404,24 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 320
+      "participants": 340
+    },
+    {
+      "source": "unstop",
+      "title": "VibeCode Arena",
+      "url": "https://unstop.com/hackathons/vibecode-arena-techtrix26-navrachna-foundation-for-entrepreneurship-development-1749763",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6aaed8946f521_organisation_image-X4DiJFvXL62079972974BGQR4YoWx3.png",
+      "mode": "offline",
+      "location": "Greater Noida, Uttar Pradesh",
+      "college": null,
+      "organizer": "Navrachna Foundation For Entrepreneurship Development",
+      "deadline": "2026-10-15T00:00:00+05:30",
+      "prize_text": "\u20b95,000",
+      "themes": [
+        "Software Development",
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 34
     },
     {
       "source": "unstop",
@@ -387,7 +437,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 448
+      "participants": 476
     },
     {
       "source": "unstop",
@@ -404,24 +454,7 @@
         "Online Gaming & Esports",
         "AI Engineering"
       ],
-      "participants": 125
-    },
-    {
-      "source": "unstop",
-      "title": "CODE AVENGERS 2026 | The Ultimate Coding Challenge",
-      "url": "https://unstop.com/hackathons/code-avengerss-2026-coding-debugging-challenge-tech-media-fest-2026-bharati-vidyapeeth-bvicam-bharati-vidyape-1758602",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aaea120682b3_logo.png",
-      "mode": "offline",
-      "location": "New Delhi, Delhi",
-      "college": null,
-      "organizer": "Bharati Vidyapeeth's Institute of Computer Applications and Management (BVICAM), New Delhi",
-      "deadline": "2026-10-01T00:00:00+05:30",
-      "prize_text": "\u20b96,000",
-      "themes": [
-        "Software Development",
-        "Quizzes & Treasure Hunt"
-      ],
-      "participants": 40
+      "participants": 139
     },
     {
       "source": "unstop",
@@ -437,7 +470,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 1398
+      "participants": 1419
     },
     {
       "source": "unstop",
@@ -453,7 +486,24 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 1618
+      "participants": 1652
+    },
+    {
+      "source": "unstop",
+      "title": "Hammer (Hack, Analyze, Master, Market, Execute, Rule)",
+      "url": "https://unstop.com/hackathons/hammer-hack-analyze-master-market-execute-rule-pravrutti-20-m-s-ramaiah-university-of-applied-sciences-1759048",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ab00aa8baeb4_screenshot_2026-09-20_220204.png",
+      "mode": "offline",
+      "location": "Bangalore, Karnataka",
+      "college": null,
+      "organizer": "M S Ramaiah University of Applied Sciences",
+      "deadline": "2026-10-08T00:00:00+05:30",
+      "prize_text": "\u20b97,000",
+      "themes": [
+        "Quizzes & Treasure Hunt",
+        "Cyber Security"
+      ],
+      "participants": 1
     },
     {
       "source": "unstop",
@@ -487,7 +537,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 1
+      "participants": 2
     },
     {
       "source": "unstop",
@@ -504,7 +554,7 @@
         "Software Development",
         "Online Gaming & Esports"
       ],
-      "participants": 0
+      "participants": 1
     },
     {
       "source": "unstop",
@@ -520,7 +570,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 1401
+      "participants": 1516
     },
     {
       "source": "unstop",
@@ -531,7 +581,7 @@
       "location": "Greater Noida, Uttar Pradesh",
       "college": null,
       "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T00:00:00+05:30",
+      "deadline": "2026-10-15T00:00:00+05:30",
       "prize_text": "\u20b97,000",
       "themes": [
         "Robotics Engineer",
@@ -548,45 +598,12 @@
       "location": "Greater Noida, Uttar Pradesh",
       "college": null,
       "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T00:00:00+05:30",
+      "deadline": "2026-10-15T00:00:00+05:30",
       "prize_text": "\u20b97,000",
       "themes": [
         "Strategy & Planning"
       ],
-      "participants": 3
-    },
-    {
-      "source": "unstop",
-      "title": "Junior Hackathon",
-      "url": "https://unstop.com/hackathons/junior-hackathon-techtrix26-navrachna-foundation-for-entrepreneurship-development-1749752",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab62eb447d73_organisation_image-X4DiJFvXL62079972974BGQR4YoWx3.png",
-      "mode": "offline",
-      "location": "Greater Noida, Uttar Pradesh",
-      "college": null,
-      "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T00:00:00+05:30",
-      "prize_text": "\u20b97,000",
-      "themes": [
-        "Software Development"
-      ],
-      "participants": 2
-    },
-    {
-      "source": "unstop",
-      "title": "Make-A-Thon",
-      "url": "https://unstop.com/hackathons/make-a-thon-techtrix26-navrachna-foundation-for-entrepreneurship-development-1752019",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab62c1e3e52b_organisation_image-X4DiJFvXL62079972974BGQR4YoWx3.png",
-      "mode": "offline",
-      "location": "Greater Noida, Uttar Pradesh",
-      "college": null,
-      "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T00:00:00+05:30",
-      "prize_text": "\u20b97,000",
-      "themes": [
-        "Design Engineer Mechanical",
-        "Production and Manufacturing Engineer"
-      ],
-      "participants": 1
+      "participants": 5
     },
     {
       "source": "unstop",
@@ -597,7 +614,7 @@
       "location": "Greater Noida, Uttar Pradesh",
       "college": null,
       "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T00:00:00+05:30",
+      "deadline": "2026-10-15T00:00:00+05:30",
       "prize_text": "\u20b97,000",
       "themes": [
         "Robotics Engineer",
@@ -614,7 +631,7 @@
       "location": "Greater Noida, Uttar Pradesh",
       "college": null,
       "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T00:00:00+05:30",
+      "deadline": "2026-10-15T00:00:00+05:30",
       "prize_text": "\u20b97,000",
       "themes": [
         "Robotics Engineer"
@@ -630,12 +647,12 @@
       "location": "Greater Noida, Uttar Pradesh",
       "college": null,
       "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T00:00:00+05:30",
+      "deadline": "2026-10-15T00:00:00+05:30",
       "prize_text": "\u20b97,000",
       "themes": [
         "Robotics Engineer"
       ],
-      "participants": 3
+      "participants": 4
     },
     {
       "source": "unstop",
@@ -646,13 +663,13 @@
       "location": "Greater Noida, Uttar Pradesh",
       "college": null,
       "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T00:00:00+05:30",
+      "deadline": "2026-10-15T00:00:00+05:30",
       "prize_text": "\u20b97,000",
       "themes": [
         "Robotics Engineer",
         "Games & Sports"
       ],
-      "participants": 4
+      "participants": 6
     },
     {
       "source": "unstop",
@@ -663,13 +680,13 @@
       "location": "Greater Noida, Uttar Pradesh",
       "college": null,
       "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T00:00:00+05:30",
+      "deadline": "2026-10-15T00:00:00+05:30",
       "prize_text": "\u20b97,000",
       "themes": [
         "Online Gaming & Esports",
         "Games & Sports"
       ],
-      "participants": 1
+      "participants": 3
     },
     {
       "source": "unstop",
@@ -680,12 +697,28 @@
       "location": "Greater Noida, Uttar Pradesh",
       "college": null,
       "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T02:29:42+05:30",
+      "deadline": "2026-10-15T02:29:42+05:30",
       "prize_text": "\u20b97,000",
       "themes": [
         "Online Gaming & Esports"
       ],
       "participants": 11
+    },
+    {
+      "source": "unstop",
+      "title": "Prompt Battle",
+      "url": "https://unstop.com/hackathons/prompt-battle-aerophilia-sahyadri-college-of-engineering-management-scem-mangaluru-1746171",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ab257a8cced2_aerophilia-black_2x-100.jpg",
+      "mode": "offline",
+      "location": "Mangaluru, Karnataka",
+      "college": null,
+      "organizer": "Sahyadri College of Engineering & Management (SCEM), Mangaluru",
+      "deadline": "2026-11-11T23:59:16+05:30",
+      "prize_text": "\u20b910,000",
+      "themes": [
+        "Prompt Engineering"
+      ],
+      "participants": 7
     },
     {
       "source": "unstop",
@@ -702,7 +735,7 @@
         "Agentic AI Engineer",
         "AI Engineering"
       ],
-      "participants": 17
+      "participants": 30
     },
     {
       "source": "unstop",
@@ -719,7 +752,23 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 573
+      "participants": 625
+    },
+    {
+      "source": "unstop",
+      "title": "Business Plan Competition \u2013 From Idea to Market",
+      "url": "https://unstop.com/hackathons/business-plan-competition-from-idea-to-market-techtrix26-navrachna-foundation-for-entrepreneurship-developmen-1749781",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab62c43c8c9a_organisation_image-X4DiJFvXL62079972974BGQR4YoWx3.png",
+      "mode": "offline",
+      "location": "Greater Noida, Uttar Pradesh",
+      "college": null,
+      "organizer": "Navrachna Foundation For Entrepreneurship Development",
+      "deadline": "2026-10-15T00:00:00+05:30",
+      "prize_text": "\u20b910,000",
+      "themes": [
+        "Strategy & Planning"
+      ],
+      "participants": 9
     },
     {
       "source": "unstop",
@@ -735,23 +784,7 @@
       "themes": [
         "UI/UX Design"
       ],
-      "participants": 54
-    },
-    {
-      "source": "unstop",
-      "title": "Business Plan Competition \u2013 From Idea to Market",
-      "url": "https://unstop.com/hackathons/business-plan-competition-from-idea-to-market-techtrix26-navrachna-foundation-for-entrepreneurship-developmen-1749781",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab62c43c8c9a_organisation_image-X4DiJFvXL62079972974BGQR4YoWx3.png",
-      "mode": "offline",
-      "location": "Greater Noida, Uttar Pradesh",
-      "college": null,
-      "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T00:00:00+05:30",
-      "prize_text": "\u20b910,000",
-      "themes": [
-        "Strategy & Planning"
-      ],
-      "participants": 8
+      "participants": 70
     },
     {
       "source": "unstop",
@@ -768,7 +801,7 @@
         "Artificial Intelligence",
         "AI Engineering"
       ],
-      "participants": 922
+      "participants": 985
     },
     {
       "source": "unstop",
@@ -779,14 +812,14 @@
       "location": "Gwalior, Madhya Pradesh",
       "college": null,
       "organizer": "Madhav Institute of Technology and Science (MITS), Gwalior",
-      "deadline": "2026-09-30T23:59:17+05:30",
+      "deadline": "2026-10-03T23:59:17+05:30",
       "prize_text": "\u20b910,000",
       "themes": [
         "Mechanical Engineer",
         "Electronics Engineer",
         "Others"
       ],
-      "participants": 224
+      "participants": 319
     },
     {
       "source": "unstop",
@@ -803,7 +836,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 128
+      "participants": 129
     },
     {
       "source": "unstop",
@@ -814,13 +847,13 @@
       "location": "Kotamangalam, Kerala",
       "college": null,
       "organizer": "Mar Athanasius College of Engineering (MACE), Kerala",
-      "deadline": "2026-09-30T23:59:00+05:30",
+      "deadline": "2026-10-02T23:59:00+05:30",
       "prize_text": "\u20b910,000",
       "themes": [
         "Software Development",
         "AI Engineering"
       ],
-      "participants": 222
+      "participants": 306
     },
     {
       "source": "unstop",
@@ -837,7 +870,7 @@
         "Agentic AI Engineer",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 516
+      "participants": 545
     },
     {
       "source": "unstop",
@@ -848,13 +881,13 @@
       "location": "Pimpri-Chinchwad, Maharashtra",
       "college": null,
       "organizer": "PCCOE INNS STUDENT CHAPTER",
-      "deadline": "2026-10-01T12:00:00+05:30",
+      "deadline": "2026-10-02T12:00:00+05:30",
       "prize_text": "\u20b910,000",
       "themes": [
         "Machine Learning Engineering",
         "Data Science"
       ],
-      "participants": 50
+      "participants": 66
     },
     {
       "source": "unstop",
@@ -870,7 +903,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 806
+      "participants": 836
     },
     {
       "source": "unstop",
@@ -886,7 +919,7 @@
       "themes": [
         "Biotechnology"
       ],
-      "participants": 819
+      "participants": 899
     },
     {
       "source": "unstop",
@@ -902,7 +935,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 181
+      "participants": 193
     },
     {
       "source": "unstop",
@@ -918,7 +951,7 @@
       "themes": [
         "Business Operations"
       ],
-      "participants": 157
+      "participants": 180
     },
     {
       "source": "unstop",
@@ -935,7 +968,7 @@
         "Strategy & Planning",
         "Product Management"
       ],
-      "participants": 334
+      "participants": 363
     },
     {
       "source": "unstop",
@@ -952,7 +985,7 @@
         "Quizzes & Treasure Hunt",
         "Cyber Security"
       ],
-      "participants": 140
+      "participants": 159
     },
     {
       "source": "unstop",
@@ -968,7 +1001,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 60
+      "participants": 68
     },
     {
       "source": "unstop",
@@ -985,7 +1018,7 @@
         "Quizzes & Treasure Hunt",
         "Cyber Security"
       ],
-      "participants": 118
+      "participants": 121
     },
     {
       "source": "unstop",
@@ -1002,7 +1035,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 530
+      "participants": 541
     },
     {
       "source": "unstop",
@@ -1019,7 +1052,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 875
+      "participants": 968
     },
     {
       "source": "unstop",
@@ -1036,7 +1069,7 @@
         "Software Development",
         "AI Engineering"
       ],
-      "participants": 479
+      "participants": 499
     },
     {
       "source": "unstop",
@@ -1053,7 +1086,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 173
+      "participants": 191
     },
     {
       "source": "unstop",
@@ -1070,7 +1103,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 43
+      "participants": 74
     },
     {
       "source": "unstop",
@@ -1087,7 +1120,7 @@
         "Software Development",
         "Others"
       ],
-      "participants": 193
+      "participants": 227
     },
     {
       "source": "unstop",
@@ -1103,7 +1136,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 124
+      "participants": 132
     },
     {
       "source": "unstop",
@@ -1114,7 +1147,7 @@
       "location": "Greater Noida, Uttar Pradesh",
       "college": null,
       "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T00:00:00+05:30",
+      "deadline": "2026-10-15T00:00:00+05:30",
       "prize_text": "\u20b912,000",
       "themes": [
         "Robotics Engineer",
@@ -1126,7 +1159,7 @@
       "source": "unstop",
       "title": "WCC Forge 48",
       "url": "https://unstop.com/hackathons/wcc-forge-48-wecodecoders-1756040",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab298342ee27_organisation_image-rdEtvQYYD71680906289sZyR2sXLs8.png",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abe27a712ce1_organisation_image-rdEtvQYYD71680906289sZyR2sXLs8.png",
       "mode": "online",
       "location": null,
       "college": null,
@@ -1136,25 +1169,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 1353
-    },
-    {
-      "source": "devpost",
-      "title": "DecentraHack 2.0",
-      "url": "https://decentrahack-2-0.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/371/858/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "pimpri chinchwad college of engineering",
-      "deadline": null,
-      "prize_text": "\u20b9 15,000",
-      "themes": [
-        "Blockchain",
-        "Machine Learning/AI",
-        "Open Ended"
-      ],
-      "participants": 82
+      "participants": 1409
     },
     {
       "source": "devpost",
@@ -1172,7 +1187,24 @@
         "Design",
         "Gaming"
       ],
-      "participants": 4
+      "participants": 7
+    },
+    {
+      "source": "unstop",
+      "title": "Hackathon - Flagship",
+      "url": "https://unstop.com/hackathons/hackathon-flagship-cliffesto26-national-institute-of-technology-nit-uttarakhand-1762162",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abe262d0e24e_",
+      "mode": "offline",
+      "location": "Srinagar, Uttarakhand",
+      "college": null,
+      "organizer": "National Institute of Technology (NIT), Uttarakhand",
+      "deadline": "2026-10-08T12:00:35+05:30",
+      "prize_text": "\u20b915,000",
+      "themes": [
+        "Software Development",
+        "Web Development"
+      ],
+      "participants": 10
     },
     {
       "source": "unstop",
@@ -1188,24 +1220,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 24
-    },
-    {
-      "source": "unstop",
-      "title": "Hackathon - Flagship",
-      "url": "https://unstop.com/hackathons/hackathon-flagship-cliffesto26-national-institute-of-technology-nit-uttarakhand-1762162",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6aba482bf2ead_",
-      "mode": "offline",
-      "location": "Srinagar, Uttarakhand",
-      "college": null,
-      "organizer": "National Institute of Technology (NIT), Uttarakhand",
-      "deadline": "2026-10-08T12:00:35+05:30",
-      "prize_text": "\u20b915,000",
-      "themes": [
-        "Software Development",
-        "Web Development"
-      ],
-      "participants": 8
+      "participants": 49
     },
     {
       "source": "unstop",
@@ -1222,7 +1237,7 @@
         "Data Science",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 165
+      "participants": 192
     },
     {
       "source": "unstop",
@@ -1239,7 +1254,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 1100
+      "participants": 1128
     },
     {
       "source": "unstop",
@@ -1290,7 +1305,7 @@
         "Design and Innovation",
         "UI/UX Design"
       ],
-      "participants": 207
+      "participants": 223
     },
     {
       "source": "unstop",
@@ -1307,7 +1322,7 @@
         "Graphic Design",
         "Artificial Intelligence"
       ],
-      "participants": 96
+      "participants": 97
     },
     {
       "source": "devpost",
@@ -1325,7 +1340,23 @@
         "Cybersecurity",
         "Machine Learning/AI"
       ],
-      "participants": 36
+      "participants": 42
+    },
+    {
+      "source": "unstop",
+      "title": "Hactivate (24 Hour Predictive Systems Hackathon)",
+      "url": "https://unstop.com/hackathons/hactivate-24-hour-predictive-systems-hackathon-pravrutti-20-m-s-ramaiah-university-of-applied-sciences-1759046",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ab0070ecd05a_screenshot_2026-09-20_214700.png",
+      "mode": "offline",
+      "location": "Bangalore, Karnataka",
+      "college": null,
+      "organizer": "M S Ramaiah University of Applied Sciences",
+      "deadline": "2026-10-08T00:00:00+05:30",
+      "prize_text": "\u20b920,000",
+      "themes": [
+        "Embedded Systems Engineer"
+      ],
+      "participants": 7
     },
     {
       "source": "unstop",
@@ -1336,13 +1367,13 @@
       "location": null,
       "college": null,
       "organizer": "ACM Student Chapter, VNRVJIET",
-      "deadline": "2026-10-11T00:00:00+05:30",
+      "deadline": "2026-10-11T23:59:00+05:30",
       "prize_text": "\u20b920,000",
       "themes": [
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 195
+      "participants": 291
     },
     {
       "source": "unstop",
@@ -1353,13 +1384,13 @@
       "location": "Greater Noida, Uttar Pradesh",
       "college": null,
       "organizer": "Navrachna Foundation For Entrepreneurship Development",
-      "deadline": "2026-10-19T00:00:00+05:30",
+      "deadline": "2026-10-15T00:00:00+05:30",
       "prize_text": "\u20b920,000",
       "themes": [
         "Robotics Engineer",
         "Games & Sports"
       ],
-      "participants": 9
+      "participants": 15
     },
     {
       "source": "unstop",
@@ -1392,7 +1423,7 @@
       "themes": [
         "Online Gaming & Esports"
       ],
-      "participants": 224
+      "participants": 229
     },
     {
       "source": "unstop",
@@ -1403,13 +1434,13 @@
       "location": "Mangaluru, Karnataka",
       "college": null,
       "organizer": "AJ Institute of Engineering and Technology (AJIET), Mangalore, Karnataka",
-      "deadline": "2026-09-30T23:59:00+05:30",
+      "deadline": "2026-10-01T23:59:00+05:30",
       "prize_text": "\u20b920,000",
       "themes": [
         "Software Development",
         "Artificial Intelligence"
       ],
-      "participants": 765
+      "participants": 865
     },
     {
       "source": "unstop",
@@ -1425,7 +1456,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 118
+      "participants": 125
     },
     {
       "source": "unstop",
@@ -1441,7 +1472,24 @@
       "themes": [
         "Artificial Intelligence"
       ],
-      "participants": 60
+      "participants": 94
+    },
+    {
+      "source": "unstop",
+      "title": "FOUNDER CODE : 24 Hour HACKATHON",
+      "url": "https://unstop.com/hackathons/founder-code-24-hour-hackathon-sri-muthukumaran-institute-of-technology-1760987",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ab4b25b90bed_smit_logo.jpg",
+      "mode": "offline",
+      "location": "Chennai, Tamil Nadu",
+      "college": null,
+      "organizer": "Sri Muthukumaran Institute Of Technology",
+      "deadline": "2026-10-07T00:00:00+05:30",
+      "prize_text": "\u20b925,000",
+      "themes": [
+        "Software Development",
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 33
     },
     {
       "source": "unstop",
@@ -1457,7 +1505,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 299
+      "participants": 339
     },
     {
       "source": "unstop",
@@ -1473,7 +1521,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 114
+      "participants": 130
     },
     {
       "source": "unstop",
@@ -1489,23 +1537,7 @@
       "themes": [
         "Agentic AI Engineer"
       ],
-      "participants": 2854
-    },
-    {
-      "source": "unstop",
-      "title": "Prysm'26",
-      "url": "https://unstop.com/hackathons/prysm26-eshan-group-of-institutions-uttar-pradesh-1747181",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6a95e0a402b59_1000272617.jpg",
-      "mode": "offline",
-      "location": "Farah, Uttar Pradesh",
-      "college": null,
-      "organizer": "Eshan Group Of Institutions, Uttar Pradesh",
-      "deadline": "2026-10-01T00:00:00+05:30",
-      "prize_text": "\u20b925,000",
-      "themes": [
-        "Applied AI"
-      ],
-      "participants": 190
+      "participants": 2929
     },
     {
       "source": "unstop",
@@ -1521,25 +1553,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 427
-    },
-    {
-      "source": "devpost",
-      "title": "CodeSprint by Elite Coders",
-      "url": "https://codesprint-by-elitecoders.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/380/263/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "elite coders",
-      "deadline": null,
-      "prize_text": "\u20b9 30,000",
-      "themes": [
-        "Beginner Friendly",
-        "Open Ended",
-        "Web"
-      ],
-      "participants": 95
+      "participants": 440
     },
     {
       "source": "unstop",
@@ -1555,7 +1569,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 1255
+      "participants": 1331
     },
     {
       "source": "unstop",
@@ -1572,7 +1586,7 @@
         "Software Development",
         "Others"
       ],
-      "participants": 88
+      "participants": 111
     },
     {
       "source": "unstop",
@@ -1588,23 +1602,7 @@
       "themes": [
         "Program Management"
       ],
-      "participants": 431
-    },
-    {
-      "source": "unstop",
-      "title": "CodeSlayer 2.0 2k26",
-      "url": "https://unstop.com/hackathons/codeslayer-20-2k26-national-institute-of-technology-nit-delhi-1743965",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6a8d5da4c095a_codeslayer_2_0_logo_1.png",
-      "mode": "offline",
-      "location": "Delhi, Delhi",
-      "college": null,
-      "organizer": "National Institute of Technology (NIT), Delhi",
-      "deadline": "2026-10-01T00:00:00+05:30",
-      "prize_text": "\u20b930,000",
-      "themes": [
-        "Software Development"
-      ],
-      "participants": 6229
+      "participants": 435
     },
     {
       "source": "unstop",
@@ -1620,7 +1618,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 312
+      "participants": 446
     },
     {
       "source": "unstop",
@@ -1636,7 +1634,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 279
+      "participants": 287
     },
     {
       "source": "unstop",
@@ -1653,7 +1651,24 @@
         "Quizzes & Treasure Hunt",
         "Cyber Security"
       ],
-      "participants": 63
+      "participants": 70
+    },
+    {
+      "source": "unstop",
+      "title": "Code N Compete | IIT Kanpur",
+      "url": "https://unstop.com/hackathons/code-n-compete-iit-kanpur-techkriti27-techkriti-1763847",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abd00c42c7ea_techkriti_logo.jpg",
+      "mode": "offline",
+      "location": "Kalyanpur, Uttar Pradesh",
+      "college": null,
+      "organizer": "Techkriti",
+      "deadline": "2026-11-14T00:00:00+05:30",
+      "prize_text": "\u20b937,500",
+      "themes": [
+        "Software Development",
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 26
     },
     {
       "source": "unstop",
@@ -1669,7 +1684,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 91
+      "participants": 131
     },
     {
       "source": "unstop",
@@ -1685,7 +1700,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 197
+      "participants": 247
     },
     {
       "source": "unstop",
@@ -1701,7 +1716,7 @@
       "themes": [
         "Applied AI"
       ],
-      "participants": 51
+      "participants": 54
     },
     {
       "source": "unstop",
@@ -1717,7 +1732,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 990
+      "participants": 1090
     },
     {
       "source": "devpost",
@@ -1735,7 +1750,73 @@
         "IoT",
         "Machine Learning/AI"
       ],
-      "participants": 207
+      "participants": 220
+    },
+    {
+      "source": "unstop",
+      "title": "Manoeuvre | IIT Kanpur",
+      "url": "https://unstop.com/hackathons/manoeuvre-iit-kanpur-techkriti27-techkriti-1763989",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abd6bebbd188_techkriti_logo.jpg",
+      "mode": "offline",
+      "location": "Kalyanpur, Uttar Pradesh",
+      "college": null,
+      "organizer": "Techkriti",
+      "deadline": "2026-11-14T00:00:00+05:30",
+      "prize_text": "\u20b950,000",
+      "themes": [
+        "Robotics Engineer"
+      ],
+      "participants": 0
+    },
+    {
+      "source": "unstop",
+      "title": "IARC | IIT Kanpur",
+      "url": "https://unstop.com/hackathons/iarc-iit-kanpur-techkriti27-techkriti-1763991",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abd6d983f519_techkriti_logo.jpg",
+      "mode": "offline",
+      "location": "Kalyanpur, Uttar Pradesh",
+      "college": null,
+      "organizer": "Techkriti",
+      "deadline": "2026-11-14T00:00:00+05:30",
+      "prize_text": "\u20b950,000",
+      "themes": [
+        "Robotics Engineer"
+      ],
+      "participants": 1
+    },
+    {
+      "source": "unstop",
+      "title": "Hovermania | IIT Kanpur",
+      "url": "https://unstop.com/hackathons/hovermania-iit-kanpur-techkriti27-techkriti-1763997",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abd7525cb15b_techkriti_logo.jpg",
+      "mode": "offline",
+      "location": "Kalyanpur, Uttar Pradesh",
+      "college": null,
+      "organizer": "Techkriti",
+      "deadline": "2026-11-14T00:00:00+05:30",
+      "prize_text": "\u20b950,000",
+      "themes": [
+        "Mechanical Engineer",
+        "Robotics Engineer"
+      ],
+      "participants": 0
+    },
+    {
+      "source": "unstop",
+      "title": "Capture The Flag | IIT Kanpur",
+      "url": "https://unstop.com/hackathons/capture-the-flag-iit-kanpur-techkriti27-techkriti-1763860",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abd27571a266_techkriti_logo.jpg",
+      "mode": "offline",
+      "location": "Kalyanpur, Uttar Pradesh",
+      "college": null,
+      "organizer": "Techkriti",
+      "deadline": "2026-11-14T00:00:00+05:30",
+      "prize_text": "\u20b950,000",
+      "themes": [
+        "Quizzes & Treasure Hunt",
+        "Ethical Hacking"
+      ],
+      "participants": 102
     },
     {
       "source": "unstop",
@@ -1752,7 +1833,7 @@
         "Software Development",
         "Artificial Intelligence"
       ],
-      "participants": 90
+      "participants": 119
     },
     {
       "source": "unstop",
@@ -1769,7 +1850,7 @@
         "Artificial Intelligence",
         "AI Engineering"
       ],
-      "participants": 104
+      "participants": 118
     },
     {
       "source": "unstop",
@@ -1786,7 +1867,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 119
+      "participants": 135
     },
     {
       "source": "unstop",
@@ -1803,7 +1884,7 @@
         "Software Development",
         "Cyber Security"
       ],
-      "participants": 130
+      "participants": 173
     },
     {
       "source": "unstop",
@@ -1820,7 +1901,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 516
+      "participants": 582
     },
     {
       "source": "unstop",
@@ -1837,7 +1918,7 @@
         "Machine Learning Engineering",
         "Applied AI"
       ],
-      "participants": 40
+      "participants": 56
     },
     {
       "source": "unstop",
@@ -1853,7 +1934,7 @@
       "themes": [
         "AI Engineering"
       ],
-      "participants": 926
+      "participants": 972
     },
     {
       "source": "unstop",
@@ -1869,7 +1950,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 3747
+      "participants": 4198
     },
     {
       "source": "unstop",
@@ -1885,7 +1966,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 4180
+      "participants": 4281
     },
     {
       "source": "unstop",
@@ -1901,7 +1982,23 @@
       "themes": [
         "Applied AI"
       ],
-      "participants": 77
+      "participants": 86
+    },
+    {
+      "source": "unstop",
+      "title": "Speed Quant | IIT KANPUR",
+      "url": "https://unstop.com/hackathons/speed-quant-iit-kanpur-techkriti27-techkriti-1763928",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abd3a547f009_techkriti_logo.jpg",
+      "mode": "offline",
+      "location": "Kalyanpur, Uttar Pradesh",
+      "college": null,
+      "organizer": "Techkriti",
+      "deadline": "2026-11-14T00:00:00+05:30",
+      "prize_text": "\u20b960,000",
+      "themes": [
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 96
     },
     {
       "source": "unstop",
@@ -1918,7 +2015,24 @@
         "Applied AI",
         "Artificial Intelligence"
       ],
-      "participants": 19
+      "participants": 24
+    },
+    {
+      "source": "unstop",
+      "title": "Multirotor | IIT Kanpur",
+      "url": "https://unstop.com/hackathons/multirotor-iit-kanpur-techkriti27-techkriti-1763995",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abd702ccece2_techkriti_logo.jpg",
+      "mode": "offline",
+      "location": "Kalyanpur, Uttar Pradesh",
+      "college": null,
+      "organizer": "Techkriti",
+      "deadline": "2026-11-14T00:00:00+05:30",
+      "prize_text": "\u20b965,000",
+      "themes": [
+        "Robotics Engineer",
+        "Games & Sports"
+      ],
+      "participants": 14
     },
     {
       "source": "unstop",
@@ -1934,7 +2048,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 56
+      "participants": 79
     },
     {
       "source": "unstop",
@@ -1950,7 +2064,7 @@
       "themes": [
         "Applied AI"
       ],
-      "participants": 201
+      "participants": 216
     },
     {
       "source": "unstop",
@@ -1982,7 +2096,23 @@
       "themes": [
         "Artificial Intelligence"
       ],
-      "participants": 793
+      "participants": 844
+    },
+    {
+      "source": "unstop",
+      "title": "Techkriti Grand Prix | IIT Kanpur",
+      "url": "https://unstop.com/hackathons/techkriti-grand-prix-iit-kanpur-techkriti27-techkriti-1763993",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abd6f26ee2af_techkriti_logo.jpg",
+      "mode": "offline",
+      "location": "Kalyanpur, Uttar Pradesh",
+      "college": null,
+      "organizer": "Techkriti",
+      "deadline": "2026-11-14T00:00:00+05:30",
+      "prize_text": "\u20b980,000",
+      "themes": [
+        "Robotics Engineer"
+      ],
+      "participants": 2
     },
     {
       "source": "unstop",
@@ -1999,7 +2129,7 @@
         "Cyber Security",
         "Ethical Hacking"
       ],
-      "participants": 513
+      "participants": 550
     },
     {
       "source": "unstop",
@@ -2015,7 +2145,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 879
+      "participants": 1003
     },
     {
       "source": "devpost",
@@ -2031,7 +2161,7 @@
       "themes": [
         "Machine Learning/AI"
       ],
-      "participants": 1168
+      "participants": 1565
     },
     {
       "source": "devpost",
@@ -2065,7 +2195,7 @@
       "themes": [
         "Applied AI"
       ],
-      "participants": 1662
+      "participants": 2047
     },
     {
       "source": "unstop",
@@ -2082,7 +2212,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 994
+      "participants": 1337
     },
     {
       "source": "unstop",
@@ -2098,7 +2228,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 468
+      "participants": 492
     },
     {
       "source": "unstop",
@@ -2116,7 +2246,7 @@
         "Computer Vision",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 794
+      "participants": 894
     },
     {
       "source": "unstop",
@@ -2132,7 +2262,7 @@
       "themes": [
         "Applied AI"
       ],
-      "participants": 2421
+      "participants": 2794
     },
     {
       "source": "unstop",
@@ -2149,7 +2279,7 @@
         "Artificial Intelligence",
         "Machine Learning Engineering"
       ],
-      "participants": 3177
+      "participants": 3415
     },
     {
       "source": "unstop",
@@ -2160,13 +2290,13 @@
       "location": "Raipur, Chhattisgarh",
       "college": null,
       "organizer": "Shri Shankaracharya Institute of Professional Management and Technology, Raipur",
-      "deadline": "2026-09-30T23:59:00+05:30",
+      "deadline": "2026-10-02T23:59:00+05:30",
       "prize_text": "\u20b9100,000",
       "themes": [
         "Applied AI",
         "Computer Vision"
       ],
-      "participants": 491
+      "participants": 547
     },
     {
       "source": "unstop",
@@ -2177,12 +2307,12 @@
       "location": "Hyderabad, Telangana",
       "college": null,
       "organizer": "Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering & Technology, Telangana",
-      "deadline": "2026-09-30T23:59:00+05:30",
+      "deadline": "2026-10-02T23:59:00+05:30",
       "prize_text": "\u20b9100,000",
       "themes": [
         "Software Development"
       ],
-      "participants": 7995
+      "participants": 9413
     },
     {
       "source": "unstop",
@@ -2199,7 +2329,7 @@
         "AI Engineering",
         "Agentic AI Engineer"
       ],
-      "participants": 1006
+      "participants": 1027
     },
     {
       "source": "unstop",
@@ -2215,7 +2345,24 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 123
+      "participants": 142
+    },
+    {
+      "source": "unstop",
+      "title": "Tech Eximius 2.0",
+      "url": "https://unstop.com/hackathons/tech-eximius-20-tech-circle-1755763",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6a1460dde0304_tech_circle_logo.jpeg",
+      "mode": "offline",
+      "location": "Delhi, Delhi",
+      "college": null,
+      "organizer": "Tech Circle",
+      "deadline": "2026-11-04T23:59:59+05:30",
+      "prize_text": "\u20b9130,000",
+      "themes": [
+        "Software Development",
+        "Conferences"
+      ],
+      "participants": 1011
     },
     {
       "source": "unstop",
@@ -2231,7 +2378,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 81
+      "participants": 95
     },
     {
       "source": "devpost",
@@ -2249,7 +2396,24 @@
         "Design",
         "Robotic Process Automation"
       ],
-      "participants": 69
+      "participants": 88
+    },
+    {
+      "source": "unstop",
+      "title": "Robowars | IIT Kanpur",
+      "url": "https://unstop.com/hackathons/robowars-iit-kanpur-techkriti27-techkriti-1763985",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abd66dbc7024_techkriti_logo.jpg",
+      "mode": "offline",
+      "location": "Kalyanpur, Uttar Pradesh",
+      "college": null,
+      "organizer": "Techkriti",
+      "deadline": "2026-11-14T00:00:00+05:30",
+      "prize_text": "\u20b9265,000",
+      "themes": [
+        "Robotics Engineer",
+        "Games & Sports"
+      ],
+      "participants": 5
     },
     {
       "source": "unstop",
@@ -2266,7 +2430,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 21
+      "participants": 35
     },
     {
       "source": "unstop",
@@ -2283,7 +2447,7 @@
         "Quizzes & Treasure Hunt",
         "Artificial Intelligence"
       ],
-      "participants": 279
+      "participants": 332
     },
     {
       "source": "unstop",
@@ -2300,25 +2464,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 1
-    },
-    {
-      "source": "devpost",
-      "title": "Global Innovation Build Challenge V2",
-      "url": "https://gibc-v2.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/835/213/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "Kang Chiao International School Student",
-      "deadline": "2026-10-01T00:00:00",
-      "prize_text": "$0",
-      "themes": [
-        "Machine Learning/AI",
-        "Social Good",
-        "Beginner Friendly"
-      ],
-      "participants": 1638
+      "participants": 2
     },
     {
       "source": "devpost",
@@ -2336,7 +2482,7 @@
         "Machine Learning/AI",
         "Open Ended"
       ],
-      "participants": 1030
+      "participants": 1263
     },
     {
       "source": "devpost",
@@ -2353,7 +2499,7 @@
         "Databases",
         "Machine Learning/AI"
       ],
-      "participants": 912
+      "participants": 923
     },
     {
       "source": "devpost",
@@ -2364,14 +2510,14 @@
       "location": "Online",
       "college": null,
       "organizer": "BioCataalysis",
-      "deadline": "2026-10-06T00:00:00",
+      "deadline": "2026-10-13T00:00:00",
       "prize_text": "$0",
       "themes": [
         "Beginner Friendly",
         "Health",
         "Social Good"
       ],
-      "participants": 676
+      "participants": 683
     },
     {
       "source": "devpost",
@@ -2389,7 +2535,25 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 570
+      "participants": 596
+    },
+    {
+      "source": "devpost",
+      "title": "ML Empowerment Build Challenge 3.0 - ($96,000 in prizes!)",
+      "url": "https://ml-build-challenge-3.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/267/891/datas/medium_square.jpg",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "ML Empowerment Foundation",
+      "deadline": "2026-10-10T00:00:00",
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "participants": 500
     },
     {
       "source": "devpost",
@@ -2407,25 +2571,7 @@
         "Machine Learning/AI",
         "Web"
       ],
-      "participants": 465
-    },
-    {
-      "source": "devpost",
-      "title": "ML Empowerment Build Challenge 3.0 - ($80,000 in prizes!)",
-      "url": "https://ml-build-challenge-3.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/267/891/datas/medium_square.jpg",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "ML Empowerment Foundation",
-      "deadline": "2026-10-06T00:00:00",
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly",
-        "Machine Learning/AI",
-        "Social Good"
-      ],
-      "participants": 440
+      "participants": 476
     },
     {
       "source": "devpost",
@@ -2443,7 +2589,7 @@
         "Low/No Code",
         "Open Ended"
       ],
-      "participants": 322
+      "participants": 329
     },
     {
       "source": "devpost",
@@ -2461,7 +2607,7 @@
         "Machine Learning/AI",
         "Robotic Process Automation"
       ],
-      "participants": 268
+      "participants": 275
     },
     {
       "source": "devpost",
@@ -2479,7 +2625,25 @@
         "Machine Learning/AI",
         "Open Ended"
       ],
-      "participants": 251
+      "participants": 268
+    },
+    {
+      "source": "devpost",
+      "title": "ImpactHack 2026",
+      "url": "https://impacthack26.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/256/087/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "GIS Engineering Club",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Education",
+        "Social Good"
+      ],
+      "participants": 216
     },
     {
       "source": "devpost",
@@ -2497,7 +2661,7 @@
         "Open Ended",
         "Robotic Process Automation"
       ],
-      "participants": 161
+      "participants": 169
     },
     {
       "source": "devpost",
@@ -2515,25 +2679,25 @@
         "Beginner Friendly",
         "Open Ended"
       ],
-      "participants": 123
+      "participants": 131
     },
     {
       "source": "devpost",
-      "title": "Hyperbloom September - Beginer Freindly",
-      "url": "https://hyperbloom-september2.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/371/897/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
+      "title": "HTCJ \u00d7 PROOF Aviation Futures Challenge",
+      "url": "https://htcj-aviation-futures.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/314/895/datas/medium_square.jpg",
+      "mode": "offline",
+      "location": "Boston Venture Week",
       "college": null,
-      "organizer": "hyperbloom hacks",
-      "deadline": null,
+      "organizer": "hacktheconcretejungle",
+      "deadline": "2026-10-27T00:00:00",
       "prize_text": "$0",
       "themes": [
-        "Beginner Friendly",
-        "Education",
-        "Low/No Code"
+        "Enterprise",
+        "Machine Learning/AI",
+        "Social Good"
       ],
-      "participants": 103
+      "participants": 88
     },
     {
       "source": "devpost",
@@ -2555,42 +2719,6 @@
     },
     {
       "source": "devpost",
-      "title": "HTCJ \u00d7 PROOF Aviation Futures Challenge",
-      "url": "https://htcj-aviation-futures.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/314/895/datas/medium_square.jpg",
-      "mode": "offline",
-      "location": "Boston Venture Week",
-      "college": null,
-      "organizer": "hacktheconcretejungle",
-      "deadline": "2026-10-27T00:00:00",
-      "prize_text": "$0",
-      "themes": [
-        "Enterprise",
-        "Machine Learning/AI",
-        "Social Good"
-      ],
-      "participants": 87
-    },
-    {
-      "source": "devpost",
-      "title": "305 HackShells Edition September 2026",
-      "url": "https://305hackshellssep2026.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/328/579/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "Swift at FIU",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly",
-        "Cybersecurity",
-        "Education"
-      ],
-      "participants": 77
-    },
-    {
-      "source": "devpost",
       "title": "Hackyard Build 2026 | 24-Hour Hackathon at IIT Guwahati",
       "url": "https://hackyardbuild2026.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/343/722/datas/medium_square.png",
@@ -2605,179 +2733,7 @@
         "Open Ended",
         "Low/No Code"
       ],
-      "participants": 62
-    },
-    {
-      "source": "devpost",
-      "title": "MCA 2026 projects",
-      "url": "https://mca-2026-projects.devpost.com/",
-      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "Mizzou Computing Association",
-      "deadline": "2026-12-25T00:00:00",
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly"
-      ],
-      "participants": 24
-    },
-    {
-      "source": "devpost",
-      "title": "AI Lodge Hackathon 2026",
-      "url": "https://ai-lodge-hackathon-2026.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/362/031/datas/medium_square.jpg",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "SMU Business Intelligence & Analytics",
-      "deadline": "2026-10-19T00:00:00",
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly"
-      ],
-      "participants": 7
-    },
-    {
-      "source": "devpost",
-      "title": "UIUC Product Hackathon - Hack to the Future",
-      "url": "https://product-hackathon-uiuc.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/394/061/datas/medium_square.png",
-      "mode": "offline",
-      "location": "Campus Instructional Facility",
-      "college": null,
-      "organizer": "Product Space UIUC",
-      "deadline": "2026-10-03T00:00:00",
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly",
-        "Design",
-        "Low/No Code"
-      ],
-      "participants": 5
-    },
-    {
-      "source": "devpost",
-      "title": "Open Source Impact",
-      "url": "https://open-source-impact.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/434/168/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "Student Organization",
-      "deadline": "2026-10-31T00:00:00",
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly",
-        "Open Ended",
-        "Web"
-      ],
-      "participants": 4
-    },
-    {
-      "source": "devpost",
-      "title": "HackIT 2026",
-      "url": "https://hackit-2026.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/127/509/datas/medium_square.png",
-      "mode": "offline",
-      "location": "Ngee Ann Polytechnic School of ICT",
-      "college": null,
-      "organizer": "NP Overflow",
-      "deadline": "2026-10-20T00:00:00",
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly",
-        "Open Ended"
-      ],
-      "participants": 3
-    },
-    {
-      "source": "devpost",
-      "title": "StormHacks 2026",
-      "url": "https://stormhacks2026.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/379/988/datas/medium_square.png",
-      "mode": "offline",
-      "location": "Simon Fraser University",
-      "college": null,
-      "organizer": "SFU Surge",
-      "deadline": null,
-      "prize_text": "$CAD 0",
-      "themes": [
-        "Beginner Friendly"
-      ],
-      "participants": 264
-    },
-    {
-      "source": "devpost",
-      "title": "ImpactHack 2026",
-      "url": "https://impacthack26.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/256/087/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "GIS Engineering Club",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly",
-        "Education",
-        "Social Good"
-      ],
-      "participants": 188
-    },
-    {
-      "source": "devpost",
-      "title": "United Hackathons V1",
-      "url": "https://devonomicsv1.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/067/065/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "United Hackathons",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Machine Learning/AI",
-        "Open Ended",
-        "Social Good"
-      ],
-      "participants": 121
-    },
-    {
-      "source": "devpost",
-      "title": "Gator Quant Hacks",
-      "url": "https://gqhacks.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/166/339/datas/medium_square.png",
-      "mode": "offline",
-      "location": "Gainesville, Florida",
-      "college": null,
-      "organizer": "University of Florida",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Fintech",
-        "Machine Learning/AI"
-      ],
-      "participants": 43
-    },
-    {
-      "source": "devpost",
-      "title": "STEMergent Hacks 2026",
-      "url": "https://stemergent-hacks.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/273/593/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "STEMergent",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Low/No Code",
-        "Machine Learning/AI",
-        "Social Good"
-      ],
-      "participants": 38
+      "participants": 78
     },
     {
       "source": "devpost",
@@ -2795,41 +2751,176 @@
         "Productivity",
         "Web"
       ],
-      "participants": 35
+      "participants": 43
     },
     {
       "source": "devpost",
-      "title": "BioHacks",
-      "url": "https://biohacksmcmaster.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/727/866/datas/medium_square.png",
-      "mode": "offline",
-      "location": "McMaster University - PGCLL",
+      "title": "MCA 2026 projects",
+      "url": "https://mca-2026-projects.devpost.com/",
+      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "online",
+      "location": "Online",
       "college": null,
-      "organizer": "BioEng4Youth",
-      "deadline": null,
-      "prize_text": "$CAD 0",
+      "organizer": "Mizzou Computing Association",
+      "deadline": "2026-12-25T00:00:00",
+      "prize_text": "$0",
       "themes": [
-        "Health",
+        "Beginner Friendly"
+      ],
+      "participants": 25
+    },
+    {
+      "source": "devpost",
+      "title": "AI Lodge Hackathon 2026",
+      "url": "https://ai-lodge-hackathon-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/362/031/datas/medium_square.jpg",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "SMU Business Intelligence & Analytics",
+      "deadline": "2026-10-19T00:00:00",
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly"
+      ],
+      "participants": 8
+    },
+    {
+      "source": "devpost",
+      "title": "UIUC Product Hackathon - Hack to the Future",
+      "url": "https://product-hackathon-uiuc.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/394/061/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Campus Instructional Facility",
+      "college": null,
+      "organizer": "Product Space UIUC",
+      "deadline": "2026-10-03T00:00:00",
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Design",
+        "Low/No Code"
+      ],
+      "participants": 7
+    },
+    {
+      "source": "devpost",
+      "title": "AIC Internal Competition -2026 (Agentic AI)",
+      "url": "https://aic-ic-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/442/479/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "AI Community @ SBU",
+      "deadline": "2026-10-12T00:00:00",
+      "prize_text": "$0",
+      "themes": [
         "Machine Learning/AI",
         "Open Ended"
       ],
-      "participants": 35
+      "participants": 6
     },
     {
       "source": "devpost",
-      "title": "AI Hackathon 2026 by LA Hacks",
-      "url": "https://la-ai-hackathon-2026.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/732/163/datas/medium_square.png",
+      "title": "HackIT 2026",
+      "url": "https://hackit-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/127/509/datas/medium_square.png",
       "mode": "offline",
-      "location": "James West Alumni Center",
+      "location": "Ngee Ann Polytechnic School of ICT",
       "college": null,
-      "organizer": "LA Hacks",
+      "organizer": "NP Overflow",
+      "deadline": "2026-10-20T00:00:00",
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Open Ended"
+      ],
+      "participants": 4
+    },
+    {
+      "source": "devpost",
+      "title": "CCT IT CLUB X INOVEXHQ HACK DAYS",
+      "url": "https://cct-it-club-inovexhq-hack-days.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/269/213/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Chitwan College of Technology",
+      "college": null,
+      "organizer": "MLH",
       "deadline": null,
       "prize_text": "$0",
       "themes": [
+        "Web"
+      ],
+      "participants": 3
+    },
+    {
+      "source": "devpost",
+      "title": "StormHacks 2026",
+      "url": "https://stormhacks2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/379/988/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Simon Fraser University",
+      "college": null,
+      "organizer": "SFU Surge",
+      "deadline": null,
+      "prize_text": "$CAD 0",
+      "themes": [
+        "Beginner Friendly"
+      ],
+      "participants": 314
+    },
+    {
+      "source": "devpost",
+      "title": "United Hackathons V1",
+      "url": "https://devonomicsv1.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/067/065/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "United Hackathons",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Machine Learning/AI",
+        "Open Ended",
+        "Social Good"
+      ],
+      "participants": 123
+    },
+    {
+      "source": "devpost",
+      "title": "Gator Quant Hacks",
+      "url": "https://gqhacks.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/166/339/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Gainesville, Florida",
+      "college": null,
+      "organizer": "University of Florida",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Fintech",
         "Machine Learning/AI"
       ],
-      "participants": 34
+      "participants": 48
+    },
+    {
+      "source": "devpost",
+      "title": "STEMergent Hacks 2026",
+      "url": "https://stemergent-hacks.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/273/593/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "STEMergent",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Low/No Code",
+        "Machine Learning/AI",
+        "Social Good"
+      ],
+      "participants": 41
     },
     {
       "source": "devpost",
@@ -2847,7 +2938,41 @@
         "Low/No Code",
         "Social Good"
       ],
-      "participants": 32
+      "participants": 40
+    },
+    {
+      "source": "devpost",
+      "title": "AI Hackathon 2026 by LA Hacks",
+      "url": "https://la-ai-hackathon-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/732/163/datas/medium_square.png",
+      "mode": "offline",
+      "location": "James West Alumni Center",
+      "college": null,
+      "organizer": "LA Hacks",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Machine Learning/AI"
+      ],
+      "participants": 36
+    },
+    {
+      "source": "devpost",
+      "title": "BioHacks",
+      "url": "https://biohacksmcmaster.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/727/866/datas/medium_square.png",
+      "mode": "offline",
+      "location": "McMaster University - PGCLL",
+      "college": null,
+      "organizer": "BioEng4Youth",
+      "deadline": null,
+      "prize_text": "$CAD 0",
+      "themes": [
+        "Health",
+        "Machine Learning/AI",
+        "Open Ended"
+      ],
+      "participants": 36
     },
     {
       "source": "devpost",
@@ -2865,7 +2990,7 @@
         "Open Ended",
         "Social Good"
       ],
-      "participants": 31
+      "participants": 35
     },
     {
       "source": "devpost",
@@ -2901,7 +3026,7 @@
         "Social Good",
         "Music/Art"
       ],
-      "participants": 26
+      "participants": 27
     },
     {
       "source": "devpost",
@@ -2919,7 +3044,7 @@
         "Machine Learning/AI",
         "Open Ended"
       ],
-      "participants": 25
+      "participants": 26
     },
     {
       "source": "devpost",
@@ -2936,6 +3061,24 @@
         "Beginner Friendly",
         "Machine Learning/AI",
         "Social Good"
+      ],
+      "participants": 25
+    },
+    {
+      "source": "devpost",
+      "title": "Arm + ExecuTorch: Edge AI Challenge",
+      "url": "https://arm-executorch.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/362/865/datas/medium_square.png",
+      "mode": "offline",
+      "location": "San Francisco State University",
+      "college": null,
+      "organizer": "arm",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "AR/VR",
+        "IoT",
+        "Machine Learning/AI"
       ],
       "participants": 24
     },
@@ -2956,24 +3099,6 @@
         "Web"
       ],
       "participants": 24
-    },
-    {
-      "source": "devpost",
-      "title": "Arm + ExecuTorch: Edge AI Challenge",
-      "url": "https://arm-executorch.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/362/865/datas/medium_square.png",
-      "mode": "offline",
-      "location": "San Francisco State University",
-      "college": null,
-      "organizer": "arm",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "AR/VR",
-        "IoT",
-        "Machine Learning/AI"
-      ],
-      "participants": 23
     },
     {
       "source": "devpost",
@@ -3013,6 +3138,24 @@
     },
     {
       "source": "devpost",
+      "title": "Financial Cybersecurity Challenge 2026",
+      "url": "https://finance-cybersecurity2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/356/410/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "EconExplorers",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Cybersecurity",
+        "Fintech"
+      ],
+      "participants": 15
+    },
+    {
+      "source": "devpost",
       "title": "Hyphen-Hacks",
       "url": "https://hyphen-hacks26.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/027/494/datas/medium_square.png",
@@ -3028,24 +3171,6 @@
         "Open Ended"
       ],
       "participants": 15
-    },
-    {
-      "source": "devpost",
-      "title": "Financial Cybersecurity Challenge 2026",
-      "url": "https://finance-cybersecurity2026.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/356/410/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "EconExplorers",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly",
-        "Cybersecurity",
-        "Fintech"
-      ],
-      "participants": 13
     },
     {
       "source": "devpost",
@@ -3118,6 +3243,40 @@
     },
     {
       "source": "devpost",
+      "title": "Build with Gemma - Innovate in Windsor",
+      "url": "https://innovate-in-windsor-hackathon.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/298/521/datas/medium_square.png",
+      "mode": "offline",
+      "location": "University of Windsor",
+      "college": null,
+      "organizer": "Google Developer Groups Windsor",
+      "deadline": null,
+      "prize_text": "$CAD 0",
+      "themes": [
+        "Machine Learning/AI"
+      ],
+      "participants": 9
+    },
+    {
+      "source": "devpost",
+      "title": "EvoHacks2026",
+      "url": "https://evohackathon2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/395/625/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "EvoHacks",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Low/No Code",
+        "Machine Learning/AI"
+      ],
+      "participants": 8
+    },
+    {
+      "source": "devpost",
       "title": "Build-A-Thon",
       "url": "https://build-a-thon-30568.devpost.com/",
       "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
@@ -3136,25 +3295,27 @@
     },
     {
       "source": "devpost",
-      "title": "Build with Gemma - Innovate in Windsor",
-      "url": "https://innovate-in-windsor-hackathon.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/298/521/datas/medium_square.png",
-      "mode": "offline",
-      "location": "University of Windsor",
+      "title": "Future innovators hackothon",
+      "url": "https://future-innovators-hackothon.devpost.com/",
+      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "online",
+      "location": "Online",
       "college": null,
-      "organizer": "Google Developer Groups Windsor",
+      "organizer": "shrimat koti",
       "deadline": null,
-      "prize_text": "$CAD 0",
+      "prize_text": "$0",
       "themes": [
-        "Machine Learning/AI"
+        "Cybersecurity",
+        "Education",
+        "Fintech"
       ],
-      "participants": 8
+      "participants": 7
     },
     {
       "source": "devpost",
       "title": "#SFTechWeek - Decision-Grade AI @ Stanford \u26a1\ufe0f A Buildathon on LLM Trust",
       "url": "https://ai-trust.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/363/749/datas/medium_square.png",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/468/014/datas/medium_square.png",
       "mode": "offline",
       "location": "Industrious Palo Alto Page Mil",
       "college": null,
@@ -3182,6 +3343,42 @@
       "themes": [
         "DevOps",
         "Enterprise",
+        "Machine Learning/AI"
+      ],
+      "participants": 7
+    },
+    {
+      "source": "devpost",
+      "title": "MakeUC 2026",
+      "url": "https://makeuc-2026-30884.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/047/660/datas/medium_square.png",
+      "mode": "offline",
+      "location": "1819 Innovation Hub",
+      "college": null,
+      "organizer": "IEEE@UC",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "DevOps",
+        "IoT",
+        "Web"
+      ],
+      "participants": 7
+    },
+    {
+      "source": "devpost",
+      "title": "DevFest M\u00fcnster 2026: Agentic AI Hackathon",
+      "url": "https://devfest-ai-hackathon.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/339/368/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Volkshochschule",
+      "college": null,
+      "organizer": "GDG M\u00fcnster",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Low/No Code",
         "Machine Learning/AI"
       ],
       "participants": 7
@@ -3224,24 +3421,6 @@
     },
     {
       "source": "devpost",
-      "title": "Future innovators hackothon",
-      "url": "https://future-innovators-hackothon.devpost.com/",
-      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "shrimat koti",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Cybersecurity",
-        "Education",
-        "Fintech"
-      ],
-      "participants": 6
-    },
-    {
-      "source": "devpost",
       "title": "Build Multiplayer Data Science Agents \u00b7 PyMC Labs",
       "url": "https://daimon-hackathon.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/366/962/datas/medium_square.jpeg",
@@ -3258,19 +3437,36 @@
     },
     {
       "source": "devpost",
-      "title": "DevFest M\u00fcnster 2026: Agentic AI Hackathon",
-      "url": "https://devfest-ai-hackathon.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/339/368/datas/medium_square.png",
+      "title": "GeauxHack 2026",
+      "url": "https://geauxhack-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/105/208/datas/medium_square.png",
       "mode": "offline",
-      "location": "Volkshochschule",
+      "location": "Patrick F. Taylor Hall",
       "college": null,
-      "organizer": "GDG M\u00fcnster",
+      "organizer": "SASE-LSU",
       "deadline": null,
       "prize_text": "$0",
       "themes": [
         "Beginner Friendly",
-        "Low/No Code",
-        "Machine Learning/AI"
+        "Mobile",
+        "Web"
+      ],
+      "participants": 6
+    },
+    {
+      "source": "devpost",
+      "title": "Hack Western 13",
+      "url": "https://hack-western-13.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/421/169/datas/medium_square.png",
+      "mode": "offline",
+      "location": "London, Canada",
+      "college": null,
+      "organizer": "Hack Western",
+      "deadline": null,
+      "prize_text": "$CAD 0",
+      "themes": [
+        "Beginner Friendly",
+        "Open Ended"
       ],
       "participants": 6
     },
@@ -3312,24 +3508,6 @@
     },
     {
       "source": "devpost",
-      "title": "GeauxHack 2026",
-      "url": "https://geauxhack-2026.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/105/208/datas/medium_square.png",
-      "mode": "offline",
-      "location": "Patrick F. Taylor Hall",
-      "college": null,
-      "organizer": "SASE-LSU",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly",
-        "Mobile",
-        "Web"
-      ],
-      "participants": 5
-    },
-    {
-      "source": "devpost",
       "title": "FutureForge Hacks",
       "url": "https://futureforge-hacks.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/058/924/datas/medium_square.png",
@@ -3343,23 +3521,6 @@
         "Education",
         "Machine Learning/AI",
         "Social Good"
-      ],
-      "participants": 5
-    },
-    {
-      "source": "devpost",
-      "title": "Hack Western 13",
-      "url": "https://hack-western-13.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/421/169/datas/medium_square.png",
-      "mode": "offline",
-      "location": "London, Canada",
-      "college": null,
-      "organizer": "Hack Western",
-      "deadline": null,
-      "prize_text": "$CAD 0",
-      "themes": [
-        "Beginner Friendly",
-        "Open Ended"
       ],
       "participants": 5
     },
@@ -3395,24 +3556,6 @@
       "themes": [
         "Design",
         "Social Good",
-        "Web"
-      ],
-      "participants": 4
-    },
-    {
-      "source": "devpost",
-      "title": "MakeUC 2026",
-      "url": "https://makeuc-2026-30884.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/047/660/datas/medium_square.png",
-      "mode": "offline",
-      "location": "1819 Innovation Hub",
-      "college": null,
-      "organizer": "IEEE@UC",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "DevOps",
-        "IoT",
         "Web"
       ],
       "participants": 4
@@ -3471,17 +3614,19 @@
     },
     {
       "source": "devpost",
-      "title": "CCT IT CLUB X INOVEXHQ HACK DAYS",
-      "url": "https://cct-it-club-inovexhq-hack-days.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/269/213/datas/medium_square.png",
+      "title": "Hacktoberfest Hack Day Dinajpur",
+      "url": "https://hacktoberfest-dinajpur.devpost.com/",
+      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
       "mode": "offline",
-      "location": "Chitwan College of Technology",
+      "location": "HSTU, Dinajpur",
       "college": null,
-      "organizer": "MLH",
+      "organizer": "Machine Learning Bangladesh",
       "deadline": null,
       "prize_text": "$0",
       "themes": [
-        "Web"
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Open Ended"
       ],
       "participants": 3
     },
@@ -3504,19 +3649,19 @@
     },
     {
       "source": "devpost",
-      "title": "EvoHacks2026",
-      "url": "https://evohackathon2026.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/395/625/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
+      "title": "Hack Dearborn: Conjure Reality",
+      "url": "https://hack-dearborn-5.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/137/439/datas/medium_square.png",
+      "mode": "offline",
+      "location": "University of Michigan-Dearborn",
       "college": null,
-      "organizer": "EvoHacks",
+      "organizer": "Major League Hacking",
       "deadline": null,
       "prize_text": "$0",
       "themes": [
         "Beginner Friendly",
-        "Low/No Code",
-        "Machine Learning/AI"
+        "Machine Learning/AI",
+        "Open Ended"
       ],
       "participants": 3
     },
@@ -3557,6 +3702,24 @@
     },
     {
       "source": "devpost",
+      "title": "NSH @RPI 2027",
+      "url": "https://nsh-rpi-2027.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/283/061/datas/medium_square.png",
+      "mode": "offline",
+      "location": "RPI DCC ",
+      "college": null,
+      "organizer": "NSBE-SHPE RPI",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Productivity",
+        "Social Good"
+      ],
+      "participants": 3
+    },
+    {
+      "source": "devpost",
       "title": "WiCS Hackathon",
       "url": "https://wics-hackathon.devpost.com/",
       "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
@@ -3575,6 +3738,60 @@
     },
     {
       "source": "devpost",
+      "title": "Build for Canada: An AI Hackathon for Economic Resilience",
+      "url": "https://build-for-canada.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/424/650/datas/medium_square.png",
+      "mode": "offline",
+      "location": "ForgeVenue",
+      "college": null,
+      "organizer": "NovaForge",
+      "deadline": null,
+      "prize_text": "$CAD 0",
+      "themes": [
+        "Beginner Friendly",
+        "Low/No Code",
+        "Open Ended"
+      ],
+      "participants": 2
+    },
+    {
+      "source": "devpost",
+      "title": "Rowdy Hacks XII",
+      "url": "https://rowdy-hacks-xii.devpost.com/",
+      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "offline",
+      "location": "San Pedro II",
+      "college": null,
+      "organizer": "ACM UTSA",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Cybersecurity",
+        "Web"
+      ],
+      "participants": 2
+    },
+    {
+      "source": "devpost",
+      "title": "Ensign Build",
+      "url": "https://ensign-build.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/337/472/datas/medium_square.jpeg",
+      "mode": "offline",
+      "location": "Ensign College Building",
+      "college": null,
+      "organizer": "Ensign College",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Cybersecurity",
+        "Design",
+        "Machine Learning/AI"
+      ],
+      "participants": 2
+    },
+    {
+      "source": "devpost",
       "title": "Gear Up Hacks 2026",
       "url": "https://gear-up-hacks-2026.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/206/811/datas/medium_square.png",
@@ -3588,24 +3805,6 @@
         "Mobile",
         "Social Good",
         "Web"
-      ],
-      "participants": 2
-    },
-    {
-      "source": "devpost",
-      "title": "Hack Dearborn: Conjure Reality",
-      "url": "https://hack-dearborn-5.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/137/439/datas/medium_square.png",
-      "mode": "offline",
-      "location": "University of Michigan-Dearborn",
-      "college": null,
-      "organizer": "Major League Hacking",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly",
-        "Machine Learning/AI",
-        "Open Ended"
       ],
       "participants": 2
     },
@@ -3664,13 +3863,31 @@
     },
     {
       "source": "devpost",
+      "title": "Learn to Hack: MATLAB Edition 2026",
+      "url": "https://ntu-matlab-2026.devpost.com/",
+      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "CCEB ANATA",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Education",
+        "Machine Learning/AI"
+      ],
+      "participants": 2
+    },
+    {
+      "source": "devpost",
       "title": "Meow",
       "url": "https://makeuc-2026-30881.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/046/979/datas/medium_square.png",
+      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
       "mode": "offline",
-      "location": "1819 Innovation Hub",
+      "location": "Cincinnati, OH, USA",
       "college": null,
-      "organizer": "IEEE@UC",
+      "organizer": "meower@outlook.com",
       "deadline": null,
       "prize_text": "$0",
       "themes": [
@@ -3718,73 +3935,18 @@
     },
     {
       "source": "devpost",
-      "title": "NSH @RPI 2027",
-      "url": "https://nsh-rpi-2027.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/283/061/datas/medium_square.png",
+      "title": "HealthLink Life Sciences Hackathon 2026",
+      "url": "https://healthlink-hackathon-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/455/680/datas/medium_square.png",
       "mode": "offline",
-      "location": "RPI DCC ",
+      "location": "The Basement",
       "college": null,
-      "organizer": "NSBE-SHPE RPI",
+      "organizer": "HealthLink",
       "deadline": null,
       "prize_text": "$0",
       "themes": [
         "Beginner Friendly",
-        "Productivity",
-        "Social Good"
-      ],
-      "participants": 2
-    },
-    {
-      "source": "devpost",
-      "title": "Hacktoberfest Hack Day Dinajpur",
-      "url": "https://hacktoberfest-dinajpur.devpost.com/",
-      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-      "mode": "offline",
-      "location": "HSTU, Dinajpur",
-      "college": null,
-      "organizer": "Machine Learning Bangladesh",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly",
-        "Machine Learning/AI",
-        "Open Ended"
-      ],
-      "participants": 1
-    },
-    {
-      "source": "devpost",
-      "title": "Build for Canada: An AI Hackathon for Economic Resilience",
-      "url": "https://build-for-canada.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/424/650/datas/medium_square.png",
-      "mode": "offline",
-      "location": "ForgeVenue",
-      "college": null,
-      "organizer": "NovaForge",
-      "deadline": null,
-      "prize_text": "$CAD 0",
-      "themes": [
-        "Beginner Friendly",
-        "Low/No Code",
-        "Open Ended"
-      ],
-      "participants": 1
-    },
-    {
-      "source": "devpost",
-      "title": "Ensign Build",
-      "url": "https://ensign-build.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/337/472/datas/medium_square.jpeg",
-      "mode": "offline",
-      "location": "Ensign College Building",
-      "college": null,
-      "organizer": "Ensign College",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Cybersecurity",
-        "Design",
-        "Machine Learning/AI"
+        "Health"
       ],
       "participants": 1
     },
@@ -3862,24 +4024,6 @@
     },
     {
       "source": "devpost",
-      "title": "Next Byte Hacks: V4",
-      "url": "https://next-byte-hacks-v4.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/267/648/datas/medium_square.jpg",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "Next Byte Hacks",
-      "deadline": null,
-      "prize_text": "$100",
-      "themes": [
-        "Beginner Friendly",
-        "Education",
-        "Machine Learning/AI"
-      ],
-      "participants": 198
-    },
-    {
-      "source": "devpost",
       "title": "hack::peel 2026",
       "url": "https://hack-peel.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/714/459/datas/medium_square.png",
@@ -3911,7 +4055,7 @@
         "Frontend Development",
         "Web Development"
       ],
-      "participants": 1366
+      "participants": 1399
     },
     {
       "source": "devpost",
@@ -3946,7 +4090,7 @@
         "Low/No Code",
         "Open Ended"
       ],
-      "participants": 532
+      "participants": 561
     },
     {
       "source": "devpost",
@@ -3982,7 +4126,7 @@
         "Health",
         "Social Good"
       ],
-      "participants": 12
+      "participants": 19
     },
     {
       "source": "devpost",
@@ -4000,7 +4144,7 @@
         "Education",
         "Social Good"
       ],
-      "participants": 457
+      "participants": 474
     },
     {
       "source": "devpost",
@@ -4034,7 +4178,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 85
+      "participants": 90
     },
     {
       "source": "devpost",
@@ -4070,7 +4214,7 @@
         "Machine Learning/AI",
         "Web"
       ],
-      "participants": 154
+      "participants": 163
     },
     {
       "source": "devpost",
@@ -4087,13 +4231,31 @@
         "Enterprise",
         "Machine Learning/AI"
       ],
-      "participants": 101
+      "participants": 104
+    },
+    {
+      "source": "devpost",
+      "title": "2026 International CodeTheCure Hackathon",
+      "url": "https://codethecure-hackathon-26.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/363/906/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "CodeTheCure",
+      "deadline": null,
+      "prize_text": "$500",
+      "themes": [
+        "Beginner Friendly",
+        "Education",
+        "Health"
+      ],
+      "participants": 4
     },
     {
       "source": "unstop",
       "title": "GopwnIt CTF",
       "url": "https://unstop.com/hackathons/gopwnit-ctf-gopwnit-1745426",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab4177115014_organisation_image-ddVeuyKRlb1280769856Z6k4WWmI2J.png",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abdfcb24d967_organisation_image-ddVeuyKRlb1280769856Z6k4WWmI2J.png",
       "mode": "online",
       "location": null,
       "college": null,
@@ -4104,7 +4266,7 @@
         "Cyber Security",
         "Ethical Hacking"
       ],
-      "participants": 1272
+      "participants": 1314
     },
     {
       "source": "unstop",
@@ -4121,7 +4283,25 @@
         "Quizzes & Treasure Hunt",
         "Artificial Intelligence"
       ],
-      "participants": 70
+      "participants": 303
+    },
+    {
+      "source": "devpost",
+      "title": "KUK VIRTUAL HACKATHON",
+      "url": "https://kuk-virtual-hackathon.devpost.com/",
+      "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "Kelab UMNO Korea",
+      "deadline": null,
+      "prize_text": "$800",
+      "themes": [
+        "Databases",
+        "Machine Learning/AI",
+        "Productivity"
+      ],
+      "participants": 3
     },
     {
       "source": "devpost",
@@ -4157,7 +4337,7 @@
         "Open Ended",
         "Web"
       ],
-      "participants": 250
+      "participants": 264
     },
     {
       "source": "devpost",
@@ -4175,7 +4355,7 @@
         "Education",
         "Social Good"
       ],
-      "participants": 5
+      "participants": 6
     },
     {
       "source": "devpost",
@@ -4230,6 +4410,24 @@
     },
     {
       "source": "devpost",
+      "title": "Beginner's Paradise - FirstCommit",
+      "url": "https://firstcommit.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/152/414/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "FirstCommit",
+      "deadline": "2026-10-02T00:00:00",
+      "prize_text": "$1,024",
+      "themes": [
+        "Beginner Friendly",
+        "Mobile",
+        "Web"
+      ],
+      "participants": 1357
+    },
+    {
+      "source": "devpost",
       "title": "Central Hacks",
       "url": "https://central-hacks.devpost.com/",
       "thumbnail_url": "https://d2dmyh35ffsxbl.cloudfront.net/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
@@ -4261,7 +4459,7 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 12
+      "participants": 13
     },
     {
       "source": "devpost",
@@ -4279,25 +4477,7 @@
         "Open Ended",
         "Beginner Friendly"
       ],
-      "participants": 16
-    },
-    {
-      "source": "devpost",
-      "title": "RenderJuice Blender Animation & Programmatic Rendering Contest",
-      "url": "https://programmatic-rendering-contest.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/341/415/datas/medium_square.png",
-      "mode": "offline",
-      "location": "New York, NY",
-      "college": null,
-      "organizer": "RenderJuice",
-      "deadline": null,
-      "prize_text": "$1,500",
-      "themes": [
-        "Design",
-        "Music/Art",
-        "Open Ended"
-      ],
-      "participants": 4
+      "participants": 19
     },
     {
       "source": "devpost",
@@ -4315,25 +4495,25 @@
         "Fintech",
         "Health"
       ],
-      "participants": 3
+      "participants": 11
     },
     {
       "source": "devpost",
-      "title": "Planet Resilience: Innovation for Sustainable Impact Hackathon",
-      "url": "https://uob-suss-planet-resilience.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/293/800/datas/medium_square.jpg",
+      "title": "RenderJuice Blender Animation & Programmatic Rendering Contest",
+      "url": "https://programmatic-rendering-contest.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/341/415/datas/medium_square.png",
       "mode": "offline",
-      "location": "Singapore, Singapore",
+      "location": "New York, NY",
       "college": null,
-      "organizer": "Singapore University of Social Sciences",
-      "deadline": "2026-10-01T00:00:00",
-      "prize_text": "$1,700",
+      "organizer": "RenderJuice",
+      "deadline": null,
+      "prize_text": "$1,500",
       "themes": [
-        "Education",
-        "Enterprise",
-        "Social Good"
+        "Design",
+        "Music/Art",
+        "Open Ended"
       ],
-      "participants": 63
+      "participants": 5
     },
     {
       "source": "devpost",
@@ -4351,7 +4531,7 @@
         "Machine Learning/AI",
         "Robotic Process Automation"
       ],
-      "participants": 55
+      "participants": 58
     },
     {
       "source": "devpost",
@@ -4369,7 +4549,7 @@
         "Education",
         "Productivity"
       ],
-      "participants": 9
+      "participants": 10
     },
     {
       "source": "devpost",
@@ -4405,7 +4585,7 @@
         "Beginner Friendly",
         "Education"
       ],
-      "participants": 1485
+      "participants": 1692
     },
     {
       "source": "devpost",
@@ -4439,7 +4619,7 @@
       "themes": [
         "Social Good"
       ],
-      "participants": 12
+      "participants": 13
     },
     {
       "source": "devpost",
@@ -4457,7 +4637,7 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 444
+      "participants": 454
     },
     {
       "source": "devpost",
@@ -4493,7 +4673,7 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 1207
+      "participants": 1235
     },
     {
       "source": "devpost",
@@ -4509,7 +4689,7 @@
       "themes": [
         "Education"
       ],
-      "participants": 49
+      "participants": 51
     },
     {
       "source": "devpost",
@@ -4527,7 +4707,7 @@
         "Education",
         "Open Ended"
       ],
-      "participants": 32
+      "participants": 34
     },
     {
       "source": "devpost",
@@ -4578,7 +4758,7 @@
         "Machine Learning/AI",
         "Open Ended"
       ],
-      "participants": 176
+      "participants": 180
     },
     {
       "source": "devpost",
@@ -4595,7 +4775,7 @@
         "Open Ended",
         "Social Good"
       ],
-      "participants": 86
+      "participants": 89
     },
     {
       "source": "devpost",
@@ -4685,7 +4865,7 @@
         "E-commerce/Retail",
         "Machine Learning/AI"
       ],
-      "participants": 424
+      "participants": 479
     },
     {
       "source": "devpost",
@@ -4703,7 +4883,7 @@
         "Education",
         "Social Good"
       ],
-      "participants": 27
+      "participants": 28
     },
     {
       "source": "devpost",
@@ -4719,7 +4899,7 @@
       "themes": [
         "Machine Learning/AI"
       ],
-      "participants": 10
+      "participants": 14
     },
     {
       "source": "devpost",
@@ -4737,7 +4917,7 @@
         "Databases",
         "DevOps"
       ],
-      "participants": 141
+      "participants": 144
     },
     {
       "source": "devpost",
@@ -4772,7 +4952,7 @@
         "Health",
         "Social Good"
       ],
-      "participants": 20
+      "participants": 26
     },
     {
       "source": "devpost",
@@ -4806,7 +4986,7 @@
       "themes": [
         "Health"
       ],
-      "participants": 8
+      "participants": 9
     },
     {
       "source": "devpost",
@@ -4817,14 +4997,14 @@
       "location": "Lovely Professional University",
       "college": null,
       "organizer": "Lovely Professional University",
-      "deadline": "2026-10-02T00:00:00",
+      "deadline": "2026-10-03T00:00:00",
       "prize_text": "$10,600",
       "themes": [
         "Beginner Friendly",
         "Communication",
         "Education"
       ],
-      "participants": 65
+      "participants": 73
     },
     {
       "source": "devpost",
@@ -4836,11 +5016,11 @@
       "college": null,
       "organizer": "Knight Hacks",
       "deadline": null,
-      "prize_text": "$11,280",
+      "prize_text": "$11,980",
       "themes": [
         "Beginner Friendly"
       ],
-      "participants": 18
+      "participants": 20
     },
     {
       "source": "devpost",
@@ -4858,7 +5038,7 @@
         "Design",
         "Education"
       ],
-      "participants": 170
+      "participants": 176
     },
     {
       "source": "devpost",
@@ -4876,7 +5056,7 @@
         "Machine Learning/AI",
         "Productivity"
       ],
-      "participants": 847
+      "participants": 859
     },
     {
       "source": "devpost",
@@ -4892,7 +5072,7 @@
       "themes": [
         "Fintech"
       ],
-      "participants": 47
+      "participants": 52
     },
     {
       "source": "devpost",
@@ -4910,7 +5090,7 @@
         "Open Ended",
         "Social Good"
       ],
-      "participants": 197
+      "participants": 215
     },
     {
       "source": "devpost",
@@ -4946,7 +5126,7 @@
         "Machine Learning/AI",
         "Serverless"
       ],
-      "participants": 3362
+      "participants": 3535
     },
     {
       "source": "devpost",
@@ -4964,7 +5144,23 @@
         "Machine Learning/AI",
         "Web"
       ],
-      "participants": 110
+      "participants": 112
+    },
+    {
+      "source": "devpost",
+      "title": "Qloo Agentic Hackathon",
+      "url": "https://qloo.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/363/782/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "Qloo",
+      "deadline": "2026-10-30T00:00:00",
+      "prize_text": "$25,000",
+      "themes": [
+        "Machine Learning/AI"
+      ],
+      "participants": 81
     },
     {
       "source": "devpost",
@@ -4982,24 +5178,7 @@
         "Mobile",
         "Machine Learning/AI"
       ],
-      "participants": 545
-    },
-    {
-      "source": "devpost",
-      "title": "Neighborhood Hacks",
-      "url": "https://neighborhood-hacks-2026.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/177/882/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "Student Organization",
-      "deadline": null,
-      "prize_text": "$41,726",
-      "themes": [
-        "Beginner Friendly",
-        "Social Good"
-      ],
-      "participants": 89
+      "participants": 573
     },
     {
       "source": "devpost",
@@ -5017,7 +5196,24 @@
         "Machine Learning/AI",
         "Productivity"
       ],
-      "participants": 91
+      "participants": 172
+    },
+    {
+      "source": "devpost",
+      "title": "Neighborhood Hacks",
+      "url": "https://neighborhood-hacks-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/177/882/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "Student Organization",
+      "deadline": null,
+      "prize_text": "$45,086",
+      "themes": [
+        "Beginner Friendly",
+        "Social Good"
+      ],
+      "participants": 93
     },
     {
       "source": "devpost",
@@ -5035,7 +5231,7 @@
         "Beginner Friendly",
         "Robotic Process Automation"
       ],
-      "participants": 14539
+      "participants": 15080
     },
     {
       "source": "unstop",
@@ -5051,7 +5247,7 @@
       "themes": [
         "AI Engineering"
       ],
-      "participants": 35
+      "participants": 122
     },
     {
       "source": "devpost",
@@ -5069,7 +5265,7 @@
         "Open Ended",
         "Productivity"
       ],
-      "participants": 23964
+      "participants": 28259
     },
     {
       "source": "devpost",
@@ -5087,7 +5283,7 @@
         "Open Ended",
         "Education"
       ],
-      "participants": 92
+      "participants": 106
     },
     {
       "source": "devpost",
@@ -5117,31 +5313,13 @@
       "college": null,
       "organizer": "ForgeHacks",
       "deadline": null,
-      "prize_text": "$570,160",
+      "prize_text": "$619,155",
       "themes": [
         "Beginner Friendly",
         "Lifehacks",
         "Machine Learning/AI"
       ],
-      "participants": 723
-    },
-    {
-      "source": "devpost",
-      "title": "RevenueCat Shipaton 2026",
-      "url": "https://revenuecat-shipaton-2026.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/004/663/632/datas/medium_square.jpg",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "RevenueCat",
-      "deadline": "2026-10-01T00:00:00",
-      "prize_text": "$740,000",
-      "themes": [
-        "Design",
-        "Gaming",
-        "Mobile"
-      ],
-      "participants": 28286
+      "participants": 797
     },
     {
       "source": "devpost",
@@ -5159,223 +5337,7 @@
         "Machine Learning/AI",
         "Web"
       ],
-      "participants": 1345
-    },
-    {
-      "source": "unstop",
-      "title": "National Student Cloud & AI Innovation Challenge \u2013 Season 3",
-      "url": "https://unstop.com/hackathons/national-student-cloud-ai-innovation-challenge-season-3-jawaharlal-nehru-technological-university-jntuh-hyder-1761884",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-69f2a80ba2005_amd_cloud_computind-unstop.jpg",
-      "mode": "online",
-      "location": null,
-      "college": null,
-      "organizer": "Jawaharlal Nehru Technological University (JNTUH), Hyderabad",
-      "deadline": "2026-09-30T18:29:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Software Development",
-        "Quizzes & Treasure Hunt",
-        "Cloud Engineering"
-      ],
-      "participants": 2514
-    },
-    {
-      "source": "unstop",
-      "title": "Bharat Agentic 2026",
-      "url": "https://unstop.com/hackathons/bharat-agentic-2026-aikartco-1760783",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ab3cab05aa78_aikart_logo.jpeg",
-      "mode": "online",
-      "location": null,
-      "college": null,
-      "organizer": "aikart.co",
-      "deadline": "2026-09-30T18:31:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Agentic AI Engineer"
-      ],
-      "participants": 815
-    },
-    {
-      "source": "unstop",
-      "title": "HackNowa Global Hackathon 2026",
-      "url": "https://unstop.com/hackathons/hacknowa-global-hackathon-2026-innovation-hacks-1752198",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab91a12565e5_organisation_image-HXRc6qSVLN27284711IzN783tlQS.png",
-      "mode": "online",
-      "location": null,
-      "college": null,
-      "organizer": "Innovation Hacks",
-      "deadline": "2026-09-30T23:00:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Applied AI",
-        "Artificial Intelligence"
-      ],
-      "participants": 2372
-    },
-    {
-      "source": "unstop",
-      "title": "INNOVA X 2K26 Global Online Hackathon",
-      "url": "https://unstop.com/hackathons/innova-x-2k26-global-online-hackathon-shree-venkateshwara-hi-tech-engineering-college-1754160",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6aaf8fa8580fa_images__12_.jpeg",
-      "mode": "online",
-      "location": null,
-      "college": null,
-      "organizer": "Shree Venkateshwara Hi-Tech Engineering College",
-      "deadline": "2026-09-30T23:55:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Artificial Intelligence",
-        "AI Engineering"
-      ],
-      "participants": 125
-    },
-    {
-      "source": "unstop",
-      "title": "IDEAForge 2026 \u2013 From Problems to Possibilities | Online Ideathon",
-      "url": "https://unstop.com/hackathons/ideaforge-2026-from-problems-to-possibilities-online-ideathon-noida-institue-of-engineering-tecnology-1758463",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aae51e8d6271_chatgpt_image_sep_19_2026_01_05_16_pm.png",
-      "mode": "hybrid",
-      "location": "Gautam Buddha Nagar, Uttar Pradesh",
-      "college": null,
-      "organizer": "Noida Institue of engineering tecnology",
-      "deadline": "2026-09-30T23:59:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Applied Research"
-      ],
-      "participants": 809
-    },
-    {
-      "source": "unstop",
-      "title": "Parallax 2026 \u2013 Reality, Reimagined",
-      "url": "https://unstop.com/hackathons/parallax-2026-reality-reimagined-noida-institute-of-engineering-and-technology-niet-greater-noida-1754985",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aa5835b1404b_parallax_2026.jpg",
-      "mode": "online",
-      "location": null,
-      "college": null,
-      "organizer": "Noida Institute of Engineering And Technology (NIET), Greater Noida",
-      "deadline": "2026-09-30T23:59:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Software Development",
-        "Quizzes & Treasure Hunt"
-      ],
-      "participants": 190
-    },
-    {
-      "source": "unstop",
-      "title": "Hack-O-Octo 4.0",
-      "url": "https://unstop.com/hackathons/hack-o-octo-40-chandigarh-university-cu-ajitgarh-punjab-1747159",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6a9304b08feff_untitled_design_1_1.png",
-      "mode": "offline",
-      "location": "Ajitgarh, Punjab",
-      "college": null,
-      "organizer": "Chandigarh University (CU), Ajitgarh, Punjab",
-      "deadline": "2026-09-30T23:59:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Software Development"
-      ],
-      "participants": 2058
-    },
-    {
-      "source": "unstop",
-      "title": "PromptCraft 1.0 \u2013 National-Level Hackathon",
-      "url": "https://unstop.com/hackathons/promptcraft-10-24-hour-national-level-hackathon-meerut-institute-of-technology-mit-meerut-uttar-pradesh-1745416",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6a9071f595e60_ecell_logo_brown.png",
-      "mode": "offline",
-      "location": "Meerut, Uttar Pradesh",
-      "college": null,
-      "organizer": "Meerut Institute of Technology (MIT), Meerut, Uttar Pradesh",
-      "deadline": "2026-09-30T23:59:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Software Development"
-      ],
-      "participants": 390
-    },
-    {
-      "source": "unstop",
-      "title": "Adhigamai Inter-College Hackathon 2026",
-      "url": "https://unstop.com/hackathons/adhigamai-inter-college-hackathon-2026-adhigam-ai-1760514",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ab36bbf19ae6_focalyt_logo.jpg",
-      "mode": "hybrid",
-      "location": "Dera Bassi, Punjab",
-      "college": null,
-      "organizer": "Adhigam Ai",
-      "deadline": "2026-10-01T00:00:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Applied AI",
-        "Artificial Intelligence"
-      ],
-      "participants": 1
-    },
-    {
-      "source": "unstop",
-      "title": "Hackpulse",
-      "url": "https://unstop.com/hackathons/hackpulse-university-of-engineering-management-uem-jaipur-1747911",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6a9e5917cc240_whatsapp_image_2026-08-27_at_10_11_16.jpeg",
-      "mode": "offline",
-      "location": "Jaipur, Rajasthan",
-      "college": null,
-      "organizer": "University of Engineering & Management (UEM), Jaipur",
-      "deadline": "2026-10-01T00:00:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Applied AI",
-        "AI Engineering"
-      ],
-      "participants": 1102
-    },
-    {
-      "source": "unstop",
-      "title": "The Black-Box Protocol: Stage 02 -  System Matrix",
-      "url": "https://unstop.com/hackathons/the-black-box-protocol-stage-02-system-matrix-techhelp4u-1758551",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aae8617abfc8_register_be_a_part_of_the_innovation_1.jpg",
-      "mode": "offline",
-      "location": "Indore, Madhya Pradesh",
-      "college": null,
-      "organizer": "TECHhelp4U",
-      "deadline": "2026-10-01T00:01:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Artificial Intelligence",
-        "AI Engineering"
-      ],
-      "participants": 286
-    },
-    {
-      "source": "unstop",
-      "title": "Idea Competition 2026",
-      "url": "https://unstop.com/hackathons/idea-competition-2026-fr-conceicao-rodrigues-college-of-engineering-frcrce-bandra-1736048",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6a82e6d706ecc_android-chrome-512x512.png",
-      "mode": "online",
-      "location": null,
-      "college": null,
-      "organizer": "Fr. Conceicao Rodrigues College of Engineering (FRCRCE), Bandra",
-      "deadline": "2026-10-01T18:29:27+05:30",
-      "prize_text": null,
-      "themes": [
-        "Product Management"
-      ],
-      "participants": 725
-    },
-    {
-      "source": "unstop",
-      "title": "SkillInf Digital Marketing Challenge 2026 \u2013 Create a LinkedIn Post",
-      "url": "https://unstop.com/hackathons/skillinf-digital-marketing-challenge-2026-create-a-linkedin-post-skillinf-1763560",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abc97795fedf_organisation_image-TnCIbNeqHm1941330442ZXESgEO0bH.png",
-      "mode": "online",
-      "location": null,
-      "college": null,
-      "organizer": "Skillinf",
-      "deadline": "2026-10-02T00:00:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Graphic Design"
-      ],
-      "participants": 28
+      "participants": 1497
     },
     {
       "source": "unstop",
@@ -5392,13 +5354,47 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 84
+      "participants": 108
+    },
+    {
+      "source": "unstop",
+      "title": "Hackpulse",
+      "url": "https://unstop.com/hackathons/hackpulse-university-of-engineering-management-uem-jaipur-1747911",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6a9e5917cc240_whatsapp_image_2026-08-27_at_10_11_16.jpeg",
+      "mode": "offline",
+      "location": "Jaipur, Rajasthan",
+      "college": null,
+      "organizer": "University of Engineering & Management (UEM), Jaipur",
+      "deadline": "2026-10-02T00:00:00+05:30",
+      "prize_text": null,
+      "themes": [
+        "Applied AI",
+        "AI Engineering"
+      ],
+      "participants": 1169
+    },
+    {
+      "source": "unstop",
+      "title": "Hack N Build",
+      "url": "https://unstop.com/hackathons/hack-n-build-srm-university-modinagar-ghaziabad-1751780",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6aba9136651df_download__6_.png",
+      "mode": "offline",
+      "location": "Ghaziabad, Uttar Pradesh",
+      "college": null,
+      "organizer": "SRM University, Modinagar, Ghaziabad",
+      "deadline": "2026-10-02T18:28:13+05:30",
+      "prize_text": null,
+      "themes": [
+        "Electronics Engineer",
+        "Embedded Systems Engineer"
+      ],
+      "participants": 133
     },
     {
       "source": "unstop",
       "title": "CRSU Hackathon 2026",
       "url": "https://unstop.com/hackathons/crsu-hackathon-2026-romeo-juliet-ltd-1751879",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab6203a01c26_organisation_image-ZMymWerlFe2104971185TRzSjnbgZy.png",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abd7aed30c0a_organisation_image-ZMymWerlFe2104971185TRzSjnbgZy.png",
       "mode": "online",
       "location": "Jind, Haryana",
       "college": null,
@@ -5408,7 +5404,23 @@
       "themes": [
         "Applied Research"
       ],
-      "participants": 187
+      "participants": 213
+    },
+    {
+      "source": "unstop",
+      "title": "IDEAForge 2026 \u2013 From Problems to Possibilities | Online Ideathon",
+      "url": "https://unstop.com/hackathons/ideaforge-2026-from-problems-to-possibilities-online-ideathon-noida-institue-of-engineering-tecnology-1758463",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aae51e8d6271_chatgpt_image_sep_19_2026_01_05_16_pm.png",
+      "mode": "hybrid",
+      "location": "Gautam Buddha Nagar, Uttar Pradesh",
+      "college": null,
+      "organizer": "Noida Institue of engineering tecnology",
+      "deadline": "2026-10-02T23:59:00+05:30",
+      "prize_text": null,
+      "themes": [
+        "Applied Research"
+      ],
+      "participants": 843
     },
     {
       "source": "unstop",
@@ -5425,7 +5437,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 803
+      "participants": 904
     },
     {
       "source": "unstop",
@@ -5442,7 +5454,7 @@
         "Cyber Security",
         "Ethical Hacking"
       ],
-      "participants": 28
+      "participants": 29
     },
     {
       "source": "unstop",
@@ -5459,7 +5471,7 @@
         "Cyber Security",
         "Ethical Hacking"
       ],
-      "participants": 16
+      "participants": 20
     },
     {
       "source": "unstop",
@@ -5476,7 +5488,24 @@
         "Quizzes & Treasure Hunt",
         "Cyber Security"
       ],
-      "participants": 24
+      "participants": 27
+    },
+    {
+      "source": "unstop",
+      "title": "Parallax 2026 \u2013 Reality, Reimagined",
+      "url": "https://unstop.com/hackathons/parallax-2026-reality-reimagined-noida-institute-of-engineering-and-technology-niet-greater-noida-1754985",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aa5835b1404b_parallax_2026.jpg",
+      "mode": "online",
+      "location": null,
+      "college": null,
+      "organizer": "Noida Institute of Engineering And Technology (NIET), Greater Noida",
+      "deadline": "2026-10-03T00:00:00+05:30",
+      "prize_text": null,
+      "themes": [
+        "Software Development",
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 213
     },
     {
       "source": "unstop",
@@ -5492,7 +5521,23 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 269
+      "participants": 285
+    },
+    {
+      "source": "unstop",
+      "title": "Idea Competition 2026",
+      "url": "https://unstop.com/hackathons/idea-competition-2026-fr-conceicao-rodrigues-college-of-engineering-frcrce-bandra-1736048",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6a82e6d706ecc_android-chrome-512x512.png",
+      "mode": "online",
+      "location": null,
+      "college": null,
+      "organizer": "Fr. Conceicao Rodrigues College of Engineering (FRCRCE), Bandra",
+      "deadline": "2026-10-03T21:30:27+05:30",
+      "prize_text": null,
+      "themes": [
+        "Product Management"
+      ],
+      "participants": 732
     },
     {
       "source": "unstop",
@@ -5509,7 +5554,7 @@
         "Agentic AI Engineer",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 414
+      "participants": 421
     },
     {
       "source": "unstop",
@@ -5542,7 +5587,7 @@
         "Web Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 795
+      "participants": 839
     },
     {
       "source": "unstop",
@@ -5558,7 +5603,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 741
+      "participants": 826
     },
     {
       "source": "unstop",
@@ -5575,7 +5620,7 @@
         "Applied AI",
         "AI Engineering"
       ],
-      "participants": 272
+      "participants": 343
     },
     {
       "source": "unstop",
@@ -5592,7 +5637,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 108
+      "participants": 112
     },
     {
       "source": "unstop",
@@ -5608,7 +5653,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 535
+      "participants": 548
     },
     {
       "source": "unstop",
@@ -5624,7 +5669,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 2978
+      "participants": 3071
     },
     {
       "source": "unstop",
@@ -5641,7 +5686,7 @@
         "Quizzes & Treasure Hunt",
         "Cyber Security"
       ],
-      "participants": 254
+      "participants": 286
     },
     {
       "source": "unstop",
@@ -5657,7 +5702,7 @@
       "themes": [
         "Founder\u2019s Office"
       ],
-      "participants": 213
+      "participants": 229
     },
     {
       "source": "unstop",
@@ -5673,13 +5718,13 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 7597
+      "participants": 7909
     },
     {
       "source": "unstop",
       "title": "Kriyova - 24-Hours Hackathon 2026",
       "url": "https://unstop.com/hackathons/kriyova-24-hours-hackathon-2026-potti-sriramulu-chalavadi-mallikarjuna-rao-college-of-engineering-and-technol-1759184",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abb3d58a2a3d_images__6_.png",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abd32b4df8f7_images__6_.png",
       "mode": "offline",
       "location": "Vijayawada, Andhra Pradesh",
       "college": null,
@@ -5689,24 +5734,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 26
-    },
-    {
-      "source": "unstop",
-      "title": "Hack N Build",
-      "url": "https://unstop.com/hackathons/hack-n-build-srm-university-modinagar-ghaziabad-1751780",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6aba9136651df_download__6_.png",
-      "mode": "offline",
-      "location": "Ghaziabad, Uttar Pradesh",
-      "college": null,
-      "organizer": "SRM University, Modinagar, Ghaziabad",
-      "deadline": "2026-10-05T20:57:13+05:30",
-      "prize_text": null,
-      "themes": [
-        "Electronics Engineer",
-        "Embedded Systems Engineer"
-      ],
-      "participants": 109
+      "participants": 43
     },
     {
       "source": "unstop",
@@ -5723,7 +5751,23 @@
         "Machine Learning Engineering",
         "Applied AI"
       ],
-      "participants": 191
+      "participants": 266
+    },
+    {
+      "source": "unstop",
+      "title": "SkillInf Digital Marketing Challenge 2026 \u2013 Create a LinkedIn Post",
+      "url": "https://unstop.com/hackathons/skillinf-digital-marketing-challenge-2026-create-a-linkedin-post-skillinf-1763560",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abdfe1331baf_organisation_image-TnCIbNeqHm1941330442ZXESgEO0bH.png",
+      "mode": "online",
+      "location": null,
+      "college": null,
+      "organizer": "Skillinf",
+      "deadline": "2026-10-06T00:00:00+05:30",
+      "prize_text": null,
+      "themes": [
+        "Graphic Design"
+      ],
+      "participants": 82
     },
     {
       "source": "unstop",
@@ -5739,24 +5783,7 @@
       "themes": [
         "Applied AI"
       ],
-      "participants": 99
-    },
-    {
-      "source": "unstop",
-      "title": "Sociothon: Hackathon for Social Impact",
-      "url": "https://unstop.com/hackathons/sociothon-hackathon-for-social-impact-vishwakarma-institute-of-technology-pune-maharashtra-1762441",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abb33bc2bbe2_prism_logo.jpeg",
-      "mode": "hybrid",
-      "location": "Pune, Maharashtra",
-      "college": null,
-      "organizer": "Vishwakarma Institute of Technology, Pune, Maharashtra",
-      "deadline": "2026-10-07T23:59:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Applied AI",
-        "Quizzes & Treasure Hunt"
-      ],
-      "participants": 17
+      "participants": 133
     },
     {
       "source": "unstop",
@@ -5773,7 +5800,7 @@
         "Web Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 550
+      "participants": 607
     },
     {
       "source": "unstop",
@@ -5789,7 +5816,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 187
+      "participants": 210
     },
     {
       "source": "unstop",
@@ -5805,7 +5832,24 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 35
+      "participants": 50
+    },
+    {
+      "source": "unstop",
+      "title": "Sociothon: Hackathon for Social Impact",
+      "url": "https://unstop.com/hackathons/sociothon-hackathon-for-social-impact-vishwakarma-institute-of-technology-pune-maharashtra-1762441",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abb33bc2bbe2_prism_logo.jpeg",
+      "mode": "hybrid",
+      "location": "Pune, Maharashtra",
+      "college": null,
+      "organizer": "Vishwakarma Institute of Technology, Pune, Maharashtra",
+      "deadline": "2026-10-08T23:59:00+05:30",
+      "prize_text": null,
+      "themes": [
+        "Applied AI",
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 53
     },
     {
       "source": "unstop",
@@ -5822,7 +5866,24 @@
         "Software Development",
         "Others"
       ],
-      "participants": 641
+      "participants": 655
+    },
+    {
+      "source": "unstop",
+      "title": "Vortexa 3.0- 12 Hour Hackathon",
+      "url": "https://unstop.com/hackathons/vortexa-30-12-hour-hackathon-dr-d-y-patil-institute-technology-pimpri-pune-1764120",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abe09d690b4c_whatsapp_image_2026-10-01_at_10_57_01_am.jpeg",
+      "mode": "offline",
+      "location": "Pune, Maharashtra",
+      "college": null,
+      "organizer": "Dr D Y Patil Institute Technology, Pimpri, Pune",
+      "deadline": "2026-10-09T00:00:00+05:30",
+      "prize_text": null,
+      "themes": [
+        "Software Development",
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 30
     },
     {
       "source": "unstop",
@@ -5838,7 +5899,7 @@
       "themes": [
         "Applied Research"
       ],
-      "participants": 3
+      "participants": 13
     },
     {
       "source": "unstop",
@@ -5855,7 +5916,7 @@
         "Software Development",
         "Web Development"
       ],
-      "participants": 1097
+      "participants": 1119
     },
     {
       "source": "unstop",
@@ -5871,7 +5932,7 @@
       "themes": [
         "AI Engineering"
       ],
-      "participants": 154
+      "participants": 155
     },
     {
       "source": "unstop",
@@ -5887,7 +5948,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 68
+      "participants": 120
     },
     {
       "source": "unstop",
@@ -5903,7 +5964,7 @@
       "themes": [
         "Applied AI"
       ],
-      "participants": 164
+      "participants": 212
     },
     {
       "source": "unstop",
@@ -5920,7 +5981,7 @@
         "Software Development",
         "Others"
       ],
-      "participants": 466
+      "participants": 498
     },
     {
       "source": "unstop",
@@ -5937,7 +5998,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 34
+      "participants": 36
     },
     {
       "source": "unstop",
@@ -5954,24 +6015,7 @@
         "Software Development",
         "Ethical Hacking"
       ],
-      "participants": 159
-    },
-    {
-      "source": "unstop",
-      "title": "HAQATHON 2.0 \u2013 Hack the Next Quantum Decade",
-      "url": "https://unstop.com/hackathons/quan-10-hack-the-next-quantum-decade-rajiv-gandhi-university-of-knowledge-technologies-rgukt-iiit-srikakulam-1757023",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aab9cc8f3ad8_1000116879.png",
-      "mode": "offline",
-      "location": "Srikakulam, Andhra Pradesh",
-      "college": null,
-      "organizer": "Rajiv Gandhi University of Knowledge Technologies (RGUKT) - IIIT Srikakulam",
-      "deadline": "2026-10-10T12:00:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Software Development",
-        "Quizzes & Treasure Hunt"
-      ],
-      "participants": 153
+      "participants": 162
     },
     {
       "source": "unstop",
@@ -5988,7 +6032,24 @@
         "Artificial Intelligence",
         "AI Engineering"
       ],
-      "participants": 1830
+      "participants": 1844
+    },
+    {
+      "source": "unstop",
+      "title": "ELUCode-5",
+      "url": "https://unstop.com/hackathons/elucode-5-edulinkup-1764000",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abe1b328f7a0_organisation_image-h1hlrAIK6Y1539650042r4300g5nuQ.png",
+      "mode": "online",
+      "location": null,
+      "college": null,
+      "organizer": "EduLinkUp",
+      "deadline": "2026-10-10T20:00:47+05:30",
+      "prize_text": null,
+      "themes": [
+        "Software Development",
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 20
     },
     {
       "source": "unstop",
@@ -6004,7 +6065,23 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 4
+      "participants": 20
+    },
+    {
+      "source": "unstop",
+      "title": "AI Synergy Hackathon 2026",
+      "url": "https://unstop.com/hackathons/ai-synergy-hackathon-2026-gwalior-ai-summit-29-30-oct-atal-bihari-vajpayee-indian-institute-of-information-te-1762421",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aba177a85f31_untitled_design_3.png",
+      "mode": "hybrid",
+      "location": "Gwalior, Madhya Pradesh",
+      "college": null,
+      "organizer": "Atal Bihari Vajpayee-Indian Institute of Information Technology and Management",
+      "deadline": "2026-10-11T00:00:00+05:30",
+      "prize_text": null,
+      "themes": [
+        "Applied AI"
+      ],
+      "participants": 7
     },
     {
       "source": "unstop",
@@ -6020,7 +6097,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 7
+      "participants": 8
     },
     {
       "source": "unstop",
@@ -6037,7 +6114,7 @@
         "Sustainability Analysis",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 31
+      "participants": 44
     },
     {
       "source": "unstop",
@@ -6054,7 +6131,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 1763
+      "participants": 1981
     },
     {
       "source": "unstop",
@@ -6071,7 +6148,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 246
+      "participants": 314
     },
     {
       "source": "unstop",
@@ -6088,7 +6165,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 93
+      "participants": 94
     },
     {
       "source": "unstop",
@@ -6106,7 +6183,24 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 301
+      "participants": 322
+    },
+    {
+      "source": "unstop",
+      "title": "QC@IITI x IBM Qiskit Fall Fest'26",
+      "url": "https://unstop.com/hackathons/qc-and-ibm-qiskit-fall-fest26-iit-indore-1763920",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abd5e149eeb3_whatsapp_image_2026-09-30_at_9_43_18_pm.jpeg",
+      "mode": "hybrid",
+      "location": "Indore, Madhya Pradesh",
+      "college": null,
+      "organizer": "Indian Institute of Technology (IIT), Indore",
+      "deadline": "2026-10-14T00:00:00+05:30",
+      "prize_text": null,
+      "themes": [
+        "Software Development",
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 10
     },
     {
       "source": "unstop",
@@ -6122,7 +6216,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 41
+      "participants": 57
     },
     {
       "source": "unstop",
@@ -6138,7 +6232,7 @@
       "themes": [
         "Founder\u2019s Office"
       ],
-      "participants": 994
+      "participants": 1014
     },
     {
       "source": "unstop",
@@ -6155,7 +6249,7 @@
         "Robotics Engineer",
         "Games & Sports"
       ],
-      "participants": 1
+      "participants": 6
     },
     {
       "source": "unstop",
@@ -6171,7 +6265,7 @@
       "themes": [
         "Robotics Engineer"
       ],
-      "participants": 3
+      "participants": 4
     },
     {
       "source": "unstop",
@@ -6205,7 +6299,7 @@
         "Web Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 493
+      "participants": 552
     },
     {
       "source": "unstop",
@@ -6222,7 +6316,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 4
+      "participants": 5
     },
     {
       "source": "unstop",
@@ -6239,7 +6333,7 @@
         "Systems Programming",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 202
+      "participants": 231
     },
     {
       "source": "unstop",
@@ -6256,12 +6350,12 @@
         "Artificial Intelligence",
         "Software Development"
       ],
-      "participants": 266
+      "participants": 267
     },
     {
       "source": "unstop",
       "title": "The Code Voyage",
-      "url": "https://unstop.com/hackathons/the-code-voyage-ieee-day-2026-guru-tegh-bahadur-institute-of-technology-gtbit-new-delhi-1760415",
+      "url": "https://unstop.com/hackathons/the-code-voyage-ieee-day-2026-guru-tegh-bahadur-institute-of-technology-gtbit-new-delhi-1763810",
       "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ab2cd8f4b6c1_gtbit_left_sleeve.png",
       "mode": "offline",
       "location": "West Delhi, Delhi",
@@ -6273,12 +6367,12 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 16
+      "participants": 4
     },
     {
       "source": "unstop",
       "title": "Tech Grand Prix",
-      "url": "https://unstop.com/hackathons/tech-grand-prix-ieee-day-2026-guru-tegh-bahadur-institute-of-technology-gtbit-new-delhi-1760401",
+      "url": "https://unstop.com/hackathons/tech-grand-prix-ieee-day-2026-guru-tegh-bahadur-institute-of-technology-gtbit-new-delhi-1763814",
       "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ab2c1f617e5b_gtbit_left_sleeve.png",
       "mode": "offline",
       "location": "New Delhi, Delhi",
@@ -6289,13 +6383,13 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 3
+      "participants": 4
     },
     {
       "source": "unstop",
       "title": "CodeAxis Hackathon",
       "url": "https://unstop.com/hackathons/codeaxis-hackathon-wecodecoders-1758538",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab912a9dfa6f_organisation_image-rdEtvQYYD71680906289sZyR2sXLs8.png",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abe254538c20_organisation_image-rdEtvQYYD71680906289sZyR2sXLs8.png",
       "mode": "online",
       "location": null,
       "college": null,
@@ -6306,13 +6400,13 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 1472
+      "participants": 1494
     },
     {
       "source": "unstop",
       "title": "TechCircuit Hackathon",
       "url": "https://unstop.com/hackathons/techcircuit-hackathon-wecodecoders-1758409",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab917a7aae32_organisation_image-rdEtvQYYD71680906289sZyR2sXLs8.png",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abe25f33f58c_organisation_image-rdEtvQYYD71680906289sZyR2sXLs8.png",
       "mode": "online",
       "location": null,
       "college": null,
@@ -6322,13 +6416,13 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 1107
+      "participants": 1145
     },
     {
       "source": "unstop",
       "title": "FutureStack Hackathon",
       "url": "https://unstop.com/hackathons/futurestack-hackathon-wecodecoders-1758558",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab9126b40469_organisation_image-rdEtvQYYD71680906289sZyR2sXLs8.png",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abe22050c220_organisation_image-rdEtvQYYD71680906289sZyR2sXLs8.png",
       "mode": "online",
       "location": null,
       "college": null,
@@ -6339,7 +6433,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 1107
+      "participants": 1138
     },
     {
       "source": "unstop",
@@ -6355,7 +6449,7 @@
       "themes": [
         "Web Development"
       ],
-      "participants": 36
+      "participants": 117
     },
     {
       "source": "unstop",
@@ -6371,7 +6465,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 521
+      "participants": 640
     },
     {
       "source": "unstop",
@@ -6387,7 +6481,24 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 271
+      "participants": 285
+    },
+    {
+      "source": "unstop",
+      "title": "HAQATHON 2.0 \u2013 Hack the Next Quantum Decade",
+      "url": "https://unstop.com/hackathons/quan-10-hack-the-next-quantum-decade-rajiv-gandhi-university-of-knowledge-technologies-rgukt-iiit-srikakulam-1757023",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6aab9cc8f3ad8_1000116879.png",
+      "mode": "offline",
+      "location": "Srikakulam, Andhra Pradesh",
+      "college": null,
+      "organizer": "Rajiv Gandhi University of Knowledge Technologies (RGUKT) - IIIT Srikakulam",
+      "deadline": "2026-10-20T00:00:00+05:30",
+      "prize_text": null,
+      "themes": [
+        "Software Development",
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 158
     },
     {
       "source": "unstop",
@@ -6403,7 +6514,7 @@
       "themes": [
         "Cloud Engineering"
       ],
-      "participants": 4560
+      "participants": 4572
     },
     {
       "source": "unstop",
@@ -6420,13 +6531,13 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 32
+      "participants": 37
     },
     {
       "source": "unstop",
       "title": "Codex 48 - National-Level Hackathon",
       "url": "https://unstop.com/hackathons/codex-48-national-level-hackathon-wecodecoders-1761082",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab90dd13e999_organisation_image-rdEtvQYYD71680906289sZyR2sXLs8.png",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abe23a71e7f4_organisation_image-rdEtvQYYD71680906289sZyR2sXLs8.png",
       "mode": "online",
       "location": null,
       "college": null,
@@ -6437,13 +6548,13 @@
         "Software Development",
         "Full Stack Development"
       ],
-      "participants": 1464
+      "participants": 1547
     },
     {
       "source": "unstop",
       "title": "Code star 30 \u2014 National-Level Hackathon",
       "url": "https://unstop.com/hackathons/codestar-30-national-level-hackathon-wecodecoders-1760472",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab4104e98508_organisation_image-rdEtvQYYD71680906289sZyR2sXLs8.png",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abe242046184_organisation_image-rdEtvQYYD71680906289sZyR2sXLs8.png",
       "mode": "online",
       "location": null,
       "college": null,
@@ -6456,7 +6567,7 @@
         "Agentic AI Engineer",
         "Full Stack Development"
       ],
-      "participants": 1095
+      "participants": 1141
     },
     {
       "source": "unstop",
@@ -6473,13 +6584,30 @@
         "Quizzes & Treasure Hunt",
         "Cyber Security"
       ],
-      "participants": 1231
+      "participants": 1291
+    },
+    {
+      "source": "unstop",
+      "title": "Build With Nova",
+      "url": "https://unstop.com/hackathons/build-with-nova-bridgeye-1763873",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abd29a5b0e7b_organisation_image-PZKf6cEyoT1170761589IlotBZYgeR.png",
+      "mode": "online",
+      "location": null,
+      "college": null,
+      "organizer": "Bridgeye",
+      "deadline": "2026-10-27T00:00:00+05:30",
+      "prize_text": null,
+      "themes": [
+        "Software Development",
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 163
     },
     {
       "source": "unstop",
       "title": "CodeHack India - National Level Hackathon",
       "url": "https://unstop.com/hackathons/codehack-india-national-level-hackathon-wecodecoders-1762158",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ab8fb4175e0b_organisation_image-rdEtvQYYD71680906289sZyR2sXLs8.png",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abe22e1dd295_organisation_image-rdEtvQYYD71680906289sZyR2sXLs8.png",
       "mode": "online",
       "location": null,
       "college": null,
@@ -6491,7 +6619,7 @@
         "Agentic AI Engineer",
         "Full Stack Development"
       ],
-      "participants": 1292
+      "participants": 1460
     },
     {
       "source": "unstop",
@@ -6508,13 +6636,13 @@
         "Online Gaming & Esports",
         "Games & Sports"
       ],
-      "participants": 54
+      "participants": 62
     },
     {
       "source": "unstop",
       "title": "CodeVerse India - National Level Hackathon",
       "url": "https://unstop.com/hackathons/codeverse-india-national-level-hackathon-wecodecoders-1763003",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abbb746b5f0a_organisation_image-rdEtvQYYD71680906289sZyR2sXLs8.png",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6abe214dd9fe6_organisation_image-rdEtvQYYD71680906289sZyR2sXLs8.png",
       "mode": "online",
       "location": null,
       "college": null,
@@ -6526,7 +6654,7 @@
         "Full Stack Development",
         "Software Development"
       ],
-      "participants": 790
+      "participants": 1177
     },
     {
       "source": "unstop",
@@ -6543,7 +6671,7 @@
         "Quizzes & Treasure Hunt",
         "Cyber Security"
       ],
-      "participants": 344
+      "participants": 348
     },
     {
       "source": "unstop",
@@ -6559,7 +6687,7 @@
       "themes": [
         "Online Gaming & Esports"
       ],
-      "participants": 13
+      "participants": 20
     },
     {
       "source": "unstop",
@@ -6576,7 +6704,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 6
+      "participants": 12
     },
     {
       "source": "unstop",
@@ -6593,24 +6721,7 @@
         "Product Management",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 299
-    },
-    {
-      "source": "unstop",
-      "title": "Tech Eximius 2.0",
-      "url": "https://unstop.com/hackathons/tech-eximius-20-tech-circle-1755763",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6a1460dde0304_tech_circle_logo.jpeg",
-      "mode": "offline",
-      "location": "Delhi, Delhi",
-      "college": null,
-      "organizer": "Tech Circle",
-      "deadline": "2026-10-31T23:59:59+05:30",
-      "prize_text": null,
-      "themes": [
-        "Software Development",
-        "Conferences"
-      ],
-      "participants": 964
+      "participants": 377
     },
     {
       "source": "unstop",
@@ -6626,7 +6737,7 @@
       "themes": [
         "Systems Programming"
       ],
-      "participants": 12
+      "participants": 29
     },
     {
       "source": "unstop",
@@ -6643,7 +6754,7 @@
         "Cyber Security",
         "Ethical Hacking"
       ],
-      "participants": 5
+      "participants": 25
     },
     {
       "source": "unstop",
@@ -6677,7 +6788,24 @@
         "NLP Engineering",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 9
+      "participants": 12
+    },
+    {
+      "source": "unstop",
+      "title": "Skysparks | IIT Kanpur",
+      "url": "https://unstop.com/hackathons/skysparks-iit-kanpur-techkriti27-techkriti-1763996",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abd71333e9e3_techkriti_logo.jpg",
+      "mode": "offline",
+      "location": "Kalyanpur, Uttar Pradesh",
+      "college": null,
+      "organizer": "Techkriti",
+      "deadline": "2026-11-14T00:00:00+05:30",
+      "prize_text": null,
+      "themes": [
+        "Mechanical Engineer",
+        "Design Engineer Mechanical"
+      ],
+      "participants": 4
     },
     {
       "source": "unstop",
@@ -6694,7 +6822,7 @@
         "Quizzes & Treasure Hunt",
         "Ethical Hacking"
       ],
-      "participants": 32
+      "participants": 65
     },
     {
       "source": "unstop",
@@ -6711,7 +6839,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 100
+      "participants": 105
     },
     {
       "source": "unstop",
@@ -6727,7 +6855,7 @@
       "themes": [
         "Strategy & Planning"
       ],
-      "participants": 31
+      "participants": 36
     },
     {
       "source": "unstop",
@@ -6743,7 +6871,7 @@
       "themes": [
         "Applied Research"
       ],
-      "participants": 1509
+      "participants": 1523
     },
     {
       "source": "unstop",
@@ -6793,7 +6921,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 657
+      "participants": 668
     },
     {
       "source": "devpost",
@@ -6815,6 +6943,23 @@
     },
     {
       "source": "unstop",
+      "title": "TCU Hack Day",
+      "url": "https://unstop.com/hackathons/tcu-hack-day-technical-community-universe-1763620",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abcb2c47f9cb_tcu_square_under_1mb.jpg",
+      "mode": "hybrid",
+      "location": "Delhi, Delhi",
+      "college": null,
+      "organizer": "Technical Community Universe",
+      "deadline": "2026-12-31T00:00:00+05:30",
+      "prize_text": null,
+      "themes": [
+        "Software Development",
+        "Event Management"
+      ],
+      "participants": 11
+    },
+    {
+      "source": "unstop",
       "title": "AETHOS - Day Zero",
       "url": "https://unstop.com/hackathons/aethos-day-zero-together-we-solve-1730263",
       "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6a71df93028d0_whatsapp_image_2026-07-22_at_10.14.16_pm.jpeg",
@@ -6827,7 +6972,7 @@
       "themes": [
         "Applied Research"
       ],
-      "participants": 1213
+      "participants": 1222
     },
     {
       "source": "devpost",
@@ -6845,7 +6990,7 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 543
+      "participants": 574
     },
     {
       "source": "devpost",
@@ -6863,7 +7008,7 @@
         "Open Ended",
         "Enterprise"
       ],
-      "participants": 74
+      "participants": 75
     },
     {
       "source": "devpost",
@@ -6899,7 +7044,7 @@
         "Health",
         "Machine Learning/AI"
       ],
-      "participants": 10
+      "participants": 15
     },
     {
       "source": "devpost",
@@ -6915,7 +7060,7 @@
       "themes": [
         "Health"
       ],
-      "participants": 4
+      "participants": 6
     },
     {
       "source": "devpost",
