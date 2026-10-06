@@ -1555,6 +1555,63 @@
     50%      { box-shadow: 0 0 0 5px rgba(193, 68, 14, 0); }
   }
   @media (prefers-reduced-motion: reduce) { .new-tag { animation: none; } }
+
+  /* Quick filters: mode / deadline / prize / new */
+  .quick-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 22px;
+    margin: 18px 0 4px;
+  }
+  .qf-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+  }
+  .qf-group[hidden] { display: none; }
+  .qf-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-right: 2px;
+  }
+  .qf-pill {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 6px 11px;
+    border-radius: 999px;
+    border: 1px solid var(--border, rgba(93, 59, 104, 0.18));
+    background: rgba(255, 253, 251, 0.62);
+    color: var(--plum, #5D3B68);
+    cursor: pointer;
+    transition: background 160ms ease, border-color 160ms ease, transform 160ms ease;
+  }
+  .qf-pill:hover { background: var(--lavender, #efe6f5); transform: translateY(-1px); }
+  .qf-pill.active {
+    background: var(--lavender-deep, #dccbe8);
+    border-color: var(--purple, #7657A8);
+    box-shadow: 0 3px 10px rgba(118, 87, 168, 0.14);
+  }
+  .qf-pill-new b {
+    display: inline-grid;
+    place-items: center;
+    width: 14px;
+    height: 14px;
+    margin-right: 3px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #fff;
+    font-size: 10px;
+    line-height: 1;
+  }
+  .qf-pill-new.active { background: #fbe3d6; border-color: var(--accent); }
 </style>
 </head>
 
@@ -1600,11 +1657,38 @@
       <button class="tab-btn" data-tab="mine">My Hackathons</button>
     </div>
 
+    <div class="quick-filters" id="quick-filters">
+      <div class="qf-group" data-filter="mode">
+        <span class="qf-label">Mode</span>
+        <button class="qf-pill active" type="button" data-value="all">All</button>
+        <button class="qf-pill" type="button" data-value="online">Online</button>
+        <button class="qf-pill" type="button" data-value="offline">In-person</button>
+        <button class="qf-pill" type="button" data-value="hybrid">Hybrid</button>
+      </div>
+      <div class="qf-group" data-filter="closing">
+        <span class="qf-label">Closes in</span>
+        <button class="qf-pill active" type="button" data-value="any">Any</button>
+        <button class="qf-pill" type="button" data-value="7">7 days</button>
+        <button class="qf-pill" type="button" data-value="14">14 days</button>
+        <button class="qf-pill" type="button" data-value="30">30 days</button>
+      </div>
+      <div class="qf-group" data-filter="prize">
+        <span class="qf-label">Prize</span>
+        <button class="qf-pill active" type="button" data-value="any">Any</button>
+        <button class="qf-pill" type="button" data-value="has">Has prize</button>
+        <button class="qf-pill" type="button" data-value="inr">₹ INR</button>
+        <button class="qf-pill" type="button" data-value="usd">$ USD</button>
+      </div>
+      <div class="qf-group" data-filter="new" id="qf-new" hidden>
+        <button class="qf-pill qf-pill-new" type="button" data-value="on"><b>!</b> New only</button>
+      </div>
+    </div>
+
     <div class="search-block">
       <input
         id="search"
         type="text"
-        placeholder="Search title or theme…"
+        placeholder="Search title, theme or city…"
       >
     </div>
 
@@ -1698,6 +1782,8 @@
   let activeTheme = null;
   let activeTab = 'all'; // 'all' | 'devpost' | 'unstop' | 'mine'
   let lastListSig = '';
+  const DEFAULT_FILTERS = { mode: 'all', closing: 'any', prize: 'any', new: false };
+  let filters = { ...DEFAULT_FILTERS };
   const NOTE_DRAFTS = {}; // url -> unsent text in the "add a pointer" input
 
   function docIdFor(url) {
@@ -1884,9 +1970,64 @@
       </aside>`;
   }
 
+
+  // ---------- Quick filters ----------
+  function prizeAmount(h) {
+    const m = (h.prize_text || '').match(/\d[\d,]*(?:\.\d+)?/);
+    return m ? parseFloat(m[0].replace(/,/g, '')) : 0;
+  }
+
+  function prizeCurrency(h) {
+    const t = h.prize_text || '';
+    const u = t.toUpperCase();
+    if (t.includes('₹') || u.includes('INR') || /\bRS\b/.test(u)) return 'inr';
+    if (/CAD|MEX/.test(u)) return 'other';
+    if (t.includes('$') || u.includes('USD')) return 'usd';
+    return 'other';
+  }
+
+  function quickFiltersActive() {
+    return Object.keys(DEFAULT_FILTERS).some((k) => filters[k] !== DEFAULT_FILTERS[k]);
+  }
+
+  function passesQuickFilters(h) {
+    if (filters.mode !== 'all' && h.mode !== filters.mode) return false;
+
+    if (filters.closing !== 'any') {
+      const d = daysLeft(h.deadline);
+      if (d === null || d < 0 || d > Number(filters.closing)) return false;
+    }
+
+    if (filters.prize !== 'any') {
+      const amt = prizeAmount(h);
+      if (amt <= 0) return false;
+      if (filters.prize !== 'has' && prizeCurrency(h) !== filters.prize) return false;
+    }
+
+    if (filters.new) {
+      const live = ALL.find((x) => x.url === h.url);
+      if (!(live && live.is_new)) return false;
+    }
+    return true;
+  }
+
+  function syncQuickFilterUi() {
+    document.querySelectorAll('#quick-filters .qf-group').forEach((group) => {
+      const key = group.dataset.filter;
+      group.querySelectorAll('.qf-pill').forEach((pill) => {
+        pill.classList.toggle(
+          'active',
+          key === 'new' ? filters.new : pill.dataset.value === filters[key]
+        );
+      });
+    });
+  }
+
   function resetFilters() {
     activeTheme = null;
     activeTab = 'all';
+    filters = { ...DEFAULT_FILTERS };
+    syncQuickFilterUi();
     document.getElementById('search').value = '';
     document.querySelectorAll('#tabs .tab-btn').forEach((btn) => {
       btn.classList.toggle('active', btn.dataset.tab === 'all');
@@ -1905,14 +2046,15 @@
 
     let items = source.filter((h) => {
       if (activeTheme && !h.themes.map((t) => t.toLowerCase()).includes(activeTheme)) return false;
+      if (!passesQuickFilters(h)) return false;
       if (!q) return true;
-      const haystack = (h.title + ' ' + h.themes.join(' ')).toLowerCase();
+      const haystack = (h.title + ' ' + h.themes.join(' ') + ' ' + (h.location || '')).toLowerCase();
       return haystack.includes(q);
     });
 
     document.getElementById('count-line').textContent =
       `${items.length} of ${source.length} hackathon${source.length === 1 ? '' : 's'}`;
-    clearFilters.hidden = !(q || activeTheme || activeTab !== 'all');
+    clearFilters.hidden = !(q || activeTheme || activeTab !== 'all' || quickFiltersActive());
 
     if (items.length === 0) {
       if (activeTab === 'mine' && source.length === 0) {
@@ -2041,6 +2183,16 @@
 
   document.getElementById('clear-filters').addEventListener('click', resetFilters);
 
+  document.getElementById('quick-filters').addEventListener('click', (e) => {
+    const pill = e.target.closest('.qf-pill');
+    if (!pill) return;
+    const key = pill.closest('.qf-group').dataset.filter;
+    if (key === 'new') filters.new = !filters.new;
+    else filters[key] = pill.dataset.value;
+    syncQuickFilterUi();
+    render();
+  });
+
   document.getElementById('list').addEventListener('click', (e) => {
     const clearInline = e.target.closest('.clear-inline');
     if (clearInline) {
@@ -2124,6 +2276,7 @@
     .then((r) => r.json())
     .then((data) => {
       ALL = data.hackathons || [];
+      document.getElementById('qf-new').hidden = !ALL.some((h) => h.is_new);
       const gen = document.getElementById('generated-at');
       if (data.generated_at) gen.textContent = new Date(data.generated_at).toLocaleString();
       buildChips();
