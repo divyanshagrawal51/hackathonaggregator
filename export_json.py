@@ -72,7 +72,17 @@ def _sort_key(h: Hackathon):
 
     return (2, 0.0, deadline is None, deadline or datetime.max)
 
-
+def _load_previous(path):
+    """url -> first_seen from the last committed hackathons.json (None if no file)."""
+    try:
+        with open(path) as f:
+            prev = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return None
+    return {
+        h["url"]: h.get("first_seen") or prev.get("generated_at")
+        for h in prev.get("hackathons", [])
+    }
 def run() -> None:
     prefs = load_preferences()
 
@@ -101,7 +111,8 @@ def run() -> None:
     # Tier 1: rupee prizes ascending. Tier 2: dollar prizes ascending.
     # Tier 3: everything else, by days-left ascending, no-deadline last.
     matched.sort(key=_sort_key)
-
+    prev = _load_previous(OUTPUT_PATH)          # None on the very first run
+    now = datetime.now(timezone.utc).isoformat()
     payload = {
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "count": len(matched),
@@ -129,6 +140,8 @@ def run() -> None:
                 "prize_text": h.prize_text,
                 "themes": h.themes,
                 "participants": h.participants,
+                "first_seen": (prev or {}).get(h.url) or now,
+                "is_new": prev is not None and h.url not in prev,
             }
             for h in matched
         ],
