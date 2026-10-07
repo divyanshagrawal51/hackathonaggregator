@@ -131,7 +131,7 @@ def fetch_hackathons(
     status: str = "open",         # "open" | "upcoming" | "ended"
     delay_seconds: float = 1.0,
     client: Optional[httpx.Client] = None,
-    max_empty_retries: int = 3,
+    max_empty_retries: int = 5,
 ) -> Iterator[Hackathon]:
    
     owns_client = client is None
@@ -154,7 +154,18 @@ def fetch_hackathons(
                     # Retry temporary rate-limit/server errors.
                     if resp.status_code in (429, 500, 502, 503, 504):
                         if attempt < max_empty_retries:
-                            wait = delay_seconds * (attempt + 2)
+                            if resp.status_code == 429:
+                                # Rate-limited (GitHub runners share IPs, so this can
+                                # hit on the very first request). Honour Retry-After
+                                # if sent, else back off hard: 15s, 30s, 60s, 120s...
+                                retry_after = resp.headers.get("Retry-After", "")
+                                wait = (
+                                    min(int(retry_after), 120)
+                                    if retry_after.isdigit()
+                                    else min(15 * 2 ** attempt, 120)
+                                )
+                            else:
+                                wait = delay_seconds * (attempt + 2)
                             print(
                                 f"[devpost] page {page} returned HTTP "
                                 f"{resp.status_code}; retrying in {wait}s"
