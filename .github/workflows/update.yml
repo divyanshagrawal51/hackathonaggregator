@@ -22,7 +22,15 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch and export
-        run: python export_json.py
+        run: |
+          # Devpost sometimes rate-limits GitHub's shared runner IPs (HTTP 429),
+          # so retry the whole export a few times before giving up.
+          for i in 1 2 3; do
+            python export_json.py && exit 0
+            echo "Attempt $i failed; waiting before retry..."
+            sleep $((i * 120))
+          done
+          exit 1
 
       - name: Commit updated hackathons.json
         run: |
