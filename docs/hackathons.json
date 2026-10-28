@@ -1,7 +1,27 @@
 {
-  "generated_at": "2026-10-27T08:37:46.913039+00:00",
-  "count": 369,
+  "generated_at": "2026-10-28T09:17:08.566070+00:00",
+  "count": 372,
   "hackathons": [
+    {
+      "source": "devpost",
+      "title": "Code-con",
+      "url": "https://code-con.devpost.com/",
+      "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "Telem AI",
+      "deadline": null,
+      "prize_text": "\u20b9 0",
+      "themes": [
+        "Blockchain",
+        "Fintech",
+        "Machine Learning/AI"
+      ],
+      "participants": 1,
+      "first_seen": "2026-10-28T09:17:08.566061+00:00",
+      "is_new": true
+    },
     {
       "source": "devpost",
       "title": "BuildyourOwnWebsite",
@@ -18,7 +38,7 @@
         "Education",
         "Web"
       ],
-      "participants": 48,
+      "participants": 52,
       "first_seen": "2026-10-11T09:39:23.592209+00:00",
       "is_new": false
     },
@@ -46,7 +66,7 @@
       "source": "unstop",
       "title": "TechFusion MERN Stack Coding Challenge 2026",
       "url": "https://unstop.com/hackathons/techfusion-mern-stack-coding-challenge-2026-hi-tech-institute-of-engineering-and-technology-hiet-ghaziabad-1773166",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6adde5398ba53_screenshot_2026-10-25_at_4_50_45_pm.png",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ae1698cae5eb_whatsapp_image_2026-08-09_at_7_05_43_pm.jpeg",
       "mode": "online",
       "location": null,
       "college": null,
@@ -58,7 +78,7 @@
         "Full Stack Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 221,
+      "participants": 309,
       "first_seen": "2026-10-26T08:29:50.490397+00:00",
       "is_new": false
     },
@@ -77,7 +97,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 172,
+      "participants": 177,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -95,7 +115,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 434,
+      "participants": 457,
       "first_seen": "2026-10-22T08:17:13.806980+00:00",
       "is_new": false
     },
@@ -108,13 +128,13 @@
       "location": "Mumbai, Maharashtra",
       "college": null,
       "organizer": "Fr. Conceicao Rodrigues College of Engineering (FRCRCE), Bandra",
-      "deadline": "2026-10-27T23:59:00+05:30",
+      "deadline": "2026-10-28T23:59:00+05:30",
       "prize_text": "\u20b91,500",
       "themes": [
         "Quizzes & Treasure Hunt",
         "Software Testing"
       ],
-      "participants": 62,
+      "participants": 75,
       "first_seen": "2026-10-08T09:56:45.323792+00:00",
       "is_new": false
     },
@@ -152,7 +172,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 314,
+      "participants": 321,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -171,7 +191,7 @@
         "Web Development",
         "Online Gaming & Esports"
       ],
-      "participants": 73,
+      "participants": 98,
       "first_seen": "2026-10-25T08:05:48.257977+00:00",
       "is_new": false
     },
@@ -190,7 +210,7 @@
         "Frontend Development",
         "UI/UX Design"
       ],
-      "participants": 155,
+      "participants": 187,
       "first_seen": "2026-10-22T08:17:13.806980+00:00",
       "is_new": false
     },
@@ -203,14 +223,32 @@
       "location": "Mumbai, Maharashtra",
       "college": null,
       "organizer": "Fr. Conceicao Rodrigues College of Engineering (FRCRCE), Bandra",
-      "deadline": "2026-10-27T18:29:00+05:30",
+      "deadline": "2026-10-28T15:00:00+05:30",
       "prize_text": "\u20b93,000",
       "themes": [
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 99,
+      "participants": 112,
       "first_seen": "2026-10-08T09:56:45.323792+00:00",
+      "is_new": false
+    },
+    {
+      "source": "unstop",
+      "title": "Low-Level Hackathon",
+      "url": "https://unstop.com/hackathons/low-level-hackathon-synergy-26-international-institute-of-information-technology-iiit-bangalore-1762854",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abaa78465788_uploadedmanual-6ab7fa9cd6206_synergy.png",
+      "mode": "online",
+      "location": null,
+      "college": null,
+      "organizer": "International Institute of Information Technology (IIIT), Bangalore",
+      "deadline": "2026-11-08T23:59:00+05:30",
+      "prize_text": "\u20b93,000",
+      "themes": [
+        "Systems Programming"
+      ],
+      "participants": 143,
+      "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
     {
@@ -228,9 +266,9 @@
         "Quizzes & Treasure Hunt",
         "Cyber Security"
       ],
-      "participants": 14,
+      "participants": 25,
       "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "source": "unstop",
@@ -241,13 +279,13 @@
       "location": null,
       "college": null,
       "organizer": "Ramdeobaba University",
-      "deadline": "2026-10-28T00:00:00+05:30",
+      "deadline": "2026-11-28T18:00:36+05:30",
       "prize_text": "\u20b94,500",
       "themes": [
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 1133,
+      "participants": 1169,
       "first_seen": "2026-10-21T08:15:37.784544+00:00",
       "is_new": false
     },
@@ -255,7 +293,7 @@
       "source": "unstop",
       "title": "Operation Ward Zero",
       "url": "https://unstop.com/hackathons/operation-ward-zero-wooble-software-private-limited-1776892",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ade606d44e85_organisation_image-8ElzSzeoRF133141058667FeQgQiaN.png",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ae1af69f1ce1_organisation_image-8ElzSzeoRF133141058667FeQgQiaN.png",
       "mode": "online",
       "location": null,
       "college": null,
@@ -265,7 +303,7 @@
       "themes": [
         "IoT Engineerig"
       ],
-      "participants": 42,
+      "participants": 66,
       "first_seen": "2026-10-26T08:29:50.490397+00:00",
       "is_new": false
     },
@@ -283,7 +321,7 @@
       "themes": [
         "UI/UX Design"
       ],
-      "participants": 303,
+      "participants": 488,
       "first_seen": "2026-10-26T08:29:50.490397+00:00",
       "is_new": false
     },
@@ -302,7 +340,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 214,
+      "participants": 363,
       "first_seen": "2026-10-25T08:05:48.257977+00:00",
       "is_new": false
     },
@@ -322,7 +360,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 96,
+      "participants": 104,
       "first_seen": "2026-10-19T08:27:58.540165+00:00",
       "is_new": false
     },
@@ -340,7 +378,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 84,
+      "participants": 88,
       "first_seen": "2026-10-18T07:45:45.782337+00:00",
       "is_new": false
     },
@@ -358,7 +396,7 @@
       "themes": [
         "Agentic AI Engineer"
       ],
-      "participants": 796,
+      "participants": 822,
       "first_seen": "2026-10-12T10:11:40.519066+00:00",
       "is_new": false
     },
@@ -377,9 +415,27 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 890,
+      "participants": 935,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
+    },
+    {
+      "source": "unstop",
+      "title": "Hack<N>Pitch",
+      "url": "https://unstop.com/hackathons/hacknpitch-e-summit26-jadavpur-university-jadavpur-university-kolkata-1780735",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ae084ce5822b_hnp_dark.jpg",
+      "mode": "offline",
+      "location": "Kolkata, West Bengal",
+      "college": null,
+      "organizer": "Jadavpur University (JU), Kolkata",
+      "deadline": "2026-11-12T23:59:00+05:30",
+      "prize_text": "\u20b95,500",
+      "themes": [
+        "Conferences"
+      ],
+      "participants": 11,
+      "first_seen": "2026-10-28T09:17:08.566061+00:00",
+      "is_new": true
     },
     {
       "source": "unstop",
@@ -395,7 +451,7 @@
       "themes": [
         "Prompt Engineering"
       ],
-      "participants": 23,
+      "participants": 25,
       "first_seen": "2026-10-19T08:27:58.540165+00:00",
       "is_new": false
     },
@@ -433,7 +489,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 170,
+      "participants": 172,
       "first_seen": "2026-10-20T08:10:13.279811+00:00",
       "is_new": false
     },
@@ -451,8 +507,26 @@
       "themes": [
         "Strategy & Planning"
       ],
-      "participants": 46,
+      "participants": 52,
       "first_seen": "2026-10-19T08:27:58.540165+00:00",
+      "is_new": false
+    },
+    {
+      "source": "unstop",
+      "title": "Game Dev",
+      "url": "https://unstop.com/hackathons/game-dev-synergy-26-international-institute-of-information-technology-iiit-bangalore-1762887",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abab89b86468_uploadedmanual-6ab7fa9cd6206_synergy.png",
+      "mode": "online",
+      "location": null,
+      "college": null,
+      "organizer": "International Institute of Information Technology (IIIT), Bangalore",
+      "deadline": "2026-10-31T23:59:00+05:30",
+      "prize_text": "\u20b96,000",
+      "themes": [
+        "Online Gaming & Esports"
+      ],
+      "participants": 151,
+      "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
     {
@@ -469,7 +543,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 1748,
+      "participants": 1774,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -487,7 +561,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 2493,
+      "participants": 2532,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -511,6 +585,25 @@
       "is_new": false
     },
     {
+      "source": "unstop",
+      "title": "Cipher Chase \u2014 Capture the Flag",
+      "url": "https://unstop.com/hackathons/cipher-chase-capture-the-flag-synergy-26-international-institute-of-information-technology-iiit-bangalore-1763268",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abba8be9dc4a_uploadedmanual-6ab7fa9cd6206_synergy.png",
+      "mode": "online",
+      "location": null,
+      "college": null,
+      "organizer": "International Institute of Information Technology (IIIT), Bangalore",
+      "deadline": "2026-11-12T23:59:00+05:30",
+      "prize_text": "\u20b98,000",
+      "themes": [
+        "Cyber Security",
+        "Ethical Hacking"
+      ],
+      "participants": 170,
+      "first_seen": "2026-10-06T09:45:22.810061+00:00",
+      "is_new": false
+    },
+    {
       "source": "devpost",
       "title": "The Atomiq Hackathon | Qiskit Fall Fest 2026 at IEM",
       "url": "https://atomiq-hackathon-qff-26-iem.devpost.com/",
@@ -524,7 +617,7 @@
       "themes": [
         "Quantum"
       ],
-      "participants": 40,
+      "participants": 41,
       "first_seen": "2026-10-12T10:11:40.519066+00:00",
       "is_new": false
     },
@@ -542,7 +635,7 @@
       "themes": [
         "Ethical Hacking"
       ],
-      "participants": 85,
+      "participants": 143,
       "first_seen": "2026-10-22T08:17:13.806980+00:00",
       "is_new": false
     },
@@ -581,7 +674,7 @@
         "Security Engineering",
         "Cyber Security"
       ],
-      "participants": 120,
+      "participants": 134,
       "first_seen": "2026-10-20T08:10:13.279811+00:00",
       "is_new": false
     },
@@ -600,7 +693,7 @@
         "Machine Learning Engineering",
         "AI Engineering"
       ],
-      "participants": 98,
+      "participants": 105,
       "first_seen": "2026-10-17T07:31:00.134389+00:00",
       "is_new": false
     },
@@ -637,7 +730,7 @@
       "themes": [
         "Prompt Engineering"
       ],
-      "participants": 67,
+      "participants": 69,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -656,7 +749,7 @@
         "Agentic AI Engineer",
         "AI Engineering"
       ],
-      "participants": 220,
+      "participants": 224,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -675,7 +768,26 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 80,
+      "participants": 86,
+      "first_seen": "2026-10-06T09:45:22.810061+00:00",
+      "is_new": false
+    },
+    {
+      "source": "unstop",
+      "title": "Deepfake ML Hackathon",
+      "url": "https://unstop.com/hackathons/deepfake-ml-hackathon-synergy-26-international-institute-of-information-technology-iiit-bangalore-1762774",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ababda5d87e5_uploadedmanual-6ab7fa9cd6206_synergy.png",
+      "mode": "online",
+      "location": null,
+      "college": null,
+      "organizer": "International Institute of Information Technology (IIIT), Bangalore",
+      "deadline": "2026-10-30T23:59:00+05:30",
+      "prize_text": "\u20b910,000",
+      "themes": [
+        "Online Gaming & Esports",
+        "Games & Sports"
+      ],
+      "participants": 410,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -707,14 +819,33 @@
       "location": "Mumbai, Maharashtra",
       "college": null,
       "organizer": "Fr. Conceicao Rodrigues College of Engineering (FRCRCE), Bandra",
-      "deadline": "2026-10-30T18:00:00+05:30",
+      "deadline": "2026-10-30T11:37:05+05:30",
       "prize_text": "\u20b912,000",
       "themes": [
         "Design Engineer Mechanical",
         "Electronics Engineer"
       ],
-      "participants": 141,
+      "participants": 154,
       "first_seen": "2026-10-08T09:56:45.323792+00:00",
+      "is_new": false
+    },
+    {
+      "source": "unstop",
+      "title": "The Liar's Chatroom",
+      "url": "https://unstop.com/hackathons/the-liars-chatroom-international-institute-of-information-technology-iiit-bangalore-1762783",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abab3a442c0b_uploadedmanual-6ab7fa9cd6206_synergy.png",
+      "mode": "online",
+      "location": null,
+      "college": null,
+      "organizer": "International Institute of Information Technology (IIIT), Bangalore",
+      "deadline": "2026-11-12T23:59:00+05:30",
+      "prize_text": "\u20b912,500",
+      "themes": [
+        "NLP Engineering",
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 83,
+      "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
     {
@@ -731,8 +862,27 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 1872,
+      "participants": 1896,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
+      "is_new": false
+    },
+    {
+      "source": "unstop",
+      "title": "Srujana AI 2026 Hackathon",
+      "url": "https://unstop.com/hackathons/srujana-ai-2026-hackathon-biorad-medisys-private-limited-1778599",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6adf462148ed3_screenshot_2026-08-17_171709.png",
+      "mode": "offline",
+      "location": "Pune, Maharashtra",
+      "college": null,
+      "organizer": "Biorad Medisys Private Limited",
+      "deadline": "2026-10-29T18:00:00+05:30",
+      "prize_text": "\u20b915,000",
+      "themes": [
+        "Artificial Intelligence",
+        "AI Engineering"
+      ],
+      "participants": 15,
+      "first_seen": "2026-10-27T08:37:46.913029+00:00",
       "is_new": false
     },
     {
@@ -749,9 +899,9 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 5,
+      "participants": 7,
       "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "source": "unstop",
@@ -767,7 +917,7 @@
       "themes": [
         "AI Engineering"
       ],
-      "participants": 1187,
+      "participants": 1423,
       "first_seen": "2026-10-18T07:45:45.782337+00:00",
       "is_new": false
     },
@@ -785,7 +935,7 @@
       "themes": [
         "Frontend Development"
       ],
-      "participants": 47,
+      "participants": 57,
       "first_seen": "2026-10-25T08:05:48.257977+00:00",
       "is_new": false
     },
@@ -842,7 +992,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 514,
+      "participants": 562,
       "first_seen": "2026-10-16T07:52:55.030904+00:00",
       "is_new": false
     },
@@ -860,7 +1010,7 @@
       "themes": [
         "Cyber Security"
       ],
-      "participants": 751,
+      "participants": 780,
       "first_seen": "2026-10-07T18:19:34.887451+00:00",
       "is_new": false
     },
@@ -879,7 +1029,7 @@
         "Cyber Security",
         "Ethical Hacking"
       ],
-      "participants": 101,
+      "participants": 106,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -898,7 +1048,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 5637,
+      "participants": 5681,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -917,7 +1067,7 @@
         "Applied AI",
         "Model Training & Evaluation"
       ],
-      "participants": 260,
+      "participants": 316,
       "first_seen": "2026-10-24T07:52:35.508238+00:00",
       "is_new": false
     },
@@ -936,7 +1086,7 @@
         "Beginner Friendly",
         "Machine Learning/AI"
       ],
-      "participants": 45,
+      "participants": 55,
       "first_seen": "2026-10-20T08:10:13.279811+00:00",
       "is_new": false
     },
@@ -954,7 +1104,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 161,
+      "participants": 280,
       "first_seen": "2026-10-26T08:29:50.490397+00:00",
       "is_new": false
     },
@@ -967,13 +1117,13 @@
       "location": "Bangalore, Karnataka",
       "college": null,
       "organizer": "HyprLan",
-      "deadline": "2026-10-28T00:00:00+05:30",
+      "deadline": "2026-10-28T17:00:00+05:30",
       "prize_text": "\u20b920,000",
       "themes": [
         "Software Development",
         "Others"
       ],
-      "participants": 599,
+      "participants": 710,
       "first_seen": "2026-10-18T07:45:45.782337+00:00",
       "is_new": false
     },
@@ -986,13 +1136,13 @@
       "location": "Mysuru, Karnataka",
       "college": null,
       "organizer": "Maharaja Institute of Technology (MIT), Mysore",
-      "deadline": "2026-10-31T00:00:00+05:30",
+      "deadline": "2026-11-02T00:00:00+05:30",
       "prize_text": "\u20b920,000",
       "themes": [
         "Software Development",
         "Artificial Intelligence"
       ],
-      "participants": 42,
+      "participants": 47,
       "first_seen": "2026-10-18T07:45:45.782337+00:00",
       "is_new": false
     },
@@ -1011,7 +1161,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 240,
+      "participants": 269,
       "first_seen": "2026-10-10T09:22:18.425321+00:00",
       "is_new": false
     },
@@ -1029,8 +1179,27 @@
       "themes": [
         "Conferences"
       ],
-      "participants": 237,
+      "participants": 266,
       "first_seen": "2026-10-08T09:56:45.323792+00:00",
+      "is_new": false
+    },
+    {
+      "source": "unstop",
+      "title": "Pokerbots",
+      "url": "https://unstop.com/hackathons/pokerbots-synergy-26-international-institute-of-information-technology-iiit-bangalore-1762863",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abaacd821f42_uploadedmanual-6ab7fa9cd6206_synergy.png",
+      "mode": "online",
+      "location": null,
+      "college": null,
+      "organizer": "International Institute of Information Technology (IIIT), Bangalore",
+      "deadline": "2026-11-12T23:59:00+05:30",
+      "prize_text": "\u20b920,000",
+      "themes": [
+        "Quizzes & Treasure Hunt",
+        "Online Gaming & Esports"
+      ],
+      "participants": 137,
+      "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
     {
@@ -1048,7 +1217,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 19,
+      "participants": 22,
       "first_seen": "2026-10-12T10:11:40.519066+00:00",
       "is_new": false
     },
@@ -1066,26 +1235,8 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 230,
+      "participants": 317,
       "first_seen": "2026-10-25T08:05:48.257977+00:00",
-      "is_new": false
-    },
-    {
-      "source": "unstop",
-      "title": "WebVision 2.0",
-      "url": "https://unstop.com/hackathons/webvision-20-maharaja-agrasen-institute-of-technology-1770504",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ad0a4388c63b_whatsapp_image_2026-10-15_at_15_19_40.jpeg",
-      "mode": "offline",
-      "location": "Rohini, Delhi",
-      "college": null,
-      "organizer": "Maharaja Agrasen Institute of Technology",
-      "deadline": "2026-10-27T23:59:00+05:30",
-      "prize_text": "\u20b925,000",
-      "themes": [
-        "UI/UX Design"
-      ],
-      "participants": 395,
-      "first_seen": "2026-10-16T07:52:55.030904+00:00",
       "is_new": false
     },
     {
@@ -1102,7 +1253,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 932,
+      "participants": 1005,
       "first_seen": "2026-10-15T07:59:05.409334+00:00",
       "is_new": false
     },
@@ -1120,7 +1271,7 @@
       "themes": [
         "Founder\u2019s Office"
       ],
-      "participants": 67,
+      "participants": 69,
       "first_seen": "2026-10-11T09:39:23.592209+00:00",
       "is_new": false
     },
@@ -1139,7 +1290,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 505,
+      "participants": 529,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -1157,7 +1308,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 611,
+      "participants": 623,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -1175,9 +1326,9 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 613,
+      "participants": 626,
       "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "source": "devpost",
@@ -1195,7 +1346,7 @@
         "Open Ended",
         "Web"
       ],
-      "participants": 350,
+      "participants": 365,
       "first_seen": "2026-10-22T08:17:13.806980+00:00",
       "is_new": false
     },
@@ -1214,9 +1365,9 @@
         "Cyber Security",
         "AI Engineering"
       ],
-      "participants": 28,
+      "participants": 39,
       "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "source": "unstop",
@@ -1232,7 +1383,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 295,
+      "participants": 352,
       "first_seen": "2026-10-23T08:14:24.787660+00:00",
       "is_new": false
     },
@@ -1251,7 +1402,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 396,
+      "participants": 441,
       "first_seen": "2026-10-20T08:10:13.279811+00:00",
       "is_new": false
     },
@@ -1264,15 +1415,33 @@
       "location": "Bangalore, Karnataka",
       "college": null,
       "organizer": "BMS Institute of Technology and Management (BMSITM), Bangalore",
-      "deadline": "2026-10-30T23:59:00+05:30",
+      "deadline": "2026-11-10T23:59:00+05:30",
       "prize_text": "\u20b930,000",
       "themes": [
         "Product Management",
         "Others"
       ],
-      "participants": 1151,
+      "participants": 1246,
       "first_seen": "2026-10-09T10:00:19.950688+00:00",
       "is_new": false
+    },
+    {
+      "source": "unstop",
+      "title": "Pixels To Prognosis",
+      "url": "https://unstop.com/hackathons/pixels-to-prognosis-iit-madras-1781358",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ae1977d6a103_iitmlogo120.png",
+      "mode": "online",
+      "location": null,
+      "college": null,
+      "organizer": "Indian Institute of Technology (IIT), Madras",
+      "deadline": "2026-11-28T00:00:00+05:30",
+      "prize_text": "\u20b935,000",
+      "themes": [
+        "Computer Vision"
+      ],
+      "participants": 1,
+      "first_seen": "2026-10-28T09:17:08.566061+00:00",
+      "is_new": true
     },
     {
       "source": "unstop",
@@ -1288,7 +1457,7 @@
       "themes": [
         "Applied AI"
       ],
-      "participants": 125,
+      "participants": 131,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -1400,7 +1569,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 20,
+      "participants": 21,
       "first_seen": "2026-10-07T18:19:34.887451+00:00",
       "is_new": false
     },
@@ -1438,7 +1607,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 53,
+      "participants": 60,
       "first_seen": "2026-10-18T07:45:45.782337+00:00",
       "is_new": false
     },
@@ -1457,7 +1626,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 755,
+      "participants": 759,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -1476,7 +1645,7 @@
         "Quizzes & Treasure Hunt",
         "Cyber Security"
       ],
-      "participants": 263,
+      "participants": 279,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -1513,7 +1682,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 665,
+      "participants": 749,
       "first_seen": "2026-10-22T08:17:13.806980+00:00",
       "is_new": false
     },
@@ -1531,7 +1700,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 46,
+      "participants": 68,
       "first_seen": "2026-10-25T08:05:48.257977+00:00",
       "is_new": false
     },
@@ -1551,8 +1720,44 @@
         "IoT",
         "Open Ended"
       ],
-      "participants": 23,
+      "participants": 30,
       "first_seen": "2026-10-13T10:04:33.003935+00:00",
+      "is_new": false
+    },
+    {
+      "source": "unstop",
+      "title": "Shaastra Aerial Robotics Challenge",
+      "url": "https://unstop.com/hackathons/shaastra-aerial-robotics-challenge-iit-madras-1781087",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ae0f8005e18f_iitmlogo120.png",
+      "mode": "hybrid",
+      "location": "Chennai, Tamil Nadu",
+      "college": null,
+      "organizer": "Indian Institute of Technology (IIT), Madras",
+      "deadline": "2026-11-30T00:00:00+05:30",
+      "prize_text": "\u20b960,000",
+      "themes": [
+        "Robotics Engineer"
+      ],
+      "participants": 9,
+      "first_seen": "2026-10-28T09:17:08.566061+00:00",
+      "is_new": true
+    },
+    {
+      "source": "unstop",
+      "title": "Hackday 2.0",
+      "url": "https://unstop.com/hackathons/hackday-20-decodep-community-1773120",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ae18b861d5d5_organisation_image-GHkYhx7N6r1906252255xLtz4GL1fh.png",
+      "mode": "online",
+      "location": "Erode, Tamil Nadu",
+      "college": null,
+      "organizer": "Decodep Community",
+      "deadline": "2026-12-12T00:00:00+05:30",
+      "prize_text": "\u20b960,000",
+      "themes": [
+        "Software Development"
+      ],
+      "participants": 404,
+      "first_seen": "2026-10-24T07:52:35.508238+00:00",
       "is_new": false
     },
     {
@@ -1570,7 +1775,7 @@
         "API Development",
         "Software Development"
       ],
-      "participants": 789,
+      "participants": 900,
       "first_seen": "2026-10-21T08:15:37.784544+00:00",
       "is_new": false
     },
@@ -1590,7 +1795,7 @@
         "Fintech",
         "Health"
       ],
-      "participants": 364,
+      "participants": 422,
       "first_seen": "2026-10-16T07:52:55.030904+00:00",
       "is_new": false
     },
@@ -1608,7 +1813,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 12,
+      "participants": 13,
       "first_seen": "2026-10-20T08:10:13.279811+00:00",
       "is_new": false
     },
@@ -1621,12 +1826,12 @@
       "location": "Mohali, Punjab",
       "college": null,
       "organizer": "ISTE CGC UNIVERSITY",
-      "deadline": "2026-10-28T17:30:00+05:30",
+      "deadline": "2026-10-29T15:30:00+05:30",
       "prize_text": "\u20b975,000",
       "themes": [
         "Artificial Intelligence"
       ],
-      "participants": 2966,
+      "participants": 3038,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -1645,7 +1850,7 @@
         "Agentic AI Engineer",
         "AI Engineering"
       ],
-      "participants": 1088,
+      "participants": 1126,
       "first_seen": "2026-10-17T07:31:00.134389+00:00",
       "is_new": false
     },
@@ -1664,7 +1869,7 @@
         "Agentic AI Engineer",
         "AI Engineering"
       ],
-      "participants": 1049,
+      "participants": 1078,
       "first_seen": "2026-10-16T07:52:55.030904+00:00",
       "is_new": false
     },
@@ -1683,7 +1888,7 @@
         "Software Development",
         "Systems Programming"
       ],
-      "participants": 668,
+      "participants": 699,
       "first_seen": "2026-10-16T07:52:55.030904+00:00",
       "is_new": false
     },
@@ -1702,7 +1907,7 @@
         "Cyber Security",
         "Ethical Hacking"
       ],
-      "participants": 1660,
+      "participants": 1683,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -1721,7 +1926,7 @@
         "Agentic AI Engineer",
         "AI Engineering"
       ],
-      "participants": 541,
+      "participants": 644,
       "first_seen": "2026-10-24T07:52:35.508238+00:00",
       "is_new": false
     },
@@ -1760,7 +1965,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 78,
+      "participants": 105,
       "first_seen": "2026-10-25T08:05:48.257977+00:00",
       "is_new": false
     },
@@ -1779,7 +1984,7 @@
         "Data Science",
         "Machine Learning Engineering"
       ],
-      "participants": 185,
+      "participants": 200,
       "first_seen": "2026-10-18T07:45:45.782337+00:00",
       "is_new": false
     },
@@ -1797,7 +2002,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 705,
+      "participants": 722,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -1816,7 +2021,7 @@
         "Software Development",
         "Conferences"
       ],
-      "participants": 1807,
+      "participants": 1838,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -1834,7 +2039,7 @@
       "themes": [
         "Applied AI"
       ],
-      "participants": 76,
+      "participants": 94,
       "first_seen": "2026-10-24T07:52:35.508238+00:00",
       "is_new": false
     },
@@ -1852,7 +2057,7 @@
       "themes": [
         "Applied Research"
       ],
-      "participants": 356,
+      "participants": 402,
       "first_seen": "2026-10-11T09:39:23.592209+00:00",
       "is_new": false
     },
@@ -1870,7 +2075,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 1207,
+      "participants": 1224,
       "first_seen": "2026-10-15T07:59:05.409334+00:00",
       "is_new": false
     },
@@ -1890,7 +2095,7 @@
         "Blockchain",
         "Open Ended"
       ],
-      "participants": 79,
+      "participants": 92,
       "first_seen": "2026-10-18T07:45:45.782337+00:00",
       "is_new": false
     },
@@ -1908,15 +2113,34 @@
       "themes": [
         "Health"
       ],
-      "participants": 14,
+      "participants": 20,
       "first_seen": "2026-10-25T08:05:48.257977+00:00",
       "is_new": false
     },
     {
       "source": "unstop",
+      "title": "K Hacks 4.0",
+      "url": "https://unstop.com/hackathons/k-hacks-40-anna-university-au-chennai-1772496",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ae1a79c173fd_University.jpeg",
+      "mode": "online",
+      "location": "Chennai, Tamil Nadu",
+      "college": null,
+      "organizer": "Anna University (AU), Chennai",
+      "deadline": "2026-11-26T00:00:00+05:30",
+      "prize_text": "\u20b9200,000",
+      "themes": [
+        "Applied AI",
+        "Agentic AI Engineer"
+      ],
+      "participants": 124,
+      "first_seen": "2026-10-28T09:17:08.566061+00:00",
+      "is_new": true
+    },
+    {
+      "source": "unstop",
       "title": "Prompts to Profit Hackathon",
       "url": "https://unstop.com/hackathons/prompts-to-profit-hackathon-amalthea-2026-iit-gandhinagar-1774722",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6adccbc734c2a_220px-IIT_Gandhinagar_Logo.svg.png",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ae06437edc70_220px-IIT_Gandhinagar_Logo.svg.png",
       "mode": "offline",
       "location": "Gandhinagar, Gujarat",
       "college": null,
@@ -1927,7 +2151,7 @@
         "Quizzes & Treasure Hunt",
         "Online Gaming & Esports"
       ],
-      "participants": 67,
+      "participants": 161,
       "first_seen": "2026-10-25T08:05:48.257977+00:00",
       "is_new": false
     },
@@ -1947,7 +2171,7 @@
         "Health",
         "Machine Learning/AI"
       ],
-      "participants": 87,
+      "participants": 94,
       "first_seen": "2026-10-17T07:31:00.134389+00:00",
       "is_new": false
     },
@@ -1965,7 +2189,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 1240,
+      "participants": 1355,
       "first_seen": "2026-10-20T08:10:13.279811+00:00",
       "is_new": false
     },
@@ -1973,7 +2197,7 @@
       "source": "unstop",
       "title": "Orbix - 48-Hour Global Open Innovation Hackathon",
       "url": "https://unstop.com/hackathons/orbix-48-hour-global-open-innovation-hackathon-makers-need-more-mnm-1780048",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ae051a931798_organisation_image-Y8YicioQhc385845441OjE1zfmnqL.png",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ae18aaf744e0_organisation_image-Y8YicioQhc385845441OjE1zfmnqL.png",
       "mode": "online",
       "location": null,
       "college": null,
@@ -1984,9 +2208,9 @@
         "Applied Research",
         "Software Development"
       ],
-      "participants": 4,
+      "participants": 97,
       "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "source": "unstop",
@@ -2003,7 +2227,7 @@
         "Software Development",
         "Conferences"
       ],
-      "participants": 929,
+      "participants": 982,
       "first_seen": "2026-10-07T18:19:34.887451+00:00",
       "is_new": false
     },
@@ -2023,7 +2247,7 @@
         "Low/No Code",
         "Open Ended"
       ],
-      "participants": 746,
+      "participants": 773,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -2043,7 +2267,7 @@
         "Machine Learning/AI",
         "Web"
       ],
-      "participants": 686,
+      "participants": 701,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -2063,27 +2287,7 @@
         "Machine Learning/AI",
         "Robotic Process Automation"
       ],
-      "participants": 381,
-      "first_seen": "2026-10-06T09:45:22.810061+00:00",
-      "is_new": false
-    },
-    {
-      "source": "devpost",
-      "title": "InnovArt 2027: Art and Technology Hack Day",
-      "url": "https://innovart2027.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/163/349/datas/medium_square.jpg",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "Binnovative",
-      "deadline": "2027-01-02T00:00:00",
-      "prize_text": "$0",
-      "themes": [
-        "Music/Art",
-        "Beginner Friendly",
-        "Open Ended"
-      ],
-      "participants": 256,
+      "participants": 383,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -2103,7 +2307,27 @@
         "Education",
         "Health"
       ],
-      "participants": 253,
+      "participants": 269,
+      "first_seen": "2026-10-06T09:45:22.810061+00:00",
+      "is_new": false
+    },
+    {
+      "source": "devpost",
+      "title": "InnovArt 2027: Art and Technology Hack Day",
+      "url": "https://innovart2027.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/163/349/datas/medium_square.jpg",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "Binnovative",
+      "deadline": "2027-01-02T00:00:00",
+      "prize_text": "$0",
+      "themes": [
+        "Music/Art",
+        "Beginner Friendly",
+        "Open Ended"
+      ],
+      "participants": 265,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -2123,7 +2347,7 @@
         "Education",
         "Web"
       ],
-      "participants": 160,
+      "participants": 181,
       "first_seen": "2026-10-18T07:45:45.782337+00:00",
       "is_new": false
     },
@@ -2163,7 +2387,7 @@
         "Cybersecurity",
         "Machine Learning/AI"
       ],
-      "participants": 97,
+      "participants": 101,
       "first_seen": "2026-10-15T07:59:05.409334+00:00",
       "is_new": false
     },
@@ -2181,26 +2405,8 @@
       "themes": [
         "Machine Learning/AI"
       ],
-      "participants": 61,
+      "participants": 69,
       "first_seen": "2026-10-15T07:59:05.409334+00:00",
-      "is_new": false
-    },
-    {
-      "source": "devpost",
-      "title": "Hack to the Future",
-      "url": "https://hack-to-the-missing-future-ai.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/605/103/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "HackathonForEveryone",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly"
-      ],
-      "participants": 51,
-      "first_seen": "2026-10-18T07:45:45.782337+00:00",
       "is_new": false
     },
     {
@@ -2219,8 +2425,27 @@
         "Cybersecurity",
         "Education"
       ],
-      "participants": 38,
+      "participants": 41,
       "first_seen": "2026-10-14T08:22:50.250509+00:00",
+      "is_new": false
+    },
+    {
+      "source": "devpost",
+      "title": "Hackathon Ag\u00e9ntico SoftwareChido 2026B",
+      "url": "https://hackathon-agentico-2026b.devpost.com/",
+      "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "ITESO",
+      "deadline": "2026-11-25T00:00:00",
+      "prize_text": "$0",
+      "themes": [
+        "Education",
+        "Machine Learning/AI"
+      ],
+      "participants": 31,
+      "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
     {
@@ -2243,25 +2468,6 @@
     },
     {
       "source": "devpost",
-      "title": "Hackathon Ag\u00e9ntico SoftwareChido 2026B",
-      "url": "https://hackathon-agentico-2026b.devpost.com/",
-      "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "ITESO",
-      "deadline": "2026-11-25T00:00:00",
-      "prize_text": "$0",
-      "themes": [
-        "Education",
-        "Machine Learning/AI"
-      ],
-      "participants": 29,
-      "first_seen": "2026-10-06T09:45:22.810061+00:00",
-      "is_new": false
-    },
-    {
-      "source": "devpost",
       "title": "AI Build India",
       "url": "https://sphinx-26.devpost.com/",
       "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
@@ -2275,8 +2481,48 @@
         "Machine Learning/AI",
         "Open Ended"
       ],
-      "participants": 18,
+      "participants": 22,
       "first_seen": "2026-10-14T08:22:50.250509+00:00",
+      "is_new": false
+    },
+    {
+      "source": "devpost",
+      "title": "Build Your First AI App",
+      "url": "https://build-your-first-ai-app.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/723/285/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "Yasir Insights",
+      "deadline": "2026-11-27T00:00:00",
+      "prize_text": "$0",
+      "themes": [
+        "Education",
+        "Machine Learning/AI",
+        "Web"
+      ],
+      "participants": 22,
+      "first_seen": "2026-10-28T09:17:08.566061+00:00",
+      "is_new": true
+    },
+    {
+      "source": "devpost",
+      "title": "Buksi SITE (STEM Innovation & Talent Expo) 2026 - ONLY FOR BUKIT SION STUDENTS",
+      "url": "https://buksi-site-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/266/825/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Bukit Sion Highschool ",
+      "college": null,
+      "organizer": "Bukit Sion School",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Enterprise",
+        "Education"
+      ],
+      "participants": 20,
+      "first_seen": "2026-10-21T08:15:37.784544+00:00",
       "is_new": false
     },
     {
@@ -2295,28 +2541,28 @@
         "Social Good",
         "Beginner Friendly"
       ],
-      "participants": 9,
+      "participants": 14,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
     {
       "source": "devpost",
-      "title": "Buksi SITE (STEM Innovation & Talent Expo) 2026 - ONLY FOR BUKIT SION STUDENTS",
-      "url": "https://buksi-site-2026.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/266/825/datas/medium_square.png",
+      "title": "Solix AI Hackathon 2026",
+      "url": "https://solix-ai-hackathon-2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/715/931/datas/medium_square.png",
       "mode": "offline",
-      "location": "Bukit Sion Highschool ",
+      "location": "Qualcomm Institute, UC San Diego",
       "college": null,
-      "organizer": "Bukit Sion School",
+      "organizer": "Solix",
       "deadline": null,
       "prize_text": "$0",
       "themes": [
-        "Beginner Friendly",
-        "Enterprise",
-        "Education"
+        "Health",
+        "Machine Learning/AI",
+        "Social Good"
       ],
       "participants": 8,
-      "first_seen": "2026-10-21T08:15:37.784544+00:00",
+      "first_seen": "2026-10-27T08:37:46.913029+00:00",
       "is_new": false
     },
     {
@@ -2353,7 +2599,7 @@
         "Low/No Code",
         "Machine Learning/AI"
       ],
-      "participants": 258,
+      "participants": 278,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -2373,7 +2619,7 @@
         "Open Ended",
         "Social Good"
       ],
-      "participants": 226,
+      "participants": 234,
       "first_seen": "2026-10-22T08:17:13.806980+00:00",
       "is_new": false
     },
@@ -2393,7 +2639,7 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 152,
+      "participants": 161,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -2413,7 +2659,7 @@
         "Machine Learning/AI",
         "Open Ended"
       ],
-      "participants": 57,
+      "participants": 58,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -2451,7 +2697,7 @@
       "themes": [
         "Machine Learning/AI"
       ],
-      "participants": 44,
+      "participants": 51,
       "first_seen": "2026-10-21T08:15:37.784544+00:00",
       "is_new": false
     },
@@ -2496,26 +2742,6 @@
     },
     {
       "source": "devpost",
-      "title": "Hoya Hacks 2027",
-      "url": "https://hoya-hacks-2027.devpost.com/",
-      "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-      "mode": "offline",
-      "location": "Healey Family Student Center",
-      "college": null,
-      "organizer": "Hoya Hacks",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly",
-        "Open Ended",
-        "Social Good"
-      ],
-      "participants": 25,
-      "first_seen": "2026-10-06T09:45:22.810061+00:00",
-      "is_new": false
-    },
-    {
-      "source": "devpost",
       "title": "Ctrl+V Hackathon",
       "url": "https://ctrl-v-hackathon-31831.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/636/990/datas/medium_square.png",
@@ -2530,8 +2756,28 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 21,
+      "participants": 25,
       "first_seen": "2026-10-22T08:17:13.806980+00:00",
+      "is_new": false
+    },
+    {
+      "source": "devpost",
+      "title": "Hoya Hacks 2027",
+      "url": "https://hoya-hacks-2027.devpost.com/",
+      "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "offline",
+      "location": "Healey Family Student Center",
+      "college": null,
+      "organizer": "Hoya Hacks",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Open Ended",
+        "Social Good"
+      ],
+      "participants": 24,
+      "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
     {
@@ -2550,7 +2796,7 @@
         "Low/No Code",
         "Machine Learning/AI"
       ],
-      "participants": 18,
+      "participants": 19,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -2635,6 +2881,24 @@
     },
     {
       "source": "devpost",
+      "title": "WWU Social Justice Hackathon",
+      "url": "https://wwu-sj-hack.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/543/830/datas/medium_square.png",
+      "mode": "offline",
+      "location": "WWU - Kaiser Borsari Building",
+      "college": null,
+      "organizer": "Western Washington University",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Social Good"
+      ],
+      "participants": 12,
+      "first_seen": "2026-10-06T09:45:22.810061+00:00",
+      "is_new": false
+    },
+    {
+      "source": "devpost",
       "title": "MakeUC 2026",
       "url": "https://makeuc-2026-30884.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/047/660/datas/medium_square.png",
@@ -2670,24 +2934,6 @@
         "IoT"
       ],
       "participants": 12,
-      "first_seen": "2026-10-06T09:45:22.810061+00:00",
-      "is_new": false
-    },
-    {
-      "source": "devpost",
-      "title": "WWU Social Justice Hackathon",
-      "url": "https://wwu-sj-hack.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/543/830/datas/medium_square.png",
-      "mode": "offline",
-      "location": "WWU - Kaiser Borsari Building",
-      "college": null,
-      "organizer": "Western Washington University",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Social Good"
-      ],
-      "participants": 11,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -2751,6 +2997,26 @@
     },
     {
       "source": "devpost",
+      "title": "Global AI Hackathon - Devcon 2026 By Mel",
+      "url": "https://trick-or-build.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/725/405/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "Agentic Day (co-hosted with Mel)",
+      "deadline": "2026-11-01T00:00:00",
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Productivity"
+      ],
+      "participants": 9,
+      "first_seen": "2026-10-22T08:17:13.806980+00:00",
+      "is_new": false
+    },
+    {
+      "source": "devpost",
       "title": "FutureForge Hacks",
       "url": "https://futureforge-hacks.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/058/924/datas/medium_square.png",
@@ -2771,22 +3037,22 @@
     },
     {
       "source": "devpost",
-      "title": "Trick or Build: Mel \u00d7 Prompt Anything \u00d7 AI Builders",
-      "url": "https://trick-or-build.devpost.com/",
-      "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "title": "NorCal Hacks 27",
+      "url": "https://norcal-hacks-27.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/716/043/datas/medium_square.png",
       "mode": "online",
       "location": "Online",
       "college": null,
-      "organizer": "Agentic Day (co-hosted with Mel)",
+      "organizer": "Lynbrook Engineering Club",
       "deadline": null,
       "prize_text": "$0",
       "themes": [
         "Beginner Friendly",
         "Machine Learning/AI",
-        "Productivity"
+        "Social Good"
       ],
-      "participants": 7,
-      "first_seen": "2026-10-22T08:17:13.806980+00:00",
+      "participants": 8,
+      "first_seen": "2026-10-25T08:05:48.257977+00:00",
       "is_new": false
     },
     {
@@ -2805,7 +3071,7 @@
         "Health",
         "Beginner Friendly"
       ],
-      "participants": 6,
+      "participants": 7,
       "first_seen": "2026-10-19T08:27:58.540165+00:00",
       "is_new": false
     },
@@ -2868,6 +3134,26 @@
     },
     {
       "source": "devpost",
+      "title": "LooHacks",
+      "url": "https://loohacks.devpost.com/",
+      "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "offline",
+      "location": "Spur Innovation Center - SPUR Campus",
+      "college": null,
+      "organizer": "AWS Student Builder Group - WLU",
+      "deadline": null,
+      "prize_text": "$CAD 0",
+      "themes": [
+        "E-commerce/Retail",
+        "Enterprise",
+        "Robotic Process Automation"
+      ],
+      "participants": 4,
+      "first_seen": "2026-10-15T07:59:05.409334+00:00",
+      "is_new": false
+    },
+    {
+      "source": "devpost",
       "title": "NSH @RPI 2027",
       "url": "https://nsh-rpi-2027.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/283/061/datas/medium_square.png",
@@ -2907,6 +3193,26 @@
     },
     {
       "source": "devpost",
+      "title": "Redshifted Cortex - AI built by High Schoolers",
+      "url": "https://redshifted-cortex.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/214/611/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "Redshifted",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Open Ended"
+      ],
+      "participants": 3,
+      "first_seen": "2026-10-23T08:14:24.787660+00:00",
+      "is_new": false
+    },
+    {
+      "source": "devpost",
       "title": "Meow",
       "url": "https://makeuc-2026-30881.devpost.com/",
       "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
@@ -2925,22 +3231,21 @@
     },
     {
       "source": "devpost",
-      "title": "NorCal Hacks 27",
-      "url": "https://norcal-hacks-27.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/716/043/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
+      "title": "SearchHack: Build the next layer of AI search",
+      "url": "https://searchhack.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/713/209/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Sunnyvale",
       "college": null,
-      "organizer": "Lynbrook Engineering Club",
+      "organizer": "Telem AI",
       "deadline": null,
       "prize_text": "$0",
       "themes": [
-        "Beginner Friendly",
         "Machine Learning/AI",
-        "Social Good"
+        "Web"
       ],
       "participants": 3,
-      "first_seen": "2026-10-25T08:05:48.257977+00:00",
+      "first_seen": "2026-10-27T08:37:46.913029+00:00",
       "is_new": false
     },
     {
@@ -2985,6 +3290,26 @@
     },
     {
       "source": "devpost",
+      "title": "305 CodeFest Edition December 2026 \u2014 305Hackathons.vercel.app",
+      "url": "https://305codefestdec2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/578/109/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "COLORSTACKatFIU",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Cybersecurity",
+        "Education"
+      ],
+      "participants": 3,
+      "first_seen": "2026-10-14T08:22:50.250509+00:00",
+      "is_new": false
+    },
+    {
+      "source": "devpost",
       "title": "Ticket to Hack 2027 @ UVA",
       "url": "https://ticket-to-hack.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/625/288/datas/medium_square.png",
@@ -3025,26 +3350,6 @@
     },
     {
       "source": "devpost",
-      "title": "Blackstart: Data Centers, Reforged",
-      "url": "https://blackstart-data-centers.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/676/481/datas/medium_square.png",
-      "mode": "offline",
-      "location": "Barrett Centre For Technology Innovation",
-      "college": null,
-      "organizer": "Lightgrid Energy",
-      "deadline": null,
-      "prize_text": "$CAD 0",
-      "themes": [
-        "Beginner Friendly",
-        "Open Ended",
-        "Social Good"
-      ],
-      "participants": 2,
-      "first_seen": "2026-10-25T08:05:48.257977+00:00",
-      "is_new": false
-    },
-    {
-      "source": "devpost",
       "title": "PowerHack",
       "url": "https://powerhack.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/383/999/datas/medium_square.jpg",
@@ -3061,26 +3366,6 @@
       ],
       "participants": 2,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
-      "is_new": false
-    },
-    {
-      "source": "devpost",
-      "title": "Redshifted Cortex - AI built by High Schoolers",
-      "url": "https://redshifted-cortex.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/214/611/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "Redshifted",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly",
-        "Machine Learning/AI",
-        "Open Ended"
-      ],
-      "participants": 2,
-      "first_seen": "2026-10-23T08:14:24.787660+00:00",
       "is_new": false
     },
     {
@@ -3105,33 +3390,13 @@
     },
     {
       "source": "devpost",
-      "title": "LooHacks",
-      "url": "https://loohacks.devpost.com/",
-      "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-      "mode": "offline",
-      "location": "Spur Innovation Center - SPUR Campus",
-      "college": null,
-      "organizer": "AWS Student Builder Group - WLU",
-      "deadline": null,
-      "prize_text": "$CAD 0",
-      "themes": [
-        "E-commerce/Retail",
-        "Enterprise",
-        "Robotic Process Automation"
-      ],
-      "participants": 2,
-      "first_seen": "2026-10-15T07:59:05.409334+00:00",
-      "is_new": false
-    },
-    {
-      "source": "devpost",
-      "title": "305 CodeFest Edition December 2026 \u2014 305Hackathons.vercel.app",
-      "url": "https://305codefestdec2026.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/578/109/datas/medium_square.png",
+      "title": "305 Veterans Hackathon Edition November 2026 \u2014 305Hackathons.vercel.app",
+      "url": "https://305veteransnov2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/578/105/datas/medium_square.png",
       "mode": "online",
       "location": "Online",
       "college": null,
-      "organizer": "COLORSTACKatFIU",
+      "organizer": "GOOGLE DEVELOPER GROUP AT FIU",
       "deadline": null,
       "prize_text": "$0",
       "themes": [
@@ -3161,6 +3426,45 @@
       ],
       "participants": 2,
       "first_seen": "2026-10-12T10:11:40.519066+00:00",
+      "is_new": false
+    },
+    {
+      "source": "devpost",
+      "title": "Blackstart: Data Centers, Reforged",
+      "url": "https://blackstart-data-centers.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/676/481/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Barrett Centre For Technology Innovation",
+      "college": null,
+      "organizer": "Lightgrid Energy",
+      "deadline": null,
+      "prize_text": "$CAD 0",
+      "themes": [
+        "Beginner Friendly",
+        "Open Ended",
+        "Social Good"
+      ],
+      "participants": 1,
+      "first_seen": "2026-10-25T08:05:48.257977+00:00",
+      "is_new": false
+    },
+    {
+      "source": "devpost",
+      "title": "Ship It: The Product Builders' Hackathon",
+      "url": "https://ship-it-hackathon.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/644/133/datas/medium_square.png",
+      "mode": "offline",
+      "location": "Mixpanel HQ",
+      "college": null,
+      "organizer": "Mixpanel",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Low/No Code",
+        "Machine Learning/AI"
+      ],
+      "participants": 1,
+      "first_seen": "2026-10-23T08:14:24.787660+00:00",
       "is_new": false
     },
     {
@@ -3201,6 +3505,44 @@
       ],
       "participants": 1,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
+      "is_new": false
+    },
+    {
+      "source": "devpost",
+      "title": "WWC Hackathon",
+      "url": "https://wwc-hackathon.devpost.com/",
+      "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "offline",
+      "location": "Fiji",
+      "college": null,
+      "organizer": "School",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Gaming"
+      ],
+      "participants": 1,
+      "first_seen": "2026-10-28T09:17:08.566061+00:00",
+      "is_new": true
+    },
+    {
+      "source": "devpost",
+      "title": "LPC Hacks",
+      "url": "https://lpc-hacks.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/649/130/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "LPCHacks",
+      "deadline": null,
+      "prize_text": "$0",
+      "themes": [
+        "Beginner Friendly",
+        "Machine Learning/AI",
+        "Open Ended"
+      ],
+      "participants": 1,
+      "first_seen": "2026-10-23T08:14:24.787660+00:00",
       "is_new": false
     },
     {
@@ -3265,81 +3607,23 @@
     },
     {
       "source": "devpost",
-      "title": "305 Veterans Hackathon Edition November 2026 \u2014 305Hackathons.vercel.app",
-      "url": "https://305veteransnov2026.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/578/105/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "GOOGLE DEVELOPER GROUP AT FIU",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly",
-        "Cybersecurity",
-        "Education"
-      ],
-      "participants": 1,
-      "first_seen": "2026-10-14T08:22:50.250509+00:00",
-      "is_new": false
-    },
-    {
-      "source": "devpost",
-      "title": "Ship It: The Product Builders' Hackathon",
-      "url": "https://ship-it-hackathon.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/644/133/datas/medium_square.png",
+      "title": "Catalyst California Conference (C3) Hackathon",
+      "url": "https://c3hackathon.devpost.com/",
+      "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
       "mode": "offline",
-      "location": "Mixpanel HQ",
+      "location": "Anaheim, CA, USA",
       "college": null,
-      "organizer": "Mixpanel",
+      "organizer": "Computing Catalyst",
       "deadline": null,
       "prize_text": "$0",
       "themes": [
-        "Low/No Code",
-        "Machine Learning/AI"
-      ],
-      "participants": 0,
-      "first_seen": "2026-10-23T08:14:24.787660+00:00",
-      "is_new": false
-    },
-    {
-      "source": "devpost",
-      "title": "SearchHack: Build the next layer of AI search",
-      "url": "https://searchhack.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/713/209/datas/medium_square.png",
-      "mode": "offline",
-      "location": "Sunnyvale",
-      "college": null,
-      "organizer": "Telem AI",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Machine Learning/AI",
+        "Open Ended",
+        "Social Good",
         "Web"
       ],
       "participants": 0,
-      "first_seen": "2026-10-27T08:37:46.913029+00:00",
+      "first_seen": "2026-10-28T09:17:08.566061+00:00",
       "is_new": true
-    },
-    {
-      "source": "devpost",
-      "title": "LPC Hacks",
-      "url": "https://lpc-hacks.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/649/130/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "LPCHacks",
-      "deadline": null,
-      "prize_text": "$0",
-      "themes": [
-        "Beginner Friendly",
-        "Machine Learning/AI",
-        "Open Ended"
-      ],
-      "participants": 0,
-      "first_seen": "2026-10-23T08:14:24.787660+00:00",
-      "is_new": false
     },
     {
       "source": "devpost",
@@ -3359,7 +3643,7 @@
       ],
       "participants": 0,
       "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "source": "devpost",
@@ -3377,7 +3661,7 @@
         "Open Ended",
         "Web"
       ],
-      "participants": 12,
+      "participants": 13,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -3410,14 +3694,14 @@
       "location": "Online",
       "college": null,
       "organizer": "ACM Long Beach",
-      "deadline": "2026-11-05T00:00:00",
-      "prize_text": "$30",
+      "deadline": "2026-11-06T00:00:00",
+      "prize_text": "$50",
       "themes": [
         "Design",
         "Gaming",
         "Web"
       ],
-      "participants": 150,
+      "participants": 159,
       "first_seen": "2026-10-13T10:04:33.003935+00:00",
       "is_new": false
     },
@@ -3437,7 +3721,7 @@
         "Databases",
         "Gaming"
       ],
-      "participants": 124,
+      "participants": 147,
       "first_seen": "2026-10-18T07:45:45.782337+00:00",
       "is_new": false
     },
@@ -3450,14 +3734,14 @@
       "location": "Online",
       "college": null,
       "organizer": "Girls Who Code HHS",
-      "deadline": null,
+      "deadline": "2026-11-05T00:00:00",
       "prize_text": "$50",
       "themes": [
         "Beginner Friendly",
         "Gaming",
         "Social Good"
       ],
-      "participants": 62,
+      "participants": 68,
       "first_seen": "2026-10-15T07:59:05.409334+00:00",
       "is_new": false
     },
@@ -3477,7 +3761,7 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 16,
+      "participants": 19,
       "first_seen": "2026-10-25T08:05:48.257977+00:00",
       "is_new": false
     },
@@ -3497,7 +3781,7 @@
         "Low/No Code",
         "Open Ended"
       ],
-      "participants": 418,
+      "participants": 442,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -3517,7 +3801,7 @@
         "Open Ended",
         "Social Good"
       ],
-      "participants": 43,
+      "participants": 50,
       "first_seen": "2026-10-14T08:22:50.250509+00:00",
       "is_new": false
     },
@@ -3537,7 +3821,7 @@
         "Open Ended",
         "Beginner Friendly"
       ],
-      "participants": 6,
+      "participants": 7,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -3557,7 +3841,7 @@
         "Mobile",
         "Web"
       ],
-      "participants": 6,
+      "participants": 7,
       "first_seen": "2026-10-12T10:11:40.519066+00:00",
       "is_new": false
     },
@@ -3581,6 +3865,26 @@
     },
     {
       "source": "devpost",
+      "title": "CRC Hacks",
+      "url": "https://crc-student-hackathon.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/568/785/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "Programming and Coders Club",
+      "deadline": null,
+      "prize_text": "$100",
+      "themes": [
+        "Beginner Friendly",
+        "Design",
+        "Machine Learning/AI"
+      ],
+      "participants": 0,
+      "first_seen": "2026-10-28T09:17:08.566061+00:00",
+      "is_new": true
+    },
+    {
+      "source": "devpost",
       "title": "Green Shift Hacks",
       "url": "https://green-shift-hacks.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/618/250/datas/medium_square.png",
@@ -3594,7 +3898,7 @@
         "Beginner Friendly",
         "Social Good"
       ],
-      "participants": 76,
+      "participants": 89,
       "first_seen": "2026-10-19T08:27:58.540165+00:00",
       "is_new": false
     },
@@ -3613,7 +3917,7 @@
         "Communication",
         "Databases"
       ],
-      "participants": 121,
+      "participants": 123,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -3633,7 +3937,7 @@
         "Design",
         "Low/No Code"
       ],
-      "participants": 16,
+      "participants": 21,
       "first_seen": "2026-10-23T08:14:24.787660+00:00",
       "is_new": false
     },
@@ -3653,7 +3957,7 @@
         "Education",
         "Social Good"
       ],
-      "participants": 80,
+      "participants": 93,
       "first_seen": "2026-10-18T07:45:45.782337+00:00",
       "is_new": false
     },
@@ -3671,7 +3975,7 @@
       "themes": [
         "Beginner Friendly"
       ],
-      "participants": 33,
+      "participants": 50,
       "first_seen": "2026-10-19T08:27:58.540165+00:00",
       "is_new": false
     },
@@ -3694,26 +3998,6 @@
       "participants": 3,
       "first_seen": "2026-10-14T08:22:50.250509+00:00",
       "is_new": false
-    },
-    {
-      "source": "devpost",
-      "title": "Catalyst Hack Day",
-      "url": "https://catalyst-hack-day.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/710/269/datas/medium_square.png",
-      "mode": "offline",
-      "location": "Needham, MA, USA",
-      "college": null,
-      "organizer": "MLH",
-      "deadline": null,
-      "prize_text": "$250",
-      "themes": [
-        "IoT",
-        "Low/No Code",
-        "Open Ended"
-      ],
-      "participants": 0,
-      "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
     },
     {
       "source": "devpost",
@@ -3750,7 +4034,7 @@
         "Cybersecurity",
         "Social Good"
       ],
-      "participants": 164,
+      "participants": 183,
       "first_seen": "2026-10-18T07:45:45.782337+00:00",
       "is_new": false
     },
@@ -3769,7 +4053,7 @@
         "Beginner Friendly",
         "Open Ended"
       ],
-      "participants": 208,
+      "participants": 234,
       "first_seen": "2026-10-16T07:52:55.030904+00:00",
       "is_new": false
     },
@@ -3789,7 +4073,7 @@
         "Low/No Code",
         "Productivity"
       ],
-      "participants": 24,
+      "participants": 25,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -3809,7 +4093,7 @@
         "Education",
         "Health"
       ],
-      "participants": 16,
+      "participants": 17,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -3829,9 +4113,9 @@
         "Open Ended",
         "Web"
       ],
-      "participants": 6,
+      "participants": 14,
       "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "source": "devpost",
@@ -3889,9 +4173,9 @@
         "Open Ended",
         "Web"
       ],
-      "participants": 108,
+      "participants": 110,
       "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "source": "devpost",
@@ -3973,6 +4257,24 @@
     },
     {
       "source": "devpost",
+      "title": "LancerHacks",
+      "url": "https://lancerhacks2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/602/626/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "pasadena city college",
+      "deadline": null,
+      "prize_text": "$600",
+      "themes": [
+        "Beginner Friendly"
+      ],
+      "participants": 5,
+      "first_seen": "2026-10-25T08:05:48.257977+00:00",
+      "is_new": false
+    },
+    {
+      "source": "devpost",
       "title": "GNEC Hackathon 2027 Winter - Compete For UN-Affiliated/NGO Internships & Prizes",
       "url": "https://gnec-hackathon-2027-winter.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/700/868/datas/medium_square.png",
@@ -3987,7 +4289,7 @@
         "Education",
         "Social Good"
       ],
-      "participants": 2,
+      "participants": 6,
       "first_seen": "2026-10-26T08:29:50.490397+00:00",
       "is_new": false
     },
@@ -4007,7 +4309,7 @@
         "Machine Learning/AI",
         "Productivity"
       ],
-      "participants": 19,
+      "participants": 20,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4027,7 +4329,7 @@
         "Machine Learning/AI",
         "Web"
       ],
-      "participants": 8,
+      "participants": 10,
       "first_seen": "2026-10-18T07:45:45.782337+00:00",
       "is_new": false
     },
@@ -4047,9 +4349,9 @@
         "Fintech",
         "Quantum"
       ],
-      "participants": 1,
+      "participants": 2,
       "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "source": "devpost",
@@ -4067,7 +4369,7 @@
         "Fintech",
         "Machine Learning/AI"
       ],
-      "participants": 33,
+      "participants": 59,
       "first_seen": "2026-10-23T08:14:24.787660+00:00",
       "is_new": false
     },
@@ -4105,7 +4407,7 @@
         "Health",
         "Social Good"
       ],
-      "participants": 5,
+      "participants": 6,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4145,7 +4447,7 @@
         "Open Ended",
         "Web"
       ],
-      "participants": 1,
+      "participants": 2,
       "first_seen": "2026-10-08T09:56:45.323792+00:00",
       "is_new": false
     },
@@ -4164,7 +4466,7 @@
         "Data Analysis",
         "Data Science"
       ],
-      "participants": 61,
+      "participants": 111,
       "first_seen": "2026-10-22T08:17:13.806980+00:00",
       "is_new": false
     },
@@ -4182,7 +4484,7 @@
       "themes": [
         "Applied AI"
       ],
-      "participants": 129,
+      "participants": 151,
       "first_seen": "2026-10-22T08:17:13.806980+00:00",
       "is_new": false
     },
@@ -4202,7 +4504,7 @@
         "Open Ended",
         "Social Good"
       ],
-      "participants": 82,
+      "participants": 84,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4222,7 +4524,7 @@
         "Health",
         "Machine Learning/AI"
       ],
-      "participants": 5,
+      "participants": 7,
       "first_seen": "2026-10-22T08:17:13.806980+00:00",
       "is_new": false
     },
@@ -4242,7 +4544,7 @@
         "Music/Art",
         "Open Ended"
       ],
-      "participants": 62,
+      "participants": 66,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4261,7 +4563,7 @@
         "Beginner Friendly",
         "Open Ended"
       ],
-      "participants": 9,
+      "participants": 10,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4281,9 +4583,9 @@
         "Fintech",
         "Health"
       ],
-      "participants": 11,
+      "participants": 25,
       "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "source": "devpost",
@@ -4301,7 +4603,7 @@
         "Machine Learning/AI",
         "Robotic Process Automation"
       ],
-      "participants": 166,
+      "participants": 175,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4321,7 +4623,7 @@
         "Machine Learning/AI",
         "Design"
       ],
-      "participants": 825,
+      "participants": 879,
       "first_seen": "2026-10-16T07:52:55.030904+00:00",
       "is_new": false
     },
@@ -4341,9 +4643,29 @@
         "Open Ended",
         "Web"
       ],
-      "participants": 1,
+      "participants": 2,
       "first_seen": "2026-10-22T08:17:13.806980+00:00",
       "is_new": false
+    },
+    {
+      "source": "devpost",
+      "title": "HackOut! 2027",
+      "url": "https://hackout-branchout.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/705/871/datas/medium_square.jpg",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "BranchOut!",
+      "deadline": "2027-02-01T00:00:00",
+      "prize_text": "$3,000",
+      "themes": [
+        "Quantum",
+        "Beginner Friendly",
+        "Social Good"
+      ],
+      "participants": 0,
+      "first_seen": "2026-10-28T09:17:08.566061+00:00",
+      "is_new": true
     },
     {
       "source": "devpost",
@@ -4378,7 +4700,7 @@
       "themes": [
         "Beginner Friendly"
       ],
-      "participants": 26,
+      "participants": 27,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4416,27 +4738,9 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 154,
+      "participants": 167,
       "first_seen": "2026-10-20T08:10:13.279811+00:00",
       "is_new": false
-    },
-    {
-      "source": "devpost",
-      "title": "#BuildHybridAI 2026",
-      "url": "https://firebasehybridaihackathon.devpost.com/",
-      "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "Google",
-      "deadline": null,
-      "prize_text": "$5,000",
-      "themes": [
-        "Machine Learning/AI"
-      ],
-      "participants": 52,
-      "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
     },
     {
       "source": "devpost",
@@ -4451,9 +4755,10 @@
       "prize_text": "$5,000",
       "themes": [
         "Education",
-        "Enterprise"
+        "Enterprise",
+        "Machine Learning/AI"
       ],
-      "participants": 60,
+      "participants": 64,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4473,7 +4778,7 @@
         "Open Ended",
         "Productivity"
       ],
-      "participants": 47,
+      "participants": 52,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4493,7 +4798,7 @@
         "Social Good",
         "Web"
       ],
-      "participants": 37,
+      "participants": 39,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4533,26 +4838,8 @@
         "IoT",
         "Robotic Process Automation"
       ],
-      "participants": 31,
+      "participants": 32,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
-      "is_new": false
-    },
-    {
-      "source": "devpost",
-      "title": "LancerHacks",
-      "url": "https://lancerhacks2026.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/602/626/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "pasadena city college",
-      "deadline": null,
-      "prize_text": "$5,760",
-      "themes": [
-        "Beginner Friendly"
-      ],
-      "participants": 3,
-      "first_seen": "2026-10-25T08:05:48.257977+00:00",
       "is_new": false
     },
     {
@@ -4571,7 +4858,7 @@
         "E-commerce/Retail",
         "Machine Learning/AI"
       ],
-      "participants": 1330,
+      "participants": 1383,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4591,7 +4878,7 @@
         "IoT",
         "Machine Learning/AI"
       ],
-      "participants": 249,
+      "participants": 254,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4611,7 +4898,7 @@
         "Education",
         "Social Good"
       ],
-      "participants": 35,
+      "participants": 37,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4631,7 +4918,7 @@
         "Cybersecurity",
         "Machine Learning/AI"
       ],
-      "participants": 58,
+      "participants": 66,
       "first_seen": "2026-10-13T10:04:33.003935+00:00",
       "is_new": false
     },
@@ -4651,7 +4938,7 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 1,
+      "participants": 3,
       "first_seen": "2026-10-24T07:52:35.508238+00:00",
       "is_new": false
     },
@@ -4671,7 +4958,7 @@
         "Machine Learning/AI",
         "Open Ended"
       ],
-      "participants": 590,
+      "participants": 645,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4691,8 +4978,26 @@
         "Databases",
         "DevOps"
       ],
-      "participants": 196,
+      "participants": 201,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
+      "is_new": false
+    },
+    {
+      "source": "devpost",
+      "title": "#BuildHybridAI 2026",
+      "url": "https://firebasehybridaihackathon.devpost.com/",
+      "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "Google",
+      "deadline": null,
+      "prize_text": "$10,000",
+      "themes": [
+        "Machine Learning/AI"
+      ],
+      "participants": 106,
+      "first_seen": "2026-10-27T08:37:46.913029+00:00",
       "is_new": false
     },
     {
@@ -4711,7 +5016,7 @@
         "Mobile",
         "Web"
       ],
-      "participants": 34,
+      "participants": 33,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4750,7 +5055,7 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 1,
+      "participants": 2,
       "first_seen": "2026-10-22T08:17:13.806980+00:00",
       "is_new": false
     },
@@ -4770,7 +5075,7 @@
         "Machine Learning/AI",
         "Social Good"
       ],
-      "participants": 63,
+      "participants": 66,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4810,7 +5115,7 @@
         "Design",
         "Education"
       ],
-      "participants": 304,
+      "participants": 312,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4830,7 +5135,7 @@
         "Low/No Code",
         "Open Ended"
       ],
-      "participants": 148,
+      "participants": 167,
       "first_seen": "2026-10-10T09:22:18.425321+00:00",
       "is_new": false
     },
@@ -4850,7 +5155,7 @@
         "Machine Learning/AI",
         "Web"
       ],
-      "participants": 157,
+      "participants": 159,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4868,7 +5173,7 @@
       "themes": [
         "Machine Learning/AI"
       ],
-      "participants": 2558,
+      "participants": 2681,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -4888,7 +5193,7 @@
         "Gaming",
         "Machine Learning/AI"
       ],
-      "participants": 1165,
+      "participants": 1435,
       "first_seen": "2026-10-24T07:52:35.508238+00:00",
       "is_new": false
     },
@@ -4908,66 +5213,8 @@
         "Databases",
         "Machine Learning/AI"
       ],
-      "participants": 37,
+      "participants": 39,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
-      "is_new": false
-    },
-    {
-      "source": "devpost",
-      "title": "AWS Communication Developer Services (CDS) Agentic AI Partner Hackathon",
-      "url": "https://aws-cds-partner.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/155/384/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "AWS",
-      "deadline": "2026-10-28T00:00:00",
-      "prize_text": "$40,000",
-      "themes": [
-        "Communication",
-        "Mobile",
-        "Machine Learning/AI"
-      ],
-      "participants": 1051,
-      "first_seen": "2026-10-06T09:45:22.810061+00:00",
-      "is_new": false
-    },
-    {
-      "source": "devpost",
-      "title": "Life After Code",
-      "url": "https://gitlab-transcend.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/376/754/datas/medium_square.png",
-      "mode": "online",
-      "location": "Online",
-      "college": null,
-      "organizer": "GitLab",
-      "deadline": null,
-      "prize_text": "$45,000",
-      "themes": [
-        "DevOps",
-        "Machine Learning/AI",
-        "Productivity"
-      ],
-      "participants": 3311,
-      "first_seen": "2026-10-06T09:45:22.810061+00:00",
-      "is_new": false
-    },
-    {
-      "source": "devpost",
-      "title": "Engage 6.0 \u2013 Code with AI Hackathon",
-      "url": "https://engage6.devpost.com/",
-      "thumbnail_url": "https://assets.devpost.com/assets/defaults/thumbnail-placeholder-8c916ef4da99a222ce6ece077c71c7e282f071f830747b2abb5718018cbfa699.gif",
-      "mode": "offline",
-      "location": "The NorthCap University",
-      "college": null,
-      "organizer": "The Northcap University",
-      "deadline": null,
-      "prize_text": "$45,000",
-      "themes": [
-        "Machine Learning/AI"
-      ],
-      "participants": 22,
-      "first_seen": "2026-10-21T08:15:37.784544+00:00",
       "is_new": false
     },
     {
@@ -4986,7 +5233,7 @@
         "Beginner Friendly",
         "Machine Learning/AI"
       ],
-      "participants": 15,
+      "participants": 35,
       "first_seen": "2026-10-25T08:05:48.257977+00:00",
       "is_new": false
     },
@@ -5006,29 +5253,9 @@
         "Machine Learning/AI",
         "Productivity"
       ],
-      "participants": 534,
+      "participants": 616,
       "first_seen": "2026-10-23T08:14:24.787660+00:00",
       "is_new": false
-    },
-    {
-      "source": "devpost",
-      "title": "Solix AI Hackathon 2026",
-      "url": "https://solix-ai-hackathon-2026.devpost.com/",
-      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/715/931/datas/medium_square.png",
-      "mode": "offline",
-      "location": "Qualcomm Institute, UC San Diego",
-      "college": null,
-      "organizer": "Data Science Student Society @ UCSD",
-      "deadline": null,
-      "prize_text": "$48,000",
-      "themes": [
-        "Health",
-        "Machine Learning/AI",
-        "Social Good"
-      ],
-      "participants": 1,
-      "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
     },
     {
       "source": "devpost",
@@ -5046,7 +5273,7 @@
         "Beginner Friendly",
         "Robotic Process Automation"
       ],
-      "participants": 28033,
+      "participants": 28551,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -5066,7 +5293,7 @@
         "Machine Learning/AI",
         "Web"
       ],
-      "participants": 22360,
+      "participants": 23095,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -5084,7 +5311,7 @@
       "themes": [
         "AI Engineering"
       ],
-      "participants": 2371,
+      "participants": 2407,
       "first_seen": "2026-10-15T07:59:05.409334+00:00",
       "is_new": false
     },
@@ -5104,7 +5331,7 @@
         "Machine Learning/AI",
         "Open Ended"
       ],
-      "participants": 1610,
+      "participants": 1804,
       "first_seen": "2026-10-15T07:59:05.409334+00:00",
       "is_new": false
     },
@@ -5129,6 +5356,26 @@
     },
     {
       "source": "devpost",
+      "title": "Codegeist 2026: Build with context. Ship with confidence.",
+      "url": "https://codegeist2026.devpost.com/",
+      "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/624/479/datas/medium_square.png",
+      "mode": "online",
+      "location": "Online",
+      "college": null,
+      "organizer": "Atlassian",
+      "deadline": "2026-12-22T00:00:00",
+      "prize_text": "$120,000",
+      "themes": [
+        "Machine Learning/AI",
+        "Enterprise",
+        "Productivity"
+      ],
+      "participants": 200,
+      "first_seen": "2026-10-28T09:17:08.566061+00:00",
+      "is_new": true
+    },
+    {
+      "source": "devpost",
       "title": "Cosmo Hacks 2026",
       "url": "https://cosmohacks.devpost.com/",
       "thumbnail_url": "//d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/005/321/162/datas/medium_square.png",
@@ -5143,7 +5390,7 @@
         "Open Ended",
         "Education"
       ],
-      "participants": 516,
+      "participants": 539,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -5163,7 +5410,7 @@
         "Cybersecurity",
         "IoT"
       ],
-      "participants": 37,
+      "participants": 49,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -5183,27 +5430,8 @@
         "Machine Learning/AI",
         "Web"
       ],
-      "participants": 4154,
+      "participants": 4308,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
-      "is_new": false
-    },
-    {
-      "source": "unstop",
-      "title": "Yantravedh Hardware Hackathon",
-      "url": "https://unstop.com/hackathons/yantravedh-hardware-hackathon-marathwada-mitra-mandals-college-of-engineering-mmcoe-pune-1773178",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6adc646367309_whatsapp_image_2026-10-24_at_12_11_58_pm.jpeg",
-      "mode": "offline",
-      "location": "Pune, Maharashtra",
-      "college": null,
-      "organizer": "Marathwada Mitra Mandal's College of Engineering (MMCOE), Pune",
-      "deadline": "2026-10-27T23:59:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Ethical Hacking",
-        "Embedded Systems Engineer"
-      ],
-      "participants": 22,
-      "first_seen": "2026-10-23T08:14:24.787660+00:00",
       "is_new": false
     },
     {
@@ -5215,52 +5443,14 @@
       "location": null,
       "college": null,
       "organizer": "IIITDM Kancheepuram",
-      "deadline": "2026-10-28T00:00:00+05:30",
+      "deadline": "2026-10-28T23:59:00+05:30",
       "prize_text": null,
       "themes": [
         "Quizzes & Treasure Hunt",
         "Ethical Hacking"
       ],
-      "participants": 66,
+      "participants": 117,
       "first_seen": "2026-10-25T08:05:48.257977+00:00",
-      "is_new": false
-    },
-    {
-      "source": "unstop",
-      "title": "Srujana AI 2026 Hackathon",
-      "url": "https://unstop.com/hackathons/srujana-ai-2026-hackathon-biorad-medisys-private-limited-1778599",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6adf462148ed3_screenshot_2026-08-17_171709.png",
-      "mode": "offline",
-      "location": "Pune, Maharashtra",
-      "college": null,
-      "organizer": "Biorad Medisys Private Limited",
-      "deadline": "2026-10-28T11:59:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Artificial Intelligence",
-        "AI Engineering"
-      ],
-      "participants": 6,
-      "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
-    },
-    {
-      "source": "unstop",
-      "title": "PromptWars Hyderabad 2026 - AI & Prompt Engineering Competition",
-      "url": "https://unstop.com/hackathons/promptwars-hyderabad-2026-ai-prompt-engineering-competition-st-peters-engineering-college-spec-hyderabad-tela-1765597",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ad98e88345df_screenshot_2026-10-22_at_09_52_02.png",
-      "mode": "offline",
-      "location": "Hyderabad, Telangana",
-      "college": null,
-      "organizer": "St. Peter's Engineering College (SPEC), Hyderabad, Telangana",
-      "deadline": "2026-10-28T12:00:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Prompt Engineering",
-        "Quizzes & Treasure Hunt"
-      ],
-      "participants": 26,
-      "first_seen": "2026-10-22T08:17:13.806980+00:00",
       "is_new": false
     },
     {
@@ -5278,27 +5468,8 @@
         "Software Development",
         "Systems Programming"
       ],
-      "participants": 127,
+      "participants": 137,
       "first_seen": "2026-10-15T07:59:05.409334+00:00",
-      "is_new": false
-    },
-    {
-      "source": "unstop",
-      "title": "Deepfake ML Hackathon",
-      "url": "https://unstop.com/hackathons/deepfake-ml-hackathon-synergy-26-international-institute-of-information-technology-iiit-bangalore-1762774",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6ababda5d87e5_uploadedmanual-6ab7fa9cd6206_synergy.png",
-      "mode": "online",
-      "location": null,
-      "college": null,
-      "organizer": "International Institute of Information Technology (IIIT), Bangalore",
-      "deadline": "2026-10-28T23:59:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Online Gaming & Esports",
-        "Games & Sports"
-      ],
-      "participants": 375,
-      "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
     {
@@ -5315,7 +5486,7 @@
       "themes": [
         "Product Management"
       ],
-      "participants": 825,
+      "participants": 868,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -5334,7 +5505,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 702,
+      "participants": 713,
       "first_seen": "2026-10-26T08:29:50.490397+00:00",
       "is_new": false
     },
@@ -5353,9 +5524,9 @@
         "Quizzes & Treasure Hunt",
         "Cyber Security"
       ],
-      "participants": 71,
+      "participants": 109,
       "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "source": "unstop",
@@ -5372,7 +5543,7 @@
         "Software Development",
         "Web Development"
       ],
-      "participants": 125,
+      "participants": 149,
       "first_seen": "2026-10-24T07:52:35.508238+00:00",
       "is_new": false
     },
@@ -5391,7 +5562,7 @@
         "Quizzes & Treasure Hunt",
         "Cyber Security"
       ],
-      "participants": 25,
+      "participants": 38,
       "first_seen": "2026-10-26T08:29:50.490397+00:00",
       "is_new": false
     },
@@ -5428,26 +5599,8 @@
         "Quizzes & Treasure Hunt",
         "Cyber Security"
       ],
-      "participants": 554,
+      "participants": 565,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
-      "is_new": false
-    },
-    {
-      "source": "unstop",
-      "title": "Code Clash",
-      "url": "https://unstop.com/hackathons/code-clash-cerebro-2026-27-indian-institute-of-information-technology-vadodara-1775833",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6adda53e223cb_iiitvcc-logo.png",
-      "mode": "online",
-      "location": null,
-      "college": null,
-      "organizer": "Indian Institute of Information Technology Vadodara",
-      "deadline": "2026-10-30T00:01:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Quizzes & Treasure Hunt"
-      ],
-      "participants": 46,
-      "first_seen": "2026-10-25T08:05:48.257977+00:00",
       "is_new": false
     },
     {
@@ -5471,6 +5624,24 @@
     },
     {
       "source": "unstop",
+      "title": "Code Clash",
+      "url": "https://unstop.com/hackathons/code-clash-cerebro-2026-27-indian-institute-of-information-technology-vadodara-1775833",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6adda53e223cb_iiitvcc-logo.png",
+      "mode": "online",
+      "location": null,
+      "college": null,
+      "organizer": "Indian Institute of Information Technology Vadodara",
+      "deadline": "2026-10-30T00:01:00+05:30",
+      "prize_text": null,
+      "themes": [
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 64,
+      "first_seen": "2026-10-25T08:05:48.257977+00:00",
+      "is_new": false
+    },
+    {
+      "source": "unstop",
       "title": "Reverse Coding Challenge 2026",
       "url": "https://unstop.com/hackathons/reverse-coding-challenge-2026-infotechiezz-1662965",
       "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6adb0d0ddb862_organisation_image-BqpxA7KmrT1171984697i8XedOGgQc.png",
@@ -5484,27 +5655,8 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 490,
+      "participants": 539,
       "first_seen": "2026-10-23T08:14:24.787660+00:00",
-      "is_new": false
-    },
-    {
-      "source": "unstop",
-      "title": "WH Versehack",
-      "url": "https://unstop.com/hackathons/wh-versehack-writers-haven-1770609",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ad1cbe011de8_organisation_image-oV7QpqxAim778008067DKyOhAFP0B.png",
-      "mode": "online",
-      "location": null,
-      "college": null,
-      "organizer": "Writers Haven",
-      "deadline": "2026-10-30T23:59:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Software Development",
-        "Quizzes & Treasure Hunt"
-      ],
-      "participants": 12,
-      "first_seen": "2026-10-16T07:52:55.030904+00:00",
       "is_new": false
     },
     {
@@ -5522,7 +5674,7 @@
         "Quizzes & Treasure Hunt",
         "Cyber Security"
       ],
-      "participants": 509,
+      "participants": 535,
       "first_seen": "2026-10-15T07:59:05.409334+00:00",
       "is_new": false
     },
@@ -5559,7 +5711,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 148,
+      "participants": 159,
       "first_seen": "2026-10-19T08:27:58.540165+00:00",
       "is_new": false
     },
@@ -5577,7 +5729,7 @@
       "themes": [
         "Machine Learning Engineering"
       ],
-      "participants": 129,
+      "participants": 168,
       "first_seen": "2026-10-13T10:04:33.003935+00:00",
       "is_new": false
     },
@@ -5596,7 +5748,7 @@
         "Software Development",
         "AI Engineering"
       ],
-      "participants": 715,
+      "participants": 758,
       "first_seen": "2026-10-13T10:04:33.003935+00:00",
       "is_new": false
     },
@@ -5614,7 +5766,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 425,
+      "participants": 443,
       "first_seen": "2026-10-26T08:29:50.490397+00:00",
       "is_new": false
     },
@@ -5632,7 +5784,7 @@
       "themes": [
         "Robotics Engineer"
       ],
-      "participants": 370,
+      "participants": 384,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -5651,7 +5803,7 @@
         "Agentic AI Engineer",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 869,
+      "participants": 891,
       "first_seen": "2026-10-08T09:56:45.323792+00:00",
       "is_new": false
     },
@@ -5669,7 +5821,7 @@
       "themes": [
         "Conferences"
       ],
-      "participants": 171,
+      "participants": 183,
       "first_seen": "2026-10-18T07:45:45.782337+00:00",
       "is_new": false
     },
@@ -5688,7 +5840,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 130,
+      "participants": 152,
       "first_seen": "2026-10-23T08:14:24.787660+00:00",
       "is_new": false
     },
@@ -5706,7 +5858,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 219,
+      "participants": 257,
       "first_seen": "2026-10-19T08:27:58.540165+00:00",
       "is_new": false
     },
@@ -5725,25 +5877,7 @@
         "Product Management",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 1213,
-      "first_seen": "2026-10-06T09:45:22.810061+00:00",
-      "is_new": false
-    },
-    {
-      "source": "unstop",
-      "title": "Game Dev",
-      "url": "https://unstop.com/hackathons/game-dev-synergy-26-international-institute-of-information-technology-iiit-bangalore-1762887",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abab89b86468_uploadedmanual-6ab7fa9cd6206_synergy.png",
-      "mode": "online",
-      "location": null,
-      "college": null,
-      "organizer": "International Institute of Information Technology (IIIT), Bangalore",
-      "deadline": "2026-10-31T23:59:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Online Gaming & Esports"
-      ],
-      "participants": 144,
+      "participants": 1236,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -5762,7 +5896,7 @@
         "Quizzes & Treasure Hunt",
         "Cyber Security"
       ],
-      "participants": 2524,
+      "participants": 2543,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -5780,7 +5914,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 1710,
+      "participants": 2045,
       "first_seen": "2026-10-14T08:22:50.250509+00:00",
       "is_new": false
     },
@@ -5799,7 +5933,7 @@
         "Investment Management",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 57,
+      "participants": 56,
       "first_seen": "2026-10-13T10:04:33.003935+00:00",
       "is_new": false
     },
@@ -5819,7 +5953,7 @@
         "Full Stack Development",
         "Software Development"
       ],
-      "participants": 4203,
+      "participants": 4286,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -5838,7 +5972,7 @@
         "Quizzes & Treasure Hunt",
         "Software Testing"
       ],
-      "participants": 110,
+      "participants": 115,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -5859,8 +5993,27 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 1966,
+      "participants": 2017,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
+      "is_new": false
+    },
+    {
+      "source": "unstop",
+      "title": "WH Versehack",
+      "url": "https://unstop.com/hackathons/wh-versehack-writers-haven-1770609",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ad1cbe011de8_organisation_image-oV7QpqxAim778008067DKyOhAFP0B.png",
+      "mode": "online",
+      "location": null,
+      "college": null,
+      "organizer": "Writers Haven",
+      "deadline": "2026-11-04T23:59:00+05:30",
+      "prize_text": null,
+      "themes": [
+        "Software Development",
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 12,
+      "first_seen": "2026-10-16T07:52:55.030904+00:00",
       "is_new": false
     },
     {
@@ -5878,7 +6031,7 @@
         "Agentic AI Engineer",
         "Full Stack Development"
       ],
-      "participants": 1825,
+      "participants": 1882,
       "first_seen": "2026-10-11T09:39:23.592209+00:00",
       "is_new": false
     },
@@ -5897,7 +6050,7 @@
         "Agentic AI Engineer",
         "Full Stack Development"
       ],
-      "participants": 1300,
+      "participants": 1314,
       "first_seen": "2026-10-07T18:19:34.887451+00:00",
       "is_new": false
     },
@@ -5916,28 +6069,9 @@
         "Cyber Security",
         "Ethical Hacking"
       ],
-      "participants": 848,
+      "participants": 870,
       "first_seen": "2026-10-07T18:19:34.887451+00:00",
       "is_new": false
-    },
-    {
-      "source": "unstop",
-      "title": "Fetch-A-Thon 3.0",
-      "url": "https://unstop.com/hackathons/fetch-a-thon-30-masters-union-school-of-business-1778044",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6adf174e040d2_Masters_Union_Logo_Black_on_Transparent.png",
-      "mode": "offline",
-      "location": "Gurgaon, Haryana",
-      "college": null,
-      "organizer": "Masters' Union School of Business",
-      "deadline": "2026-11-05T08:31:18+05:30",
-      "prize_text": null,
-      "themes": [
-        "Agentic AI Engineer",
-        "AI Engineering"
-      ],
-      "participants": 9,
-      "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
     },
     {
       "source": "unstop",
@@ -5954,9 +6088,9 @@
         "Security Testing",
         "Ethical Hacking"
       ],
-      "participants": 49,
+      "participants": 129,
       "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "source": "unstop",
@@ -5972,7 +6106,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 250,
+      "participants": 281,
       "first_seen": "2026-10-24T07:52:35.508238+00:00",
       "is_new": false
     },
@@ -5990,7 +6124,7 @@
       "themes": [
         "Frontend Development"
       ],
-      "participants": 747,
+      "participants": 761,
       "first_seen": "2026-10-11T09:39:23.592209+00:00",
       "is_new": false
     },
@@ -6009,7 +6143,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 40,
+      "participants": 42,
       "first_seen": "2026-10-07T18:19:34.887451+00:00",
       "is_new": false
     },
@@ -6028,7 +6162,7 @@
         "Systems Programming",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 806,
+      "participants": 823,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6046,7 +6180,7 @@
       "themes": [
         "Frontend Development"
       ],
-      "participants": 387,
+      "participants": 388,
       "first_seen": "2026-10-15T07:59:05.409334+00:00",
       "is_new": false
     },
@@ -6065,7 +6199,7 @@
         "Embedded Systems Engineer",
         "IoT Engineerig"
       ],
-      "participants": 88,
+      "participants": 93,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6083,7 +6217,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 1250,
+      "participants": 1333,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6095,14 +6229,14 @@
       "mode": "online",
       "location": null,
       "college": null,
-      "organizer": "BharatCode.ai",
+      "organizer": "Bharat Code",
       "deadline": "2026-11-08T00:00:00+05:30",
       "prize_text": null,
       "themes": [
         "Software Development",
         "AI Engineering"
       ],
-      "participants": 215,
+      "participants": 322,
       "first_seen": "2026-10-26T08:29:50.490397+00:00",
       "is_new": false
     },
@@ -6140,46 +6274,9 @@
         "Agentic AI Engineer",
         "Full Stack Development"
       ],
-      "participants": 1247,
+      "participants": 1305,
       "first_seen": "2026-10-10T09:22:18.425321+00:00",
       "is_new": false
-    },
-    {
-      "source": "unstop",
-      "title": "Low-Level Hackathon",
-      "url": "https://unstop.com/hackathons/low-level-hackathon-synergy-26-international-institute-of-information-technology-iiit-bangalore-1762854",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abaa78465788_uploadedmanual-6ab7fa9cd6206_synergy.png",
-      "mode": "online",
-      "location": null,
-      "college": null,
-      "organizer": "International Institute of Information Technology (IIIT), Bangalore",
-      "deadline": "2026-11-08T23:59:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Systems Programming"
-      ],
-      "participants": 142,
-      "first_seen": "2026-10-06T09:45:22.810061+00:00",
-      "is_new": false
-    },
-    {
-      "source": "unstop",
-      "title": "Hacksprint 3.0",
-      "url": "https://unstop.com/hackathons/hacksprint-30-karpagam-academy-of-higher-education-1778597",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6adf521b38e8c_screenshot_2026-10-26_184342.png",
-      "mode": "online",
-      "location": null,
-      "college": null,
-      "organizer": "Karpagam Academy of Higher Education",
-      "deadline": "2026-11-09T00:00:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Software Development",
-        "Artificial Intelligence"
-      ],
-      "participants": 16,
-      "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
     },
     {
       "source": "unstop",
@@ -6195,7 +6292,7 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 465,
+      "participants": 507,
       "first_seen": "2026-10-16T07:52:55.030904+00:00",
       "is_new": false
     },
@@ -6213,65 +6310,8 @@
       "themes": [
         "Software Development"
       ],
-      "participants": 396,
+      "participants": 402,
       "first_seen": "2026-10-16T07:52:55.030904+00:00",
-      "is_new": false
-    },
-    {
-      "source": "unstop",
-      "title": "Cipher Chase \u2014 Capture the Flag",
-      "url": "https://unstop.com/hackathons/cipher-chase-capture-the-flag-synergy-26-international-institute-of-information-technology-iiit-bangalore-1763268",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abba8be9dc4a_uploadedmanual-6ab7fa9cd6206_synergy.png",
-      "mode": "online",
-      "location": null,
-      "college": null,
-      "organizer": "International Institute of Information Technology (IIIT), Bangalore",
-      "deadline": "2026-11-12T23:59:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Cyber Security",
-        "Ethical Hacking"
-      ],
-      "participants": 168,
-      "first_seen": "2026-10-06T09:45:22.810061+00:00",
-      "is_new": false
-    },
-    {
-      "source": "unstop",
-      "title": "Pokerbots",
-      "url": "https://unstop.com/hackathons/pokerbots-synergy-26-international-institute-of-information-technology-iiit-bangalore-1762863",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abaacd821f42_uploadedmanual-6ab7fa9cd6206_synergy.png",
-      "mode": "online",
-      "location": null,
-      "college": null,
-      "organizer": "International Institute of Information Technology (IIIT), Bangalore",
-      "deadline": "2026-11-12T23:59:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Quizzes & Treasure Hunt",
-        "Online Gaming & Esports"
-      ],
-      "participants": 129,
-      "first_seen": "2026-10-06T09:45:22.810061+00:00",
-      "is_new": false
-    },
-    {
-      "source": "unstop",
-      "title": "The Liar's Chatroom",
-      "url": "https://unstop.com/hackathons/the-liars-chatroom-international-institute-of-information-technology-iiit-bangalore-1762783",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6abab3a442c0b_uploadedmanual-6ab7fa9cd6206_synergy.png",
-      "mode": "online",
-      "location": null,
-      "college": null,
-      "organizer": "International Institute of Information Technology (IIIT), Bangalore",
-      "deadline": "2026-11-12T23:59:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "NLP Engineering",
-        "Quizzes & Treasure Hunt"
-      ],
-      "participants": 81,
-      "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
     {
@@ -6289,9 +6329,9 @@
         "Security Testing",
         "Ethical Hacking"
       ],
-      "participants": 62,
+      "participants": 101,
       "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
+      "is_new": false
     },
     {
       "source": "unstop",
@@ -6327,7 +6367,7 @@
         "Quizzes & Treasure Hunt",
         "Cyber Security"
       ],
-      "participants": 36,
+      "participants": 37,
       "first_seen": "2026-10-17T07:31:00.134389+00:00",
       "is_new": false
     },
@@ -6345,7 +6385,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 90,
+      "participants": 98,
       "first_seen": "2026-10-25T08:05:48.257977+00:00",
       "is_new": false
     },
@@ -6364,7 +6404,7 @@
         "Quizzes & Treasure Hunt",
         "Ethical Hacking"
       ],
-      "participants": 342,
+      "participants": 351,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6383,7 +6423,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 152,
+      "participants": 153,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6402,7 +6442,7 @@
         "Robotics Engineer",
         "Games & Sports"
       ],
-      "participants": 120,
+      "participants": 126,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6460,7 +6500,7 @@
         "Investment Research",
         "Investment Management"
       ],
-      "participants": 47,
+      "participants": 48,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6497,7 +6537,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 294,
+      "participants": 306,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6517,7 +6557,7 @@
         "Games & Sports",
         "Mechanical Engineer"
       ],
-      "participants": 75,
+      "participants": 77,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6537,7 +6577,7 @@
         "Cyber Security",
         "Ethical Hacking"
       ],
-      "participants": 77,
+      "participants": 81,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6556,7 +6596,7 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 90,
+      "participants": 92,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6613,7 +6653,7 @@
         "Embedded Systems Engineer",
         "Robotics Engineer"
       ],
-      "participants": 3,
+      "participants": 6,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6631,7 +6671,7 @@
       "themes": [
         "Robotics Engineer"
       ],
-      "participants": 69,
+      "participants": 77,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6650,7 +6690,7 @@
         "Robotics Engineer",
         "Games & Sports"
       ],
-      "participants": 134,
+      "participants": 147,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6668,7 +6708,7 @@
       "themes": [
         "Strategy & Planning"
       ],
-      "participants": 479,
+      "participants": 491,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6687,7 +6727,7 @@
         "Product Management",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 554,
+      "participants": 567,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6706,7 +6746,7 @@
         "Investment Management",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 133,
+      "participants": 134,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6724,7 +6764,7 @@
       "themes": [
         "Strategy & Planning"
       ],
-      "participants": 83,
+      "participants": 87,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6742,7 +6782,7 @@
       "themes": [
         "Applied Research"
       ],
-      "participants": 1871,
+      "participants": 1880,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6762,7 +6802,7 @@
         "Applied AI",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 24,
+      "participants": 37,
       "first_seen": "2026-10-26T08:29:50.490397+00:00",
       "is_new": false
     },
@@ -6781,7 +6821,7 @@
         "Cyber Security",
         "Artificial Intelligence"
       ],
-      "participants": 11,
+      "participants": 12,
       "first_seen": "2026-10-17T07:31:00.134389+00:00",
       "is_new": false
     },
@@ -6799,7 +6839,7 @@
       "themes": [
         "Applied AI"
       ],
-      "participants": 53,
+      "participants": 60,
       "first_seen": "2026-10-14T08:22:50.250509+00:00",
       "is_new": false
     },
@@ -6818,7 +6858,7 @@
         "Agentic AI Engineer",
         "AI Engineering"
       ],
-      "participants": 9,
+      "participants": 13,
       "first_seen": "2026-10-26T08:29:50.490397+00:00",
       "is_new": false
     },
@@ -6837,7 +6877,7 @@
         "Artificial Intelligence",
         "AI Engineering"
       ],
-      "participants": 262,
+      "participants": 279,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6855,7 +6895,7 @@
       "themes": [
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 892,
+      "participants": 900,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6873,9 +6913,27 @@
       "themes": [
         "Cloud Engineering"
       ],
-      "participants": 4784,
+      "participants": 4797,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
+    },
+    {
+      "source": "unstop",
+      "title": "Neurohack 2027",
+      "url": "https://unstop.com/hackathons/neurohack-2027-iit-madras-1781449",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6ae176bc04c55_iitmlogo120.png",
+      "mode": "hybrid",
+      "location": "Chennai, Tamil Nadu",
+      "college": null,
+      "organizer": "Indian Institute of Technology (IIT), Madras",
+      "deadline": "2026-12-04T00:00:00+05:30",
+      "prize_text": null,
+      "themes": [
+        "Quizzes & Treasure Hunt"
+      ],
+      "participants": 14,
+      "first_seen": "2026-10-28T09:17:08.566061+00:00",
+      "is_new": true
     },
     {
       "source": "unstop",
@@ -6892,26 +6950,8 @@
         "Cyber Security",
         "Ethical Hacking"
       ],
-      "participants": 567,
+      "participants": 582,
       "first_seen": "2026-10-16T07:52:55.030904+00:00",
-      "is_new": false
-    },
-    {
-      "source": "unstop",
-      "title": "Hackday 2.0",
-      "url": "https://unstop.com/hackathons/hackday-20-decodep-community-1773120",
-      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/6adc960f9dd16_organisation_image-GHkYhx7N6r1906252255xLtz4GL1fh.png",
-      "mode": "online",
-      "location": "Erode, Tamil Nadu",
-      "college": null,
-      "organizer": "Decodep Community",
-      "deadline": "2026-12-12T00:00:00+05:30",
-      "prize_text": null,
-      "themes": [
-        "Software Development"
-      ],
-      "participants": 376,
-      "first_seen": "2026-10-24T07:52:35.508238+00:00",
       "is_new": false
     },
     {
@@ -6930,7 +6970,7 @@
         "Machine Learning/AI",
         "Productivity"
       ],
-      "participants": 122,
+      "participants": 128,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6949,8 +6989,27 @@
         "Software Development",
         "Quizzes & Treasure Hunt"
       ],
-      "participants": 92,
+      "participants": 95,
       "first_seen": "2026-10-20T08:10:13.279811+00:00",
+      "is_new": false
+    },
+    {
+      "source": "unstop",
+      "title": "Hacksprint 3.0",
+      "url": "https://unstop.com/hackathons/hacksprint-30-karpagam-academy-of-higher-education-1778597",
+      "thumbnail_url": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-6adf521b38e8c_screenshot_2026-10-26_184342.png",
+      "mode": "online",
+      "location": null,
+      "college": null,
+      "organizer": "Karpagam Academy of Higher Education",
+      "deadline": "2026-12-28T23:59:05+05:30",
+      "prize_text": null,
+      "themes": [
+        "Software Development",
+        "Artificial Intelligence"
+      ],
+      "participants": 25,
+      "first_seen": "2026-10-27T08:37:46.913029+00:00",
       "is_new": false
     },
     {
@@ -6968,7 +7027,7 @@
         "Software Development",
         "Event Management"
       ],
-      "participants": 129,
+      "participants": 132,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -6986,7 +7045,7 @@
       "themes": [
         "Applied Research"
       ],
-      "participants": 1527,
+      "participants": 1550,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -7006,7 +7065,7 @@
         "Health",
         "Machine Learning/AI"
       ],
-      "participants": 153,
+      "participants": 158,
       "first_seen": "2026-10-06T09:45:22.810061+00:00",
       "is_new": false
     },
@@ -7068,7 +7127,7 @@
       ],
       "participants": 0,
       "first_seen": "2026-10-27T08:37:46.913029+00:00",
-      "is_new": true
+      "is_new": false
     }
   ]
 }
